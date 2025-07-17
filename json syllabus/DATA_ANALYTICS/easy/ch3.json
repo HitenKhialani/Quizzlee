@@ -1,0 +1,202 @@
+[
+    {
+        "question": "What is an Excel dashboard used for?",
+        "options": [
+            "A. To create charts only",
+            "B. To display key data and metrics visually",
+            "C. To write formulas",
+            "D. To store raw data"
+        ],
+        "answer": "B. To display key data and metrics visually"
+    },
+    {
+        "question": "What is a Pivot Table in Excel?",
+        "options": [
+            "A. A tool to filter data",
+            "B. A summary table that allows data analysis and reporting",
+            "C. A chart type",
+            "D. A type of formula"
+        ],
+        "answer": "B. A summary table that allows data analysis and reporting"
+    },
+    {
+        "question": "Which feature allows you to filter data dynamically in an Excel dashboard?",
+        "options": [
+            "A. Slicers",
+            "B. Formulas",
+            "C. Cell references",
+            "D. Macros"
+        ],
+        "answer": "A. Slicers"
+    },
+    {
+        "question": "What does ‘trend analysis’ in Excel help to identify?",
+        "options": [
+            "A. Data errors",
+            "B. Patterns or tendencies in data over time",
+            "C. Cell formulas",
+            "D. Text formatting"
+        ],
+        "answer": "B. Patterns or tendencies in data over time"
+    },
+    {
+        "question": "How do you create a Pivot Table in Excel?",
+        "options": [
+            "A. Insert > Table",
+            "B. Insert > Pivot Table",
+            "C. Data > Sort",
+            "D. Home > Format"
+        ],
+        "answer": "B. Insert > Pivot Table"
+    },
+    {
+        "question": "What can you do with a Pivot Table after creating it?",
+        "options": [
+            "A. Change data layout and apply filters",
+            "B. Create formulas only",
+            "C. Edit source data directly",
+            "D. Only sort rows alphabetically"
+        ],
+        "answer": "A. Change data layout and apply filters"
+    },
+    {
+        "question": "What is a Pivot Chart?",
+        "options": [
+            "A. A normal chart",
+            "B. A chart based on Pivot Table data",
+            "C. A type of formula",
+            "D. A data table"
+        ],
+        "answer": "B. A chart based on Pivot Table data"
+    },
+    {
+        "question": "Which feature helps group items in a Pivot Table?",
+        "options": [
+            "A. Slicers",
+            "B. Grouping option",
+            "C. Conditional formatting",
+            "D. Filters"
+        ],
+        "answer": "B. Grouping option"
+    },
+    {
+        "question": "What is the purpose of filtering in a Pivot Table?",
+        "options": [
+            "A. To sort data",
+            "B. To display only the data that meets certain criteria",
+            "C. To change font style",
+            "D. To delete data"
+        ],
+        "answer": "B. To display only the data that meets certain criteria"
+    },
+    {
+        "question": "What is a slicer used for in Excel?",
+        "options": [
+            "A. To format cells",
+            "B. To quickly filter data in Pivot Tables",
+            "C. To add formulas",
+            "D. To insert images"
+        ],
+        "answer": "B. To quickly filter data in Pivot Tables"
+    },
+    {
+        "question": "How can you update data in a Pivot Table?",
+        "options": [
+            "A. Right-click and select Refresh",
+            "B. Edit the Pivot Table cells directly",
+            "C. Change the source data and save",
+            "D. Delete and recreate the Pivot Table"
+        ],
+        "answer": "A. Right-click and select Refresh"
+    },
+    {
+        "question": "Which tab do you use to insert a Pivot Table in Excel?",
+        "options": [
+            "A. Home",
+            "B. Insert",
+            "C. Data",
+            "D. View"
+        ],
+        "answer": "B. Insert"
+    },
+    {
+        "question": "Which of the following is NOT a use of Pivot Tables?",
+        "options": [
+            "A. Summarizing data",
+            "B. Creating dynamic reports",
+            "C. Editing original data",
+            "D. Sorting and filtering data"
+        ],
+        "answer": "C. Editing original data"
+    },
+    {
+        "question": "What does 'dynamic filters' in Excel dashboards allow you to do?",
+        "options": [
+            "A. Change filters automatically based on user input",
+            "B. Format cells",
+            "C. Save files",
+            "D. Create charts"
+        ],
+        "answer": "A. Change filters automatically based on user input"
+    },
+    {
+        "question": "Which Excel feature allows you to sort, filter, and summarize large data sets easily?",
+        "options": [
+            "A. Formula bar",
+            "B. Pivot Table",
+            "C. Cell formatting",
+            "D. Comments"
+        ],
+        "answer": "B. Pivot Table"
+    },
+    {
+        "question": "What is the main purpose of a data grid in an Excel dashboard?",
+        "options": [
+            "A. To display raw data in a structured table format",
+            "B. To create formulas",
+            "C. To insert images",
+            "D. To change font styles"
+        ],
+        "answer": "A. To display raw data in a structured table format"
+    },
+    {
+        "question": "Which of these can be customized in a Pivot Chart?",
+        "options": [
+            "A. Chart title and labels",
+            "B. Source data directly",
+            "C. Cell background colors",
+            "D. Workbook name"
+        ],
+        "answer": "A. Chart title and labels"
+    },
+    {
+        "question": "How can grouping help in a Pivot Table?",
+        "options": [
+            "A. Combine data into meaningful categories",
+            "B. Delete data",
+            "C. Sort alphabetically only",
+            "D. Change data source"
+        ],
+        "answer": "A. Combine data into meaningful categories"
+    },
+    {
+        "question": "Which of the following can be used to filter a Pivot Table?",
+        "options": [
+            "A. Slicers and filter dropdowns",
+            "B. Comments",
+            "C. Formulas",
+            "D. Cell borders"
+        ],
+        "answer": "A. Slicers and filter dropdowns"
+    },
+    {
+        "question": "Which Excel feature allows the visualization of summarized data from Pivot Tables?",
+        "options": [
+            "A. Pivot Chart",
+            "B. Conditional formatting",
+            "C. Data validation",
+            "D. Macros"
+        ],
+        "answer": "A. Pivot Chart"
+    }
+]

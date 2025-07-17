@@ -1,0 +1,273 @@
+[
+    {
+        "question": "What is a 'Process' in an Operating System?",
+        "options": [
+            "A. A file being read",
+            "B. A running instance of a program",
+            "C. A program waiting to run",
+            "D. A storage device"
+        ],
+        "answer": "B. A running instance of a program"
+    },
+    {
+        "question": "What is the main function of the Process Control Block (PCB)?",
+        "options": [
+            "A. To store memory addresses",
+            "B. To manage CPU allocation",
+            "C. To store process-related information",
+            "D. To manage file access"
+        ],
+        "answer": "C. To store process-related information"
+    },
+    {
+        "question": "Which of the following is NOT a state of a process?",
+        "options": [
+            "A. Running",
+            "B. Blocked",
+            "C. Sleeping",
+            "D. Reading"
+        ],
+        "answer": "D. Reading"
+    },
+    {
+        "question": "What does the term 'context switch' refer to in process management?",
+        "options": [
+            "A. Switching between different users",
+            "B. Switching between different programs",
+            "C. Saving and restoring the state of a process",
+            "D. Switching between different file types"
+        ],
+        "answer": "C. Saving and restoring the state of a process"
+    },
+    {
+        "question": "Which of the following is a queue used in process scheduling?",
+        "options": [
+            "A. Process Control Queue",
+            "B. Scheduling Queue",
+            "C. File Queue",
+            "D. Memory Queue"
+        ],
+        "answer": "B. Scheduling Queue"
+    },
+    {
+        "question": "Which of the following is a type of scheduler in process management?",
+        "options": [
+            "A. Job Scheduler",
+            "B. File Scheduler",
+            "C. Task Scheduler",
+            "D. Memory Scheduler"
+        ],
+        "answer": "A. Job Scheduler"
+    },
+    {
+        "question": "Which of the following is NOT a type of scheduler?",
+        "options": [
+            "A. Long-term Scheduler",
+            "B. Short-term Scheduler",
+            "C. Medium-term Scheduler",
+            "D. Disk Scheduler"
+        ],
+        "answer": "D. Disk Scheduler"
+    },
+    {
+        "question": "What is the main purpose of the 'kill' command in process management?",
+        "options": [
+            "A. To start a new process",
+            "B. To terminate a running process",
+            "C. To pause a running process",
+            "D. To create a new process"
+        ],
+        "answer": "B. To terminate a running process"
+    },
+    {
+        "question": "Which of the following commands is used to view running processes on a system?",
+        "options": [
+            "A. top",
+            "B. ps",
+            "C. kill",
+            "D. exit"
+        ],
+        "answer": "B. ps"
+    },
+    {
+        "question": "Which process state represents a process that is waiting for some event or resource?",
+        "options": [
+            "A. Running",
+            "B. Blocked",
+            "C. New",
+            "D. Terminated"
+        ],
+        "answer": "B. Blocked"
+    },
+    {
+        "question": "What is 'Inter Process Communication' (IPC)?",
+        "options": [
+            "A. Communication between hardware devices",
+            "B. Communication between different operating systems",
+            "C. Communication between running processes",
+            "D. Communication between applications"
+        ],
+        "answer": "C. Communication between running processes"
+    },
+    {
+        "question": "Which of the following is a method of inter-process communication?",
+        "options": [
+            "A. Shared Memory",
+            "B. Memory Allocation",
+            "C. Disk Management",
+            "D. CPU Scheduling"
+        ],
+        "answer": "A. Shared Memory"
+    },
+    {
+        "question": "What is the 'Message Passing System' in IPC?",
+        "options": [
+            "A. Direct communication between processes using shared memory",
+            "B. A way for processes to communicate through messages",
+            "C. A method to share files between processes",
+            "D. A method to schedule processes"
+        ],
+        "answer": "B. A way for processes to communicate through messages"
+    },
+    {
+        "question": "What is the main advantage of using threads?",
+        "options": [
+            "A. Better memory management",
+            "B. Faster process termination",
+            "C. Reduced time to switch between processes",
+            "D. Easier to create new processes"
+        ],
+        "answer": "C. Reduced time to switch between processes"
+    },
+    {
+        "question": "Which of the following is a type of thread?",
+        "options": [
+            "A. User-level threads",
+            "B. Kernel-level threads",
+            "C. Both A and B",
+            "D. Neither A nor B"
+        ],
+        "answer": "C. Both A and B"
+    },
+    {
+        "question": "Which multithreading model uses one thread for each user thread?",
+        "options": [
+            "A. One to One",
+            "B. Many to One",
+            "C. Many to Many",
+            "D. User to Kernel"
+        ],
+        "answer": "A. One to One"
+    },
+    {
+        "question": "Which of the following is a benefit of multithreading?",
+        "options": [
+            "A. Reduces memory usage",
+            "B. Increases the responsiveness of the application",
+            "C. Slows down the process",
+            "D. Makes programs easier to write"
+        ],
+        "answer": "B. Increases the responsiveness of the application"
+    },
+    {
+        "question": "Which multithreading model allows many user threads to be mapped to one kernel thread?",
+        "options": [
+            "A. One to One",
+            "B. Many to One",
+            "C. Many to Many",
+            "D. None of the Above"
+        ],
+        "answer": "B. Many to One"
+    },
+    {
+        "question": "Which of these commands is used to pause a process in Unix-like systems?",
+        "options": [
+            "A. wait",
+            "B. kill",
+            "C. sleep",
+            "D. exit"
+        ],
+        "answer": "C. sleep"
+    },
+    {
+        "question": "What does the 'wait' command do in process management?",
+        "options": [
+            "A. Starts a new process",
+            "B. Terminates a process",
+            "C. Pauses the execution until a process finishes",
+            "D. Displays process information"
+        ],
+        "answer": "C. Pauses the execution until a process finishes"
+    },
+    {
+        "question": "Which of the following commands is used to terminate a process?",
+        "options": [
+            "A. wait",
+            "B. exit",
+            "C. kill",
+            "D. top"
+        ],
+        "answer": "C. kill"
+    },
+    {
+        "question": "Which of the following commands is used to check the CPU usage of running processes?",
+        "options": [
+            "A. ps",
+            "B. kill",
+            "C. top",
+            "D. nice"
+        ],
+        "answer": "C. top"
+    },
+    {
+        "question": "What does the 'nice' command do?",
+        "options": [
+            "A. Makes a process run with higher priority",
+            "B. Increases the priority of the CPU",
+            "C. Adjusts the priority of a process",
+            "D. Terminates a process"
+        ],
+        "answer": "C. Adjusts the priority of a process"
+    },
+    {
+        "question": "What is the purpose of a process scheduler?",
+        "options": [
+            "A. To manage file allocation",
+            "B. To manage process execution and allocate CPU time",
+            "C. To manage system resources",
+            "D. To handle user inputs"
+        ],
+        "answer": "B. To manage process execution and allocate CPU time"
+    },
+    {
+        "question": "Which of the following states indicates that a process is ready to run but is waiting for CPU time?",
+        "options": [
+            "A. Blocked",
+            "B. Ready",
+            "C. Running",
+            "D. Terminated"
+        ],
+        "answer": "B. Ready"
+    },
+    {
+        "question": "Which of the following is a part of a process control block (PCB)?",
+        "options": [
+            "A. Process ID",
+            "B. Process state",
+            "C. CPU registers",
+            "D. All of the above"
+        ],
+        "answer": "D. All of the above"
+    },
+    {
+        "question": "What does the term 'process scheduling' refer to?",
+        "options": [
+            "A. Assigning processes to memory",
+            "B. Deciding which process runs on the CPU next",
+            "C. Managing files in the system",
+            "D. Allocating system resources to processes"
+        ],
+        "answer": "B. Deciding which process runs on the CPU next"
+    }
+    
+]

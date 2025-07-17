@@ -1,0 +1,152 @@
+[
+    {
+        "question": "Which of the following is a primary advantage of using variable partitioning over fixed partitioning in memory management?",
+        "options": [
+            "A. Variable partitioning leads to less fragmentation and more efficient use of memory space.",
+            "B. Fixed partitioning allows faster allocation of memory to processes.",
+            "C. Variable partitioning simplifies memory allocation and deallocation processes.",
+            "D. Variable partitioning guarantees that each process gets the exact amount of memory it requires."
+        ],
+        "answer": "A. Variable partitioning leads to less fragmentation and more efficient use of memory space."
+    },
+    {
+        "question": "Which of the following best describes the primary issue associated with fixed partitioning in memory management?",
+        "options": [
+            "A. Fixed partitioning leads to external fragmentation, as processes may not fit exactly into the pre-allocated partitions.",
+            "B. Fixed partitioning requires a complex memory allocation algorithm.",
+            "C. Fixed partitioning can result in internal fragmentation, where processes waste unused space within their assigned partitions.",
+            "D. Fixed partitioning does not allow processes to share memory resources."
+        ],
+        "answer": "C. Fixed partitioning can result in internal fragmentation, where processes waste unused space within their assigned partitions."
+    },
+    {
+        "question": "In memory management, which free space management technique would be most suitable for a system where memory fragmentation is a significant concern?",
+        "options": [
+            "A. Bitmap-based free space management.",
+            "B. Linked list-based free space management.",
+            "C. Best fit partitioning algorithm.",
+            "D. First fit partitioning algorithm."
+        ],
+        "answer": "B. Linked list-based free space management."
+    },
+    {
+        "question": "Which of the following statements best describes the compaction technique in memory management?",
+        "options": [
+            "A. Compaction is used to eliminate internal fragmentation by combining smaller blocks of memory into larger contiguous blocks.",
+            "B. Compaction is a process that guarantees the elimination of external fragmentation by moving processes and rearranging free spaces.",
+            "C. Compaction involves permanently fixing partitions in the system to prevent fragmentation.",
+            "D. Compaction is used to manage non-contiguous memory allocation for paging systems."
+        ],
+        "answer": "B. Compaction is a process that guarantees the elimination of external fragmentation by moving processes and rearranging free spaces."
+    },
+    {
+        "question": "Which partitioning algorithm is likely to cause the least fragmentation but may result in slower allocation times?",
+        "options": [
+            "A. First fit",
+            "B. Best fit",
+            "C. Worst fit",
+            "D. Next fit"
+        ],
+        "answer": "B. Best fit"
+    },
+    {
+        "question": "What is a significant drawback of using the worst fit partitioning algorithm?",
+        "options": [
+            "A. It results in high internal fragmentation, as the largest available memory block is allocated to processes.",
+            "B. It leads to poor system performance due to frequent need for compaction.",
+            "C. It can cause external fragmentation and slow down the allocation of large processes.",
+            "D. It uses memory inefficiently and causes excessive memory wastage."
+        ],
+        "answer": "C. It can cause external fragmentation and slow down the allocation of large processes."
+    },
+    {
+        "question": "Which of the following best describes the concept of **paging** in non-contiguous memory management?",
+        "options": [
+            "A. Paging allows for non-contiguous allocation of physical memory by dividing it into fixed-sized pages and mapping them to logical memory blocks.",
+            "B. Paging divides processes into variable-sized segments, allocating physical memory based on the segment size.",
+            "C. Paging uses a technique of continuous memory allocation for both process data and program code.",
+            "D. Paging ensures that each process is allocated an equal portion of memory, regardless of the size of the process."
+        ],
+        "answer": "A. Paging allows for non-contiguous allocation of physical memory by dividing it into fixed-sized pages and mapping them to logical memory blocks."
+    },
+    {
+        "question": "What is one key advantage of using segmentation over paging in memory management?",
+        "options": [
+            "A. Segmentation is more efficient for handling memory that is used in a non-linear manner (e.g., variable-sized arrays).",
+            "B. Segmentation allows for better utilization of the physical memory since each segment can be stored contiguously.",
+            "C. Segmentation eliminates the need for page tables, improving system performance.",
+            "D. Segmentation ensures that processes can always use the exact memory they need, without any wastage."
+        ],
+        "answer": "B. Segmentation allows for better utilization of the physical memory since each segment can be stored contiguously."
+    },
+    {
+        "question": "In the context of **virtual memory**, what does the term **demand paging** refer to?",
+        "options": [
+            "A. Demand paging loads the entire process into memory at once and then swaps it in and out of the disk as needed.",
+            "B. Demand paging only loads a page into memory when it is actually referenced, rather than loading all pages upfront.",
+            "C. Demand paging avoids loading unnecessary data by allowing the system to skip irrelevant pages.",
+            "D. Demand paging eliminates the need for page replacement algorithms, as it uses an efficient storage technique."
+        ],
+        "answer": "B. Demand paging only loads a page into memory when it is actually referenced, rather than loading all pages upfront."
+    },
+    {
+        "question": "Which of the following best describes a **page fault** in a virtual memory system?",
+        "options": [
+            "A. A page fault occurs when the requested page is not currently in memory, requiring a process to be suspended.",
+            "B. A page fault occurs when a process tries to access a page that is invalid or has been marked as read-only.",
+            "C. A page fault occurs when the operating system needs to swap out the page of a currently executing process.",
+            "D. A page fault is a mechanism used by the system to allocate physical memory when a new process is launched."
+        ],
+        "answer": "A. A page fault occurs when the requested page is not currently in memory, requiring a process to be suspended."
+    },
+    {
+        "question": "What is the purpose of the **page replacement algorithm** in virtual memory management?",
+        "options": [
+            "A. To choose which memory pages should be swapped out when a page fault occurs, based on their usage history.",
+            "B. To allocate fixed-sized chunks of memory to processes that can grow dynamically based on their size.",
+            "C. To prevent memory fragmentation by allocating physical memory for each process in contiguous blocks.",
+            "D. To optimize memory access by arranging pages in physical memory according to the order of process execution."
+        ],
+        "answer": "A. To choose which memory pages should be swapped out when a page fault occurs, based on their usage history."
+    },
+    {
+        "question": "Which page replacement algorithm is considered optimal because it minimizes the number of page faults?",
+        "options": [
+            "A. First-In-First-Out (FIFO)",
+            "B. Least Recently Used (LRU)",
+            "C. Optimal Page Replacement",
+            "D. Second-Chance"
+        ],
+        "answer": "C. Optimal Page Replacement"
+    },
+    {
+        "question": "What is a significant limitation of the **First In First Out (FIFO)** page replacement algorithm?",
+        "options": [
+            "A. FIFO is optimal in minimizing page faults but is computationally expensive.",
+            "B. FIFO may suffer from poor performance due to **Belady’s Anomaly**, where increasing the number of frames results in more page faults.",
+            "C. FIFO causes severe fragmentation and often leads to memory wastage.",
+            "D. FIFO does not account for the frequency of page references, leading to inefficient memory allocation."
+        ],
+        "answer": "B. FIFO may suffer from poor performance due to **Belady’s Anomaly**, where increasing the number of frames results in more page faults."
+    },
+    {
+        "question": "Which of the following is a primary characteristic of the **Least Recently Used (LRU)** page replacement algorithm?",
+        "options": [
+            "A. LRU replaces the page that has been in memory the longest, regardless of how frequently it has been accessed.",
+            "B. LRU replaces the page that has been used the least in the most recent past.",
+            "C. LRU assigns a priority to pages based on their size and replaces the largest pages first.",
+            "D. LRU selects the page to be replaced based on the number of page faults in the past time period."
+        ],
+        "answer": "B. LRU replaces the page that has been used the least in the most recent past."
+    },
+    {
+        "question": "Which of the following best describes the concept of **optimal page replacement**?",
+        "options": [
+            "A. The page replacement algorithm that always swaps out the least recently used page.",
+            "B. The page replacement algorithm that minimizes page faults by selecting the page that will not be needed for the longest time in the future.",
+            "C. The page replacement algorithm that chooses the page based on its physical location in memory.",
+            "D. The page replacement algorithm that replaces the page with the smallest memory footprint."
+        ],
+        "answer": "B. The page replacement algorithm that minimizes page faults by selecting the page that will not be needed for the longest time in the future."
+    }
+]

@@ -1,0 +1,202 @@
+[
+    {
+        "question": "What is the primary purpose of translating a requirement model into a design model in software engineering?",
+        "options": [
+            "A. To refine abstract requirements into implementable specifications",
+            "B. To create user manuals",
+            "C. To deploy the software",
+            "D. To write test cases"
+        ],
+        "answer": "A. To refine abstract requirements into implementable specifications"
+    },
+    {
+        "question": "Which of the following is NOT typically considered an element of the analysis model?",
+        "options": [
+            "A. Use-case diagrams",
+            "B. Data dictionary",
+            "C. Deployment diagrams",
+            "D. Interaction diagrams"
+        ],
+        "answer": "C. Deployment diagrams"
+    },
+    {
+        "question": "In design modeling, 'abstraction' primarily helps in:",
+        "options": [
+            "A. Hiding complex details to focus on high-level concepts",
+            "B. Increasing code complexity",
+            "C. Reducing user involvement",
+            "D. Automating deployment"
+        ],
+        "answer": "A. Hiding complex details to focus on high-level concepts"
+    },
+    {
+        "question": "Which design principle ensures that a module’s internal workings are hidden from other modules?",
+        "options": [
+            "A. Information Hiding",
+            "B. Modularity",
+            "C. Concurrency",
+            "D. Abstraction"
+        ],
+        "answer": "A. Information Hiding"
+    },
+    {
+        "question": "What is the key advantage of modularity in software design?",
+        "options": [
+            "A. Enhances maintainability and reuse",
+            "B. Reduces the need for testing",
+            "C. Simplifies user interface",
+            "D. Speeds up compilation"
+        ],
+        "answer": "A. Enhances maintainability and reuse"
+    },
+    {
+        "question": "In design, 'concurrency' refers to:",
+        "options": [
+            "A. Executing multiple processes simultaneously to improve performance",
+            "B. Writing sequential code",
+            "C. Delaying testing phases",
+            "D. Creating multiple versions of the software"
+        ],
+        "answer": "A. Executing multiple processes simultaneously to improve performance"
+    },
+    {
+        "question": "Which of the following design concepts is primarily concerned with ensuring that the design satisfies the required functionality and constraints?",
+        "options": [
+            "A. Verification",
+            "B. Modularity",
+            "C. Abstraction",
+            "D. Aesthetics"
+        ],
+        "answer": "A. Verification"
+    },
+    {
+        "question": "Why is 'aesthetics' important in software design?",
+        "options": [
+            "A. To improve readability and maintainability of design diagrams",
+            "B. To speed up code execution",
+            "C. To reduce testing effort",
+            "D. To automate deployment"
+        ],
+        "answer": "A. To improve readability and maintainability of design diagrams"
+    },
+    {
+        "question": "Which design notation is primarily used to model the flow of data through a system?",
+        "options": [
+            "A. Data Flow Diagram (DFD)",
+            "B. Sequence Diagram",
+            "C. Class Diagram",
+            "D. Decision Table"
+        ],
+        "answer": "A. Data Flow Diagram (DFD)"
+    },
+    {
+        "question": "Structured flowcharts are mainly used to:",
+        "options": [
+            "A. Represent the sequence of operations and control flow",
+            "B. Show data structure relationships",
+            "C. Define use cases",
+            "D. Model user interactions"
+        ],
+        "answer": "A. Represent the sequence of operations and control flow"
+    },
+    {
+        "question": "Decision tables are especially useful when:",
+        "options": [
+            "A. Handling complex conditional logic with multiple conditions and actions",
+            "B. Modeling sequential processes",
+            "C. Designing class hierarchies",
+            "D. Documenting user requirements"
+        ],
+        "answer": "A. Handling complex conditional logic with multiple conditions and actions"
+    },
+    {
+        "question": "In UML, a Use-Case diagram is used to:",
+        "options": [
+            "A. Capture system functionalities from the user's perspective",
+            "B. Show class relationships",
+            "C. Model detailed system behavior",
+            "D. Represent software deployment"
+        ],
+        "answer": "A. Capture system functionalities from the user's perspective"
+    },
+    {
+        "question": "Which UML diagram shows the static structure of classes and their relationships?",
+        "options": [
+            "A. Class Diagram",
+            "B. Sequence Diagram",
+            "C. Use-Case Diagram",
+            "D. Deployment Diagram"
+        ],
+        "answer": "A. Class Diagram"
+    },
+    {
+        "question": "Sequence diagrams primarily illustrate:",
+        "options": [
+            "A. Interactions among objects over time",
+            "B. Data flows",
+            "C. Component hierarchies",
+            "D. System deployment"
+        ],
+        "answer": "A. Interactions among objects over time"
+    },
+    {
+        "question": "Which testing method focuses on internal code structure and logic?",
+        "options": [
+            "A. White-box testing",
+            "B. Black-box testing",
+            "C. Static testing",
+            "D. Acceptance testing"
+        ],
+        "answer": "A. White-box testing"
+    },
+    {
+        "question": "Black-box testing primarily validates software by:",
+        "options": [
+            "A. Testing functionality without knowledge of internal code",
+            "B. Analyzing source code",
+            "C. Verifying database design",
+            "D. Reviewing code documentation"
+        ],
+        "answer": "A. Testing functionality without knowledge of internal code"
+    },
+    {
+        "question": "Static testing differs from dynamic testing in that it:",
+        "options": [
+            "A. Involves code review and analysis without executing the program",
+            "B. Requires running the software to find defects",
+            "C. Is performed only after deployment",
+            "D. Is focused on user acceptance"
+        ],
+        "answer": "A. Involves code review and analysis without executing the program"
+    },
+    {
+        "question": "Which level of testing is typically performed to verify interactions between integrated modules?",
+        "options": [
+            "A. Integration testing",
+            "B. Unit testing",
+            "C. System testing",
+            "D. Acceptance testing"
+        ],
+        "answer": "A. Integration testing"
+    },
+    {
+        "question": "The V-model of testing emphasizes:",
+        "options": [
+            "A. Verification and validation activities corresponding to each development phase",
+            "B. Waterfall sequential testing",
+            "C. Testing only at the end of development",
+            "D. Ignoring testing during design"
+        ],
+        "answer": "A. Verification and validation activities corresponding to each development phase"
+    },
+    {
+        "question": "In data modeling, the primary goal is to:",
+        "options": [
+            "A. Represent data entities, relationships, and constraints relevant to the system",
+            "B. Define user interfaces",
+            "C. Model system deployment",
+            "D. Generate test cases"
+        ],
+        "answer": "A. Represent data entities, relationships, and constraints relevant to the system"
+    }
+]

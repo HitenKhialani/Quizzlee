@@ -1,0 +1,202 @@
+[
+    {
+        "question": "Which of the following is a core principle of software engineering?",
+        "options": [
+            "A. Avoid documentation",
+            "B. Focus only on coding",
+            "C. Maintain quality throughout",
+            "D. Work without planning"
+        ],
+        "answer": "C. Maintain quality throughout"
+    },
+    {
+        "question": "What is the first software practice in the development process?",
+        "options": [
+            "A. Modelling",
+            "B. Construction",
+            "C. Communication",
+            "D. Deployment"
+        ],
+        "answer": "C. Communication"
+    },
+    {
+        "question": "Which software practice includes coding and testing?",
+        "options": [
+            "A. Modelling",
+            "B. Construction",
+            "C. Planning",
+            "D. Communication"
+        ],
+        "answer": "B. Construction"
+    },
+    {
+        "question": "What does the software practice 'Modelling' involve?",
+        "options": [
+            "A. Building physical models",
+            "B. Creating software blueprints",
+            "C. Testing hardware",
+            "D. Performing installation"
+        ],
+        "answer": "B. Creating software blueprints"
+    },
+    {
+        "question": "Which of the following is a step in requirement engineering?",
+        "options": [
+            "A. Deployment",
+            "B. Design Testing",
+            "C. Requirement Gathering and Analysis",
+            "D. Coding"
+        ],
+        "answer": "C. Requirement Gathering and Analysis"
+    },
+    {
+        "question": "Functional requirements describe:",
+        "options": [
+            "A. How fast the system runs",
+            "B. The external appearance",
+            "C. What the system should do",
+            "D. Company policies"
+        ],
+        "answer": "C. What the system should do"
+    },
+    {
+        "question": "Which requirement type includes speed and memory usage?",
+        "options": [
+            "A. Functional",
+            "B. Product",
+            "C. External",
+            "D. Organizational"
+        ],
+        "answer": "B. Product"
+    },
+    {
+        "question": "Organizational requirements are based on:",
+        "options": [
+            "A. Weather conditions",
+            "B. Company standards and policies",
+            "C. Hardware devices",
+            "D. User feedback"
+        ],
+        "answer": "B. Company standards and policies"
+    },
+    {
+        "question": "External requirements are related to:",
+        "options": [
+            "A. User desires",
+            "B. Coding standards",
+            "C. Government laws or regulations",
+            "D. Memory optimization"
+        ],
+        "answer": "C. Government laws or regulations"
+    },
+    {
+        "question": "Which of the following is a technique to discover user needs?",
+        "options": [
+            "A. Compilation",
+            "B. Elicitation",
+            "C. Deployment",
+            "D. Refactoring"
+        ],
+        "answer": "B. Elicitation"
+    },
+    {
+        "question": "What is a use-case in requirement engineering?",
+        "options": [
+            "A. A type of software",
+            "B. A coding language",
+            "C. A description of system interaction with users",
+            "D. A testing framework"
+        ],
+        "answer": "C. A description of system interaction with users"
+    },
+    {
+        "question": "Building requirement models helps to:",
+        "options": [
+            "A. Increase cost",
+            "B. Delay testing",
+            "C. Understand and visualize requirements",
+            "D. Write code faster"
+        ],
+        "answer": "C. Understand and visualize requirements"
+    },
+    {
+        "question": "Requirement negotiation involves:",
+        "options": [
+            "A. Ignoring stakeholders",
+            "B. Fixing bugs",
+            "C. Resolving conflicting requirements",
+            "D. Buying software tools"
+        ],
+        "answer": "C. Resolving conflicting requirements"
+    },
+    {
+        "question": "Requirement validation is done to:",
+        "options": [
+            "A. Change the design",
+            "B. Check if requirements are correct",
+            "C. Install the software",
+            "D. Deploy the application"
+        ],
+        "answer": "B. Check if requirements are correct"
+    },
+    {
+        "question": "Why is Software Requirement Specification (SRS) important?",
+        "options": [
+            "A. For marketing",
+            "B. To define software development cost",
+            "C. To document and manage requirements",
+            "D. For software installation"
+        ],
+        "answer": "C. To document and manage requirements"
+    },
+    {
+        "question": "Which of the following is a key characteristic of a good SRS document?",
+        "options": [
+            "A. Ambiguity",
+            "B. Unclear goals",
+            "C. Completeness",
+            "D. Repetition"
+        ],
+        "answer": "C. Completeness"
+    },
+    {
+        "question": "Which of the following is usually NOT included in SRS format?",
+        "options": [
+            "A. Introduction",
+            "B. Technical drawing",
+            "C. Functional requirements",
+            "D. Non-functional requirements"
+        ],
+        "answer": "B. Technical drawing"
+    },
+    {
+        "question": "Which principle focuses on planning before coding?",
+        "options": [
+            "A. Think before you act",
+            "B. Code-first development",
+            "C. Deployment-driven design",
+            "D. Rush to market"
+        ],
+        "answer": "A. Think before you act"
+    },
+    {
+        "question": "Planning practice includes:",
+        "options": [
+            "A. Testing software",
+            "B. Scheduling tasks and estimating time",
+            "C. Writing code only",
+            "D. Debugging"
+        ],
+        "answer": "B. Scheduling tasks and estimating time"
+    },
+    {
+        "question": "Deployment includes which of the following?",
+        "options": [
+            "A. Drawing wireframes",
+            "B. Releasing the software to users",
+            "C. Gathering requirements",
+            "D. Writing SRS"
+        ],
+        "answer": "B. Releasing the software to users"
+    }
+]

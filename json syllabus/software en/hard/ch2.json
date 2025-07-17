@@ -1,0 +1,202 @@
+[
+    {
+        "question": "Which core principle of Software Engineering emphasizes adaptability to changing requirements throughout the development lifecycle?",
+        "options": [
+            "A. Repeatability",
+            "B. Change management",
+            "C. Process automation",
+            "D. Documentation completeness"
+        ],
+        "answer": "B. Change management"
+    },
+    {
+        "question": "In software practices, the principle of 'Communication' primarily aims to:",
+        "options": [
+            "A. Ensure clear and effective exchange of information among stakeholders",
+            "B. Automate code generation",
+            "C. Speed up deployment",
+            "D. Minimize testing effort"
+        ],
+        "answer": "A. Ensure clear and effective exchange of information among stakeholders"
+    },
+    {
+        "question": "Which statement best describes the role of 'Planning' in software practices?",
+        "options": [
+            "A. Defining scope, resources, and schedule to achieve project goals",
+            "B. Writing detailed code",
+            "C. Conducting user training",
+            "D. Automating deployment processes"
+        ],
+        "answer": "A. Defining scope, resources, and schedule to achieve project goals"
+    },
+    {
+        "question": "What is the main challenge during the Requirement Elicitation phase?",
+        "options": [
+            "A. Accurately capturing user needs and expectations",
+            "B. Writing test cases",
+            "C. Designing the UI",
+            "D. Developing deployment scripts"
+        ],
+        "answer": "A. Accurately capturing user needs and expectations"
+    },
+    {
+        "question": "Which of the following is NOT a type of software requirement?",
+        "options": [
+            "A. Functional",
+            "B. Product",
+            "C. Organizational",
+            "D. Marketing"
+        ],
+        "answer": "D. Marketing"
+    },
+    {
+        "question": "Developing Use-Cases in requirement engineering primarily helps in:",
+        "options": [
+            "A. Understanding user interactions with the system",
+            "B. Coding modules",
+            "C. Writing deployment manuals",
+            "D. Estimating project cost"
+        ],
+        "answer": "A. Understanding user interactions with the system"
+    },
+    {
+        "question": "In negotiation during requirements gathering, the main goal is to:",
+        "options": [
+            "A. Resolve conflicts among stakeholders to finalize requirements",
+            "B. Increase project budget",
+            "C. Extend the timeline",
+            "D. Reduce testing scope"
+        ],
+        "answer": "A. Resolve conflicts among stakeholders to finalize requirements"
+    },
+    {
+        "question": "Which characteristic of a good Software Requirement Specification (SRS) ensures the document can be clearly understood by all stakeholders?",
+        "options": [
+            "A. Ambiguity",
+            "B. Clarity",
+            "C. Complexity",
+            "D. Length"
+        ],
+        "answer": "B. Clarity"
+    },
+    {
+        "question": "Which format component is essential in a Software Requirement Specification (SRS)?",
+        "options": [
+            "A. Introduction and overall description",
+            "B. Code snippets",
+            "C. Marketing plan",
+            "D. User manuals"
+        ],
+        "answer": "A. Introduction and overall description"
+    },
+    {
+        "question": "What does validation of requirements ensure?",
+        "options": [
+            "A. Requirements meet stakeholder needs and are feasible",
+            "B. All code is documented",
+            "C. Testing is complete",
+            "D. Deployment is automated"
+        ],
+        "answer": "A. Requirements meet stakeholder needs and are feasible"
+    },
+    {
+        "question": "Which software engineering core principle is best applied by incorporating user feedback continuously?",
+        "options": [
+            "A. Iterative development",
+            "B. Code optimization",
+            "C. Waterfall planning",
+            "D. Documentation control"
+        ],
+        "answer": "A. Iterative development"
+    },
+    {
+        "question": "During software construction, the principle of 'Separation of concerns' primarily helps in:",
+        "options": [
+            "A. Modularizing the system to improve maintainability",
+            "B. Faster coding",
+            "C. Reducing user involvement",
+            "D. Automating deployment"
+        ],
+        "answer": "A. Modularizing the system to improve maintainability"
+    },
+    {
+        "question": "What is the primary purpose of building requirement models?",
+        "options": [
+            "A. To represent and analyze system requirements visually or formally",
+            "B. To generate test cases automatically",
+            "C. To write deployment scripts",
+            "D. To manage project schedules"
+        ],
+        "answer": "A. To represent and analyze system requirements visually or formally"
+    },
+    {
+        "question": "External requirements often refer to:",
+        "options": [
+            "A. Constraints imposed by regulations, standards, or third-party systems",
+            "B. Internal coding standards",
+            "C. User interface design",
+            "D. Database schema"
+        ],
+        "answer": "A. Constraints imposed by regulations, standards, or third-party systems"
+    },
+    {
+        "question": "What is the significance of 'Traceability' in Software Requirement Specification?",
+        "options": [
+            "A. Linking requirements to design, implementation, and testing artifacts",
+            "B. Tracing bugs in code",
+            "C. Following project timelines",
+            "D. Managing team communication"
+        ],
+        "answer": "A. Linking requirements to design, implementation, and testing artifacts"
+    },
+    {
+        "question": "Which principle in Software Engineering emphasizes early detection and correction of defects?",
+        "options": [
+            "A. Quality assurance",
+            "B. Cost estimation",
+            "C. Project scheduling",
+            "D. Marketing communication"
+        ],
+        "answer": "A. Quality assurance"
+    },
+    {
+        "question": "Requirement negotiation helps to manage:",
+        "options": [
+            "A. Conflicting needs and priorities among stakeholders",
+            "B. Code version control",
+            "C. User training",
+            "D. Software deployment"
+        ],
+        "answer": "A. Conflicting needs and priorities among stakeholders"
+    },
+    {
+        "question": "Which software practice focuses on transforming requirements into a workable design?",
+        "options": [
+            "A. Modelling",
+            "B. Communication",
+            "C. Deployment",
+            "D. Planning"
+        ],
+        "answer": "A. Modelling"
+    },
+    {
+        "question": "Organizational requirements usually address:",
+        "options": [
+            "A. Company policies, procedures, and infrastructure constraints",
+            "B. Coding style guidelines",
+            "C. Marketing strategies",
+            "D. External regulations"
+        ],
+        "answer": "A. Company policies, procedures, and infrastructure constraints"
+    },
+    {
+        "question": "The need for Software Requirement Specification arises primarily because:",
+        "options": [
+            "A. It serves as a formal agreement and foundation for design and development",
+            "B. It documents the code",
+            "C. It replaces testing",
+            "D. It is used for marketing purposes"
+        ],
+        "answer": "A. It serves as a formal agreement and foundation for design and development"
+    }
+]

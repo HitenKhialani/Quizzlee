@@ -1,0 +1,202 @@
+[
+    {
+        "question": "What Python library is commonly used for data visualization?",
+        "options": [
+            "A. Matplotlib",
+            "B. NumPy",
+            "C. Pandas",
+            "D. TensorFlow"
+        ],
+        "answer": "A. Matplotlib"
+    },
+    {
+        "question": "How do you install Matplotlib in Python?",
+        "options": [
+            "A. pip install matplotlib",
+            "B. install matplotlib",
+            "C. import matplotlib",
+            "D. setup matplotlib"
+        ],
+        "answer": "A. pip install matplotlib"
+    },
+    {
+        "question": "Which of the following is NOT a plot type in Matplotlib?",
+        "options": [
+            "A. Line plot",
+            "B. Scatter plot",
+            "C. Bar chart",
+            "D. Word cloud"
+        ],
+        "answer": "D. Word cloud"
+    },
+    {
+        "question": "What function is commonly used to create a line plot in Matplotlib?",
+        "options": [
+            "A. plt.plot()",
+            "B. plt.scatter()",
+            "C. plt.bar()",
+            "D. plt.hist()"
+        ],
+        "answer": "A. plt.plot()"
+    },
+    {
+        "question": "How do you add a title to a plot in Matplotlib?",
+        "options": [
+            "A. plt.title('Title')",
+            "B. plt.label('Title')",
+            "C. plt.legend('Title')",
+            "D. plt.text('Title')"
+        ],
+        "answer": "A. plt.title('Title')"
+    },
+    {
+        "question": "Which function is used to create a scatter plot in Matplotlib?",
+        "options": [
+            "A. plt.scatter()",
+            "B. plt.plot()",
+            "C. plt.bar()",
+            "D. plt.hist()"
+        ],
+        "answer": "A. plt.scatter()"
+    },
+    {
+        "question": "How can you add labels to the x and y axes in a Matplotlib plot?",
+        "options": [
+            "A. plt.xlabel() and plt.ylabel()",
+            "B. plt.title() and plt.legend()",
+            "C. plt.axis() and plt.grid()",
+            "D. plt.plot() and plt.show()"
+        ],
+        "answer": "A. plt.xlabel() and plt.ylabel()"
+    },
+    {
+        "question": "Which function helps add a legend to a Matplotlib plot?",
+        "options": [
+            "A. plt.legend()",
+            "B. plt.label()",
+            "C. plt.title()",
+            "D. plt.grid()"
+        ],
+        "answer": "A. plt.legend()"
+    },
+    {
+        "question": "How do you change the figure size in Matplotlib?",
+        "options": [
+            "A. plt.figure(figsize=(width, height))",
+            "B. plt.size(width, height)",
+            "C. plt.figsize(width, height)",
+            "D. plt.change_size(width, height)"
+        ],
+        "answer": "A. plt.figure(figsize=(width, height))"
+    },
+    {
+        "question": "What does customizing axes in Matplotlib include?",
+        "options": [
+            "A. Changing limits, ticks, and labels",
+            "B. Changing colors only",
+            "C. Changing the data source",
+            "D. Saving the plot"
+        ],
+        "answer": "A. Changing limits, ticks, and labels"
+    },
+    {
+        "question": "Which file format can you save a Matplotlib plot as?",
+        "options": [
+            "A. PNG",
+            "B. PDF",
+            "C. SVG",
+            "D. All of the above"
+        ],
+        "answer": "D. All of the above"
+    },
+    {
+        "question": "What function is used to save a plot in Matplotlib?",
+        "options": [
+            "A. plt.savefig()",
+            "B. plt.save()",
+            "C. plt.export()",
+            "D. plt.store()"
+        ],
+        "answer": "A. plt.savefig()"
+    },
+    {
+        "question": "How can you improve the resolution of a saved Matplotlib plot?",
+        "options": [
+            "A. By setting the dpi parameter in plt.savefig()",
+            "B. By increasing figure size only",
+            "C. By changing colors",
+            "D. By adding labels"
+        ],
+        "answer": "A. By setting the dpi parameter in plt.savefig()"
+    },
+    {
+        "question": "What is the purpose of Matplotlib widgets?",
+        "options": [
+            "A. To create interactive visualizations",
+            "B. To plot static images only",
+            "C. To install Matplotlib",
+            "D. To clean data"
+        ],
+        "answer": "A. To create interactive visualizations"
+    },
+    {
+        "question": "Which command is used to display the plot on screen?",
+        "options": [
+            "A. plt.show()",
+            "B. plt.display()",
+            "C. plt.render()",
+            "D. plt.plot()"
+        ],
+        "answer": "A. plt.show()"
+    },
+    {
+        "question": "What must you do before plotting with Matplotlib in a Python script?",
+        "options": [
+            "A. Import Matplotlib library using 'import matplotlib.pyplot as plt'",
+            "B. Install NumPy",
+            "C. Open Excel",
+            "D. Use print() function"
+        ],
+        "answer": "A. Import Matplotlib library using 'import matplotlib.pyplot as plt'"
+    },
+    {
+        "question": "Which plot type would best show the distribution of data values?",
+        "options": [
+            "A. Histogram",
+            "B. Line plot",
+            "C. Scatter plot",
+            "D. Bar chart"
+        ],
+        "answer": "A. Histogram"
+    },
+    {
+        "question": "How do you create a bar chart in Matplotlib?",
+        "options": [
+            "A. plt.bar()",
+            "B. plt.line()",
+            "C. plt.scatter()",
+            "D. plt.hist()"
+        ],
+        "answer": "A. plt.bar()"
+    },
+    {
+        "question": "What does the aspect ratio of a figure control?",
+        "options": [
+            "A. The ratio between the width and height of the plot",
+            "B. The color scheme",
+            "C. The number of data points",
+            "D. The font size"
+        ],
+        "answer": "A. The ratio between the width and height of the plot"
+    },
+    {
+        "question": "Can you create multiple plots in one figure using Matplotlib?",
+        "options": [
+            "A. Yes, using subplots",
+            "B. No, only one plot is allowed",
+            "C. Only in Excel",
+            "D. Only by saving the file"
+        ],
+        "answer": "A. Yes, using subplots"
+    }
+]

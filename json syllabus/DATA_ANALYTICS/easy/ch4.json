@@ -1,0 +1,202 @@
+[
+    {
+        "question": "What is the first step to create a simple chart in Excel?",
+        "options": [
+            "A. Select the data",
+            "B. Open a new workbook",
+            "C. Type a formula",
+            "D. Format the cells"
+        ],
+        "answer": "A. Select the data"
+    },
+    {
+        "question": "Can you create a chart from non-adjacent cells in Excel?",
+        "options": [
+            "A. Yes, by holding Ctrl while selecting cells",
+            "B. No, it is not possible",
+            "C. Only with macros",
+            "D. Only in PowerPoint"
+        ],
+        "answer": "A. Yes, by holding Ctrl while selecting cells"
+    },
+    {
+        "question": "What tool helps you create charts step-by-step in Excel?",
+        "options": [
+            "A. Chart Wizard",
+            "B. Solver",
+            "C. Data Validation",
+            "D. Conditional Formatting"
+        ],
+        "answer": "A. Chart Wizard"
+    },
+    {
+        "question": "How can you move an embedded chart in Excel?",
+        "options": [
+            "A. Click and drag the chart to a new position",
+            "B. Double-click the chart",
+            "C. Use the Formula bar",
+            "D. Use the Page Layout tab"
+        ],
+        "answer": "A. Click and drag the chart to a new position"
+    },
+    {
+        "question": "What does resizing a chart do?",
+        "options": [
+            "A. Changes the chart’s size",
+            "B. Changes the chart’s data",
+            "C. Deletes the chart",
+            "D. Changes the data source"
+        ],
+        "answer": "A. Changes the chart’s size"
+    },
+    {
+        "question": "How can you change the type of a chart in Excel?",
+        "options": [
+            "A. Use the Change Chart Type option",
+            "B. Re-enter the data",
+            "C. Use the Sort feature",
+            "D. Use the Filter option"
+        ],
+        "answer": "A. Use the Change Chart Type option"
+    },
+    {
+        "question": "What does moving the legend in a chart do?",
+        "options": [
+            "A. Changes the position of the legend on the chart",
+            "B. Deletes the legend",
+            "C. Adds new data",
+            "D. Changes chart colors"
+        ],
+        "answer": "A. Changes the position of the legend on the chart"
+    },
+    {
+        "question": "Which of these can you format in a chart?",
+        "options": [
+            "A. Text, numbers, plot area, data markers",
+            "B. Cell formulas",
+            "C. Workbook name",
+            "D. Sheet tabs"
+        ],
+        "answer": "A. Text, numbers, plot area, data markers"
+    },
+    {
+        "question": "What is a data marker in a chart?",
+        "options": [
+            "A. A symbol representing data points",
+            "B. A type of chart",
+            "C. A table of values",
+            "D. A cell reference"
+        ],
+        "answer": "A. A symbol representing data points"
+    },
+    {
+        "question": "What is a pie chart used for?",
+        "options": [
+            "A. Showing parts of a whole",
+            "B. Showing trends over time",
+            "C. Displaying text",
+            "D. Sorting data"
+        ],
+        "answer": "A. Showing parts of a whole"
+    },
+    {
+        "question": "How do you move a pie chart to its own sheet?",
+        "options": [
+            "A. Use the Move Chart option",
+            "B. Copy and paste",
+            "C. Save as new file",
+            "D. Rename the worksheet"
+        ],
+        "answer": "A. Use the Move Chart option"
+    },
+    {
+        "question": "What are data labels in a pie chart?",
+        "options": [
+            "A. Values or names displayed on slices",
+            "B. Chart titles",
+            "C. Axis labels",
+            "D. Filter options"
+        ],
+        "answer": "A. Values or names displayed on slices"
+    },
+    {
+        "question": "What does 'exploding' a slice of a pie chart mean?",
+        "options": [
+            "A. Separating a slice from the rest to highlight it",
+            "B. Deleting the slice",
+            "C. Changing slice color",
+            "D. Combining slices"
+        ],
+        "answer": "A. Separating a slice from the rest to highlight it"
+    },
+    {
+        "question": "Which option helps you add or remove items like titles or legends to a chart?",
+        "options": [
+            "A. Add Chart Element",
+            "B. Page Layout",
+            "C. Data Validation",
+            "D. Insert Function"
+        ],
+        "answer": "A. Add Chart Element"
+    },
+    {
+        "question": "What happens if you change the chart type from bar to line chart?",
+        "options": [
+            "A. The visual representation of data changes",
+            "B. The data is deleted",
+            "C. The worksheet is cleared",
+            "D. The file is saved automatically"
+        ],
+        "answer": "A. The visual representation of data changes"
+    },
+    {
+        "question": "How do you format all text in a chart?",
+        "options": [
+            "A. Select the chart and use text formatting options",
+            "B. Edit the worksheet cells",
+            "C. Change the data source",
+            "D. Use the spell checker"
+        ],
+        "answer": "A. Select the chart and use text formatting options"
+    },
+    {
+        "question": "What is the plot area in a chart?",
+        "options": [
+            "A. The area where data is plotted",
+            "B. The title of the chart",
+            "C. The worksheet tab",
+            "D. The formula bar"
+        ],
+        "answer": "A. The area where data is plotted"
+    },
+    {
+        "question": "Can you modify a chart after creating it?",
+        "options": [
+            "A. Yes, charts can be modified anytime",
+            "B. No, charts are fixed once created",
+            "C. Only by creating a new chart",
+            "D. Only by saving the file"
+        ],
+        "answer": "A. Yes, charts can be modified anytime"
+    },
+    {
+        "question": "Which of the following is NOT a chart type in Excel?",
+        "options": [
+            "A. Pie Chart",
+            "B. Line Chart",
+            "C. Histogram",
+            "D. Text Chart"
+        ],
+        "answer": "D. Text Chart"
+    },
+    {
+        "question": "How do you add titles to your chart?",
+        "options": [
+            "A. Use the Chart Tools Design tab",
+            "B. Change the worksheet name",
+            "C. Edit the cells",
+            "D. Use Data Validation"
+        ],
+        "answer": "A. Use the Chart Tools Design tab"
+    }
+]

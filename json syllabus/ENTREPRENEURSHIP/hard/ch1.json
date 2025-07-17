@@ -1,0 +1,172 @@
+[
+    {
+        "question": "Which of the following best defines entrepreneurship as a career?",
+        "options": [
+            "A. A risk-free career with guaranteed returns",
+            "B. A high-risk, high-reward career requiring vision, creativity, and resilience",
+            "C. A secure job with a fixed income and regular working hours",
+            "D. A career focused solely on technical skills without managerial involvement"
+        ],
+        "answer": "B. A high-risk, high-reward career requiring vision, creativity, and resilience"
+    },
+    {
+        "question": "What is one of the primary advantages of pursuing entrepreneurship as a career?",
+        "options": [
+            "A. Job security and a fixed monthly income",
+            "B. Flexibility in decision-making and independence in work",
+            "C. A predictable work-life balance",
+            "D. Being shielded from market fluctuations and competition"
+        ],
+        "answer": "B. Flexibility in decision-making and independence in work"
+    },
+    {
+        "question": "Which of the following is a significant disadvantage of choosing entrepreneurship as a career?",
+        "options": [
+            "A. Lack of personal development",
+            "B. Limited income potential",
+            "C. High risk of business failure and financial loss",
+            "D. Over-reliance on corporate structures"
+        ],
+        "answer": "C. High risk of business failure and financial loss"
+    },
+    {
+        "question": "What does the scope of entrepreneurship entail in the context of local and global markets?",
+        "options": [
+            "A. Focuses primarily on local markets and neglects global opportunities",
+            "B. Limited to product-based ventures only",
+            "C. Involves expanding business operations globally while considering local market conditions and needs",
+            "D. Primarily centered around national expansion with minimal global reach"
+        ],
+        "answer": "C. Involves expanding business operations globally while considering local market conditions and needs"
+    },
+    {
+        "question": "How does creativity play a key role in the success of an entrepreneur?",
+        "options": [
+            "A. By reducing the costs of production through imitation",
+            "B. By developing innovative solutions and unique value propositions",
+            "C. By ensuring products are always similar to market leaders",
+            "D. By focusing solely on existing business models"
+        ],
+        "answer": "B. By developing innovative solutions and unique value propositions"
+    },
+    {
+        "question": "Which of the following traits is essential for successful entrepreneurs when making decisions?",
+        "options": [
+            "A. Independent decision-making based on personal beliefs and experience",
+            "B. Relying entirely on external opinions and avoiding self-reliance",
+            "C. Following industry trends without questioning them",
+            "D. Deferring decisions until forced to act"
+        ],
+        "answer": "A. Independent decision-making based on personal beliefs and experience"
+    },
+    {
+        "question": "Why is persistence considered one of the most important traits for an entrepreneur?",
+        "options": [
+            "A. It helps an entrepreneur give up easily when faced with challenges",
+            "B. It ensures that the entrepreneur remains focused and continues working toward long-term goals despite setbacks",
+            "C. It leads to more risk-taking without a thought process",
+            "D. It reduces the need for innovation and creativity"
+        ],
+        "answer": "B. It ensures that the entrepreneur remains focused and continues working toward long-term goals despite setbacks"
+    },
+    {
+        "question": "How does calculated risk-taking contribute to entrepreneurship?",
+        "options": [
+            "A. By avoiding risks altogether to guarantee business success",
+            "B. By making data-informed decisions that balance risk and potential rewards, ensuring long-term sustainability",
+            "C. By focusing only on the safest business opportunities",
+            "D. By avoiding new markets and sticking to the existing ones"
+        ],
+        "answer": "B. By making data-informed decisions that balance risk and potential rewards, ensuring long-term sustainability"
+    },
+    {
+        "question": "In what way does the trait of 'learning from failure' benefit an entrepreneur?",
+        "options": [
+            "A. By avoiding risks in the future",
+            "B. By ensuring that they repeat the same mistakes over and over",
+            "C. By allowing the entrepreneur to adapt, grow, and innovate from the lessons learned during failure",
+            "D. By avoiding necessary changes and sticking to outdated methods"
+        ],
+        "answer": "C. By allowing the entrepreneur to adapt, grow, and innovate from the lessons learned during failure"
+    },
+    {
+        "question": "Which of the following best describes the trait of assertiveness in entrepreneurship?",
+        "options": [
+            "A. Using aggression to force decisions in favor of the entrepreneur",
+            "B. Being passive and avoiding confrontations to keep business partners happy",
+            "C. Being confident in expressing ideas, negotiating, and making decisions in a business context",
+            "D. Avoiding any form of conflict, even when necessary"
+        ],
+        "answer": "C. Being confident in expressing ideas, negotiating, and making decisions in a business context"
+    },
+    {
+        "question": "How does business communication affect an entrepreneur’s ability to lead?",
+        "options": [
+            "A. By ensuring all communication is kept to a minimum to avoid confusion",
+            "B. By fostering clarity and understanding in conveying business objectives and maintaining positive relationships with stakeholders",
+            "C. By avoiding any form of digital communication to maintain privacy",
+            "D. By limiting communication to formal reports only"
+        ],
+        "answer": "B. By fostering clarity and understanding in conveying business objectives and maintaining positive relationships with stakeholders"
+    },
+    {
+        "question": "What differentiates a manufacturing enterprise from a service enterprise?",
+        "options": [
+            "A. Manufacturing enterprises focus on the production of goods, whereas service enterprises focus on intangible services",
+            "B. Manufacturing enterprises sell services, while service enterprises produce tangible goods",
+            "C. Service enterprises only deal with physical goods, while manufacturing enterprises focus on digital services",
+            "D. Manufacturing enterprises provide services to customers, while service enterprises manufacture products"
+        ],
+        "answer": "A. Manufacturing enterprises focus on the production of goods, whereas service enterprises focus on intangible services"
+    },
+    {
+        "question": "What are the key features of a trading enterprise?",
+        "options": [
+            "A. Trading enterprises manufacture products and sell them to consumers",
+            "B. Trading enterprises act as intermediaries, purchasing goods from suppliers and selling them to end customers or other businesses",
+            "C. Trading enterprises offer consulting services to businesses",
+            "D. Trading enterprises provide software development services"
+        ],
+        "answer": "B. Trading enterprises act as intermediaries, purchasing goods from suppliers and selling them to end customers or other businesses"
+    },
+    {
+        "question": "Why is understanding the different types of enterprises (manufacturing, service, trading) important for an entrepreneur?",
+        "options": [
+            "A. It helps in choosing the correct business model and understanding the associated risks and rewards",
+            "B. It is not important; all types of enterprises operate the same way",
+            "C. It is essential only for large-scale businesses",
+            "D. It is not relevant in the global context"
+        ],
+        "answer": "A. It helps in choosing the correct business model and understanding the associated risks and rewards"
+    },
+    {
+        "question": "How does an entrepreneur identify the most suitable enterprise type for a given business idea?",
+        "options": [
+            "A. By selecting an enterprise type based purely on personal preferences and financial capacity",
+            "B. By analyzing the product/service offerings, market demand, scalability, and the entrepreneur’s skills",
+            "C. By imitating successful businesses in the same market",
+            "D. By focusing solely on market size and ignoring other factors"
+        ],
+        "answer": "B. By analyzing the product/service offerings, market demand, scalability, and the entrepreneur’s skills"
+    },
+    {
+        "question": "What is the primary characteristic of a service enterprise?",
+        "options": [
+            "A. It focuses on producing tangible products for customers",
+            "B. It provides intangible services that fulfill customer needs or solve problems",
+            "C. It manufactures physical products for sale",
+            "D. It does not require any customer interaction"
+        ],
+        "answer": "B. It provides intangible services that fulfill customer needs or solve problems"
+    },
+    {
+        "question": "How does an entrepreneur’s ability to innovate contribute to the success of a manufacturing enterprise?",
+        "options": [
+            "A. By improving product quality and adapting to market changes",
+            "B. By avoiding any changes to products once they are established",
+            "C. By focusing only on reducing production costs without improving product design",
+            "D. By ensuring a steady supply of raw materials at all costs"
+        ],
+        "answer": "A. By improving product quality and adapting to market changes"
+    }
+]

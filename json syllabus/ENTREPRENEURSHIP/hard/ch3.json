@@ -1,0 +1,152 @@
+[
+    {
+        "question": "What is the primary difference between Micro, Small, and Medium Enterprises (MSMEs) in terms of categorization?",
+        "options": [
+            "A. MSMEs are categorized based on the size of the business only",
+            "B. MSMEs are categorized based on the number of employees and annual turnover, with specific thresholds for each category",
+            "C. MSMEs are categorized based solely on industry type",
+            "D. MSMEs are not categorized in any formal way"
+        ],
+        "answer": "B. MSMEs are categorized based on the number of employees and annual turnover, with specific thresholds for each category"
+    },
+    {
+        "question": "Why are ancillary industries important in the MSME sector?",
+        "options": [
+            "A. They provide direct financial aid to large corporations",
+            "B. They act as suppliers to larger industries, helping them with raw materials, components, and services",
+            "C. They focus solely on selling finished goods directly to consumers",
+            "D. They support global companies with advanced technology"
+        ],
+        "answer": "B. They act as suppliers to larger industries, helping them with raw materials, components, and services"
+    },
+    {
+        "question": "How does the Maharashtra Centre for Entrepreneurship Development (MCED) support startups?",
+        "options": [
+            "A. By offering startup capital exclusively to large enterprises",
+            "B. By providing mentorship, training programs, and resources to guide entrepreneurs through the startup process",
+            "C. By restricting support to a specific geographical region within Maharashtra",
+            "D. By controlling the entire startup industry within the state"
+        ],
+        "answer": "B. By providing mentorship, training programs, and resources to guide entrepreneurs through the startup process"
+    },
+    {
+        "question": "What is the role of the National Institute for Micro, Small, and Medium Enterprises (NI-MSME) in supporting entrepreneurship?",
+        "options": [
+            "A. It focuses on offering financial loans and subsidies only",
+            "B. It provides training, research, and consultancy to entrepreneurs, helping them build and scale MSMEs",
+            "C. It is a regulatory body that only monitors large corporations",
+            "D. It only operates in the non-profit sector"
+        ],
+        "answer": "B. It provides training, research, and consultancy to entrepreneurs, helping them build and scale MSMEs"
+    },
+    {
+        "question": "How does the Prime Minister's Employment Generation Program (PMEGP) contribute to the startup ecosystem?",
+        "options": [
+            "A. By offering equity investment to multinational corporations",
+            "B. By providing financial assistance in the form of subsidies and loans to micro and small enterprises",
+            "C. By conducting market research for large-scale businesses",
+            "D. By only providing tax exemptions to entrepreneurs"
+        ],
+        "answer": "B. By providing financial assistance in the form of subsidies and loans to micro and small enterprises"
+    },
+    {
+        "question": "What is the role of the Directorate of Industries (DI) in the startup ecosystem?",
+        "options": [
+            "A. It helps manage the financial accounts of entrepreneurs",
+            "B. It offers technical consultation, policy guidance, and infrastructure support to MSMEs and entrepreneurs",
+            "C. It provides only legal support to startups",
+            "D. It operates as an independent business for profit generation"
+        ],
+        "answer": "B. It offers technical consultation, policy guidance, and infrastructure support to MSMEs and entrepreneurs"
+    },
+    {
+        "question": "What services does the Khadi and Village Industries Commission (KVIC) offer to entrepreneurs?",
+        "options": [
+            "A. Only financial assistance for large manufacturing industries",
+            "B. Training, financial assistance, and marketing support for micro and village industries, with a focus on rural areas",
+            "C. Support only for urban service-based enterprises",
+            "D. It is a regulatory body for urban industries"
+        ],
+        "answer": "B. Training, financial assistance, and marketing support for micro and village industries, with a focus on rural areas"
+    },
+    {
+        "question": "How do support agencies help in the entrepreneurship journey regarding **registration**?",
+        "options": [
+            "A. By solely focusing on legal aspects, making it easier for entrepreneurs to register their businesses",
+            "B. By handling all registration processes without entrepreneur involvement",
+            "C. By offering consultancy and assistance in understanding the registration process, ensuring compliance with regulations",
+            "D. By mandating registration with a specific government agency only"
+        ],
+        "answer": "C. By offering consultancy and assistance in understanding the registration process, ensuring compliance with regulations"
+    },
+    {
+        "question": "Why is **technology transfer** an important service offered by support agencies?",
+        "options": [
+            "A. It helps entrepreneurs access new technologies to improve production, reduce costs, and stay competitive in the market",
+            "B. It exclusively deals with patents and copyrights of established products",
+            "C. It focuses only on transferring technology between large corporations",
+            "D. It is unrelated to product development and improvement"
+        ],
+        "answer": "A. It helps entrepreneurs access new technologies to improve production, reduce costs, and stay competitive in the market"
+    },
+    {
+        "question": "What role does **quality control** play in the development of a startup?",
+        "options": [
+            "A. It ensures that products are aesthetically pleasing but not necessarily functional",
+            "B. It helps maintain product consistency, reduce defects, and build customer trust by meeting regulatory standards",
+            "C. It focuses only on internal audits within the organization",
+            "D. It is irrelevant for startups that focus on services rather than physical products"
+        ],
+        "answer": "B. It helps maintain product consistency, reduce defects, and build customer trust by meeting regulatory standards"
+    },
+    {
+        "question": "Why are **marketing** services important for startups, and how do support agencies assist in this regard?",
+        "options": [
+            "A. Marketing is unnecessary for startups, as word of mouth is enough",
+            "B. Support agencies assist startups by offering market research, branding strategies, and guidance on digital marketing to reach target audiences effectively",
+            "C. Marketing services are only important for established businesses, not startups",
+            "D. Support agencies do not provide any form of marketing support"
+        ],
+        "answer": "B. Support agencies assist startups by offering market research, branding strategies, and guidance on digital marketing to reach target audiences effectively"
+    },
+    {
+        "question": "Why is **finance** guidance crucial for startups, and how do support agencies contribute?",
+        "options": [
+            "A. Finance guidance helps startups avoid the complexities of financial management, and agencies assist by providing financial planning advice, access to funding, and understanding cash flow management",
+            "B. Finance guidance is irrelevant for early-stage startups that do not generate revenue",
+            "C. Financial planning is solely the responsibility of the entrepreneur, and support agencies do not assist",
+            "D. Support agencies only provide funding and do not give financial advice"
+        ],
+        "answer": "A. Finance guidance helps startups avoid the complexities of financial management, and agencies assist by providing financial planning advice, access to funding, and understanding cash flow management"
+    },
+    {
+        "question": "How does the concept of **Breakeven Point** help entrepreneurs make decisions?",
+        "options": [
+            "A. It helps entrepreneurs calculate the exact number of units they need to sell to cover fixed and variable costs, aiding in pricing and sales strategies",
+            "B. It focuses only on sales performance without considering expenses",
+            "C. It is irrelevant to the startup process",
+            "D. It helps entrepreneurs identify the total market demand for their product"
+        ],
+        "answer": "A. It helps entrepreneurs calculate the exact number of units they need to sell to cover fixed and variable costs, aiding in pricing and sales strategies"
+    },
+    {
+        "question": "What does **Return on Investment (ROI)** indicate for an entrepreneur?",
+        "options": [
+            "A. It measures the effectiveness of an investment in generating profits relative to its cost, guiding decision-making for resource allocation",
+            "B. It only focuses on employee productivity",
+            "C. It measures the number of customers acquired through marketing",
+            "D. It calculates how many products are sold during a given period"
+        ],
+        "answer": "A. It measures the effectiveness of an investment in generating profits relative to its cost, guiding decision-making for resource allocation"
+    },
+    {
+        "question": "Why is **Return on Sales (ROS)** an important metric for startups?",
+        "options": [
+            "A. It measures the profitability of a business by showing the percentage of revenue that translates into profit",
+            "B. It calculates the total market share of a business",
+            "C. It measures only the sales volume, without considering costs",
+            "D. It focuses on the internal management of the business"
+        ],
+        "answer": "A. It measures the profitability of a business by showing the percentage of revenue that translates into profit"
+    }
+]

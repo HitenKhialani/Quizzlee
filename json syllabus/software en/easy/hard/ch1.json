@@ -1,0 +1,202 @@
+[
+    {
+        "question": "Which of the following is a characteristic of software?",
+        "options": [
+            "A. It wears out over time",
+            "B. It is a physical product",
+            "C. It does not wear out",
+            "D. It is produced on an assembly line"
+        ],
+        "answer": "C. It does not wear out"
+    },
+    {
+        "question": "Which of the following is a type of software?",
+        "options": [
+            "A. Cooking software",
+            "B. Mechanical software",
+            "C. System software",
+            "D. Natural software"
+        ],
+        "answer": "C. System software"
+    },
+    {
+        "question": "Which software is used to perform specific user tasks?",
+        "options": [
+            "A. System software",
+            "B. Application software",
+            "C. Embedded software",
+            "D. Industrial software"
+        ],
+        "answer": "B. Application software"
+    },
+    {
+        "question": "Which of the following is an example of embedded software?",
+        "options": [
+            "A. Microsoft Word",
+            "B. Linux OS",
+            "C. Software in a washing machine",
+            "D. MS Excel"
+        ],
+        "answer": "C. Software in a washing machine"
+    },
+    {
+        "question": "What is the first layer in software engineering’s layered technology?",
+        "options": [
+            "A. Process",
+            "B. Tools",
+            "C. Methods",
+            "D. Quality Focus"
+        ],
+        "answer": "D. Quality Focus"
+    },
+    {
+        "question": "Which layer provides technical methods for building software?",
+        "options": [
+            "A. Tools",
+            "B. Process",
+            "C. Methods",
+            "D. Management"
+        ],
+        "answer": "C. Methods"
+    },
+    {
+        "question": "What is the role of 'tools' in software engineering?",
+        "options": [
+            "A. Execute software",
+            "B. Automate tasks",
+            "C. Design websites only",
+            "D. Store data"
+        ],
+        "answer": "B. Automate tasks"
+    },
+    {
+        "question": "A software development framework helps in:",
+        "options": [
+            "A. Playing games",
+            "B. Structuring the development process",
+            "C. Running operating systems",
+            "D. Creating hardware"
+        ],
+        "answer": "B. Structuring the development process"
+    },
+    {
+        "question": "Which model is also called the 'linear sequential model'?",
+        "options": [
+            "A. Spiral model",
+            "B. Prototyping model",
+            "C. Waterfall model",
+            "D. Agile model"
+        ],
+        "answer": "C. Waterfall model"
+    },
+    {
+        "question": "Which is the first phase of the Waterfall model?",
+        "options": [
+            "A. Design",
+            "B. Maintenance",
+            "C. Requirement analysis",
+            "D. Coding"
+        ],
+        "answer": "C. Requirement analysis"
+    },
+    {
+        "question": "RAD stands for:",
+        "options": [
+            "A. Rapid Application Development",
+            "B. Random Access Development",
+            "C. Ready Application Design",
+            "D. Reliable App Deployment"
+        ],
+        "answer": "A. Rapid Application Development"
+    },
+    {
+        "question": "Which model uses small development teams and short cycles?",
+        "options": [
+            "A. Waterfall model",
+            "B. RAD model",
+            "C. Spiral model",
+            "D. V-model"
+        ],
+        "answer": "B. RAD model"
+    },
+    {
+        "question": "The Prototyping model is used when:",
+        "options": [
+            "A. Requirements are well known",
+            "B. Budget is unlimited",
+            "C. Requirements are unclear",
+            "D. The team is large"
+        ],
+        "answer": "C. Requirements are unclear"
+    },
+    {
+        "question": "Which model combines iterative and systematic aspects?",
+        "options": [
+            "A. Spiral model",
+            "B. RAD model",
+            "C. Waterfall model",
+            "D. Agile model"
+        ],
+        "answer": "A. Spiral model"
+    },
+    {
+        "question": "In Agile, working software is delivered:",
+        "options": [
+            "A. Once at the end",
+            "B. Every few months",
+            "C. Frequently and quickly",
+            "D. Only after full testing"
+        ],
+        "answer": "C. Frequently and quickly"
+    },
+    {
+        "question": "Which of the following is an Agile method?",
+        "options": [
+            "A. Waterfall",
+            "B. Spiral",
+            "C. Scrum",
+            "D. V-model"
+        ],
+        "answer": "C. Scrum"
+    },
+    {
+        "question": "Which Agile model focuses on customer satisfaction through early delivery?",
+        "options": [
+            "A. Prototyping model",
+            "B. Extreme Programming",
+            "C. Spiral model",
+            "D. Waterfall model"
+        ],
+        "answer": "B. Extreme Programming"
+    },
+    {
+        "question": "What does ASD stand for in Agile models?",
+        "options": [
+            "A. Automatic Software Development",
+            "B. Adaptive Software Development",
+            "C. Advanced Software Design",
+            "D. Agile Software Distribution"
+        ],
+        "answer": "B. Adaptive Software Development"
+    },
+    {
+        "question": "Which Agile method is known for daily stand-up meetings?",
+        "options": [
+            "A. Waterfall",
+            "B. RAD",
+            "C. Scrum",
+            "D. Spiral"
+        ],
+        "answer": "C. Scrum"
+    },
+    {
+        "question": "AUP stands for:",
+        "options": [
+            "A. Automated User Protocol",
+            "B. Agile Unified Process",
+            "C. Advanced Utility Program",
+            "D. Agile User Project"
+        ],
+        "answer": "B. Agile Unified Process"
+    }
+]

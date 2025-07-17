@@ -1,0 +1,202 @@
+[
+    {
+        "question": "What is the main purpose of Data Analytics?",
+        "options": [
+            "A. To store data",
+            "B. To analyze data and gain insights",
+            "C. To delete data",
+            "D. To generate random data"
+        ],
+        "answer": "B. To analyze data and gain insights"
+    },
+    {
+        "question": "Which type of data analytics explains what has happened in the past?",
+        "options": [
+            "A. Predictive Analysis",
+            "B. Descriptive Analysis",
+            "C. Prescriptive Analysis",
+            "D. Visual Analytics"
+        ],
+        "answer": "B. Descriptive Analysis"
+    },
+    {
+        "question": "Which type of data analytics predicts future trends based on data?",
+        "options": [
+            "A. Diagnostic Analysis",
+            "B. Predictive Analysis",
+            "C. Descriptive Analysis",
+            "D. Sampling"
+        ],
+        "answer": "B. Predictive Analysis"
+    },
+    {
+        "question": "What is a key component of the data analytics life cycle?",
+        "options": [
+            "A. Data collection",
+            "B. Data deletion",
+            "C. Data hiding",
+            "D. Data duplication"
+        ],
+        "answer": "A. Data collection"
+    },
+    {
+        "question": "Which measure of central tendency represents the middle value in a sorted data set?",
+        "options": [
+            "A. Mean",
+            "B. Median",
+            "C. Mode",
+            "D. Range"
+        ],
+        "answer": "B. Median"
+    },
+    {
+        "question": "Which of the following is NOT a type of data analytics?",
+        "options": [
+            "A. Diagnostic Analysis",
+            "B. Predictive Analysis",
+            "C. Random Analysis",
+            "D. Prescriptive Analysis"
+        ],
+        "answer": "C. Random Analysis"
+    },
+    {
+        "question": "Which data type refers to data that can only take specific values, such as 'Yes' or 'No'?",
+        "options": [
+            "A. Continuous data",
+            "B. Categorical data",
+            "C. Numeric data",
+            "D. Ordinal data"
+        ],
+        "answer": "B. Categorical data"
+    },
+    {
+        "question": "What does the term 'sampling' refer to in data analytics?",
+        "options": [
+            "A. Selecting a subset of data from a larger population",
+            "B. Copying all data",
+            "C. Deleting data randomly",
+            "D. Combining data sets"
+        ],
+        "answer": "A. Selecting a subset of data from a larger population"
+    },
+    {
+        "question": "What is the purpose of the Central Limit Theorem in statistics?",
+        "options": [
+            "A. To describe the distribution of sample means",
+            "B. To calculate the mean",
+            "C. To measure variance",
+            "D. To plot data"
+        ],
+        "answer": "A. To describe the distribution of sample means"
+    },
+    {
+        "question": "Which of the following is a measure of dispersion?",
+        "options": [
+            "A. Mean",
+            "B. Median",
+            "C. Range",
+            "D. Mode"
+        ],
+        "answer": "C. Range"
+    },
+    {
+        "question": "What type of analysis helps understand why something happened in the data?",
+        "options": [
+            "A. Diagnostic Analysis",
+            "B. Predictive Analysis",
+            "C. Descriptive Analysis",
+            "D. Prescriptive Analysis"
+        ],
+        "answer": "A. Diagnostic Analysis"
+    },
+    {
+        "question": "In data analytics, what is 'Visual Analytics' used for?",
+        "options": [
+            "A. Cleaning data",
+            "B. Displaying data using charts and graphs",
+            "C. Predicting future trends",
+            "D. Deleting outliers"
+        ],
+        "answer": "B. Displaying data using charts and graphs"
+    },
+    {
+        "question": "Which is the most common measure of central tendency?",
+        "options": [
+            "A. Mode",
+            "B. Range",
+            "C. Mean",
+            "D. Variance"
+        ],
+        "answer": "C. Mean"
+    },
+    {
+        "question": "What is a confidence interval used for?",
+        "options": [
+            "A. To estimate a range where a population parameter lies",
+            "B. To measure data accuracy",
+            "C. To calculate mean",
+            "D. To identify outliers"
+        ],
+        "answer": "A. To estimate a range where a population parameter lies"
+    },
+    {
+        "question": "Which of the following is NOT a type of data in analytics?",
+        "options": [
+            "A. Qualitative",
+            "B. Quantitative",
+            "C. Analytical",
+            "D. Categorical"
+        ],
+        "answer": "C. Analytical"
+    },
+    {
+        "question": "What does the 'Sampling Funnel' represent in data analytics?",
+        "options": [
+            "A. The process of filtering data from large to smaller samples",
+            "B. The type of graph used in sampling",
+            "C. The size of the data set",
+            "D. Data storage method"
+        ],
+        "answer": "A. The process of filtering data from large to smaller samples"
+    },
+    {
+        "question": "Which measure tells how spread out the data values are around the mean?",
+        "options": [
+            "A. Mean",
+            "B. Standard Deviation",
+            "C. Median",
+            "D. Mode"
+        ],
+        "answer": "B. Standard Deviation"
+    },
+    {
+        "question": "What type of analytics suggests the best course of action based on data?",
+        "options": [
+            "A. Prescriptive Analysis",
+            "B. Diagnostic Analysis",
+            "C. Predictive Analysis",
+            "D. Descriptive Analysis"
+        ],
+        "answer": "A. Prescriptive Analysis"
+    },
+    {
+        "question": "What is 'Measurement' in the context of data analytics?",
+        "options": [
+            "A. The process of collecting data",
+            "B. Assigning numbers or labels to data according to rules",
+            "C. Displaying data visually",
+            "D. Cleaning data"
+        ],
+        "answer": "B. Assigning numbers or labels to data according to rules"
+    },
+    {
+        "question": "Which type of data analytics focuses on past data to find patterns and trends?",
+        "options": [
+            "A. Descriptive Analysis",
+            "B. Prescriptive Analysis",
+            "C. Predictive Analysis",
+            "D. Diagnostic Analysis"
+        ],
+        "answer": "A. Descriptive Analysis"
+    }
+]

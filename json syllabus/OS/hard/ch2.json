@@ -1,0 +1,162 @@
+[
+    {
+        "question": "Which of the following statements best describes the state of a process in an operating system?",
+        "options": [
+            "A. A process in the 'ready' state is actively running on the CPU.",
+            "B. A process in the 'waiting' state has finished execution and is waiting for termination.",
+            "C. A process in the 'terminated' state is ready to run but has not started yet.",
+            "D. A process in the 'waiting' state is not executing and is waiting for an event or resource."
+        ],
+        "answer": "D. A process in the 'waiting' state is not executing and is waiting for an event or resource."
+    },
+    {
+        "question": "What is the primary role of the Process Control Block (PCB) in process management?",
+        "options": [
+            "A. To manage process scheduling by keeping track of the CPU time allocated to processes.",
+            "B. To store all the information about a process, including its state, priority, CPU registers, and memory allocation.",
+            "C. To handle memory management for user applications.",
+            "D. To execute system calls on behalf of user programs."
+        ],
+        "answer": "B. To store all the information about a process, including its state, priority, CPU registers, and memory allocation."
+    },
+    {
+        "question": "What is the role of a context switch in process management?",
+        "options": [
+            "A. To ensure that a process is executing in the correct state.",
+            "B. To save the state of the current process and load the state of the next process scheduled for execution.",
+            "C. To check for process termination before switching to a new process.",
+            "D. To manage the memory space for a process while it is executing."
+        ],
+        "answer": "B. To save the state of the current process and load the state of the next process scheduled for execution."
+    },
+    {
+        "question": "Which of the following best describes the difference between preemptive and non-preemptive scheduling?",
+        "options": [
+            "A. Preemptive scheduling allows processes to voluntarily give up CPU time, while non-preemptive scheduling does not.",
+            "B. Non-preemptive scheduling allows processes to be interrupted by the OS, while preemptive scheduling does not.",
+            "C. Preemptive scheduling forces processes to give up the CPU if a higher-priority process is ready, while non-preemptive scheduling does not.",
+            "D. Preemptive scheduling allows only one process to run at a time, while non-preemptive scheduling allows multiple processes to run simultaneously."
+        ],
+        "answer": "C. Preemptive scheduling forces processes to give up the CPU if a higher-priority process is ready, while non-preemptive scheduling does not."
+    },
+    {
+        "question": "Which of the following is a key advantage of using a shared memory system for inter-process communication (IPC)?",
+        "options": [
+            "A. Shared memory systems allow processes to communicate directly without using any synchronization mechanisms.",
+            "B. Shared memory systems offer high performance due to the absence of data copying between processes.",
+            "C. Shared memory systems are less prone to synchronization issues than message-passing systems.",
+            "D. Shared memory systems are suitable for systems with very limited memory resources."
+        ],
+        "answer": "B. Shared memory systems offer high performance due to the absence of data copying between processes."
+    },
+    {
+        "question": "What is a major disadvantage of the message-passing system for inter-process communication?",
+        "options": [
+            "A. It requires synchronization and can result in deadlocks if not carefully managed.",
+            "B. It is not suitable for communication between processes running on different machines.",
+            "C. It is slower than shared memory communication because of the need to copy data between processes.",
+            "D. It requires high CPU resources to maintain multiple message queues."
+        ],
+        "answer": "C. It is slower than shared memory communication because of the need to copy data between processes."
+    },
+    {
+        "question": "Which of the following multithreading models involves each user thread being mapped to a kernel thread?",
+        "options": [
+            "A. Many-to-One model",
+            "B. One-to-One model",
+            "C. Many-to-Many model",
+            "D. Single-threaded model"
+        ],
+        "answer": "B. One-to-One model"
+    },
+    {
+        "question": "In the context of threads, what is the primary difference between user-level threads and kernel-level threads?",
+        "options": [
+            "A. User-level threads are managed by the operating system kernel, while kernel-level threads are managed by user applications.",
+            "B. User-level threads are faster to create and manage, while kernel-level threads can take advantage of multiple processors.",
+            "C. User-level threads can execute on multiple processors simultaneously, while kernel-level threads can only execute on a single processor.",
+            "D. User-level threads cannot be scheduled by the OS, while kernel-level threads can be scheduled independently by the OS."
+        ],
+        "answer": "B. User-level threads are faster to create and manage, while kernel-level threads can take advantage of multiple processors."
+    },
+    {
+        "question": "Which of the following best describes the 'many-to-many' multithreading model?",
+        "options": [
+            "A. Multiple user threads are mapped to a single kernel thread.",
+            "B. Multiple kernel threads are mapped to a single user thread.",
+            "C. Multiple user threads are mapped to multiple kernel threads, with the kernel responsible for managing them.",
+            "D. Each user thread corresponds to a single kernel thread, allowing for individual scheduling of both."
+        ],
+        "answer": "C. Multiple user threads are mapped to multiple kernel threads, with the kernel responsible for managing them."
+    },
+    {
+        "question": "What is the primary purpose of the `kill` system command in process management?",
+        "options": [
+            "A. To terminate a specific process and release its resources.",
+            "B. To send a signal to a process requesting that it perform a specific task.",
+            "C. To pause a process temporarily for debugging.",
+            "D. To display information about the currently running processes."
+        ],
+        "answer": "A. To terminate a specific process and release its resources."
+    },
+    {
+        "question": "Which system call allows a process to pause its execution for a specified period of time?",
+        "options": [
+            "A. `wait`",
+            "B. `sleep`",
+            "C. `exit`",
+            "D. `nice`"
+        ],
+        "answer": "B. `sleep`"
+    },
+    {
+        "question": "What does the `ps` command do in Unix-like operating systems?",
+        "options": [
+            "A. It displays the system status and information about memory usage.",
+            "B. It prints the status of running processes, including their PID and resource usage.",
+            "C. It allows a user to kill a process.",
+            "D. It adjusts the priority of a running process."
+        ],
+        "answer": "B. It prints the status of running processes, including their PID and resource usage."
+    },
+    {
+        "question": "What is the function of the `nice` command in Unix-like operating systems?",
+        "options": [
+            "A. It terminates a running process.",
+            "B. It changes the priority of a process, making it run with higher or lower CPU time allocation.",
+            "C. It displays the list of processes with their status.",
+            "D. It pauses a process temporarily."
+        ],
+        "answer": "B. It changes the priority of a process, making it run with higher or lower CPU time allocation."
+    },
+    {
+        "question": "What is the primary advantage of multithreading over single-threaded execution in an operating system?",
+        "options": [
+            "A. Multithreading reduces the complexity of process scheduling.",
+            "B. Multithreading allows for better utilization of CPU resources by running multiple threads concurrently.",
+            "C. Multithreading eliminates the need for process synchronization.",
+            "D. Multithreading simplifies memory management by using only one thread."
+        ],
+        "answer": "B. Multithreading allows for better utilization of CPU resources by running multiple threads concurrently."
+    },
+    {
+        "question": "Which of the following is a key challenge in process scheduling in an operating system?",
+        "options": [
+            "A. Ensuring that processes always execute in the order they are created.",
+            "B. Balancing the competing needs of processes while optimizing for factors like CPU utilization, throughput, and response time.",
+            "C. Keeping track of system resources to avoid fragmentation.",
+            "D. Ensuring that processes are never interrupted while executing."
+        ],
+        "answer": "B. Balancing the competing needs of processes while optimizing for factors like CPU utilization, throughput, and response time."
+    },
+    {
+        "question": "What is the purpose of the `wait` system call in process management?",
+        "options": [
+            "A. It allows a process to terminate when it completes its task.",
+            "B. It causes a process to wait for the termination of its child processes.",
+            "C. It allows a process to pause execution for a specified time.",
+            "D. It lets the kernel prioritize the execution of the process."
+        ],
+        "answer": "B. It causes a process to wait for the termination of its child processes."
+    }
+]

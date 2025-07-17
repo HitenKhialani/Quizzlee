@@ -1,0 +1,202 @@
+[
+    {
+        "question": "Which Matplotlib module is primarily used for creating 2D plots in Python?",
+        "options": [
+            "A. pyplot",
+            "B. pandas",
+            "C. numpy",
+            "D. seaborn"
+        ],
+        "answer": "A. pyplot"
+    },
+    {
+        "question": "What is the recommended method to set the size of a Matplotlib figure before plotting?",
+        "options": [
+            "A. Using plt.figure(figsize=(width, height))",
+            "B. Using plt.size(width, height)",
+            "C. Using plt.set_size(width, height)",
+            "D. Using plt.axis('size')"
+        ],
+        "answer": "A. Using plt.figure(figsize=(width, height))"
+    },
+    {
+        "question": "How can you save a Matplotlib plot with a transparent background in PNG format?",
+        "options": [
+            "A. plt.savefig('plot.png', transparent=True)",
+            "B. plt.savefig('plot.png', alpha=0.5)",
+            "C. plt.save('plot.png', transparency=True)",
+            "D. plt.save('plot.png', bg='transparent')"
+        ],
+        "answer": "A. plt.savefig('plot.png', transparent=True)"
+    },
+    {
+        "question": "In a scatter plot created by Matplotlib, which parameter controls the size of the markers?",
+        "options": [
+            "A. markerSize",
+            "B. s",
+            "C. size",
+            "D. ms"
+        ],
+        "answer": "B. s"
+    },
+    {
+        "question": "Which method is used to add a legend to a Matplotlib plot?",
+        "options": [
+            "A. plt.legend()",
+            "B. plt.label()",
+            "C. plt.add_legend()",
+            "D. plt.legendbox()"
+        ],
+        "answer": "A. plt.legend()"
+    },
+    {
+        "question": "What is the purpose of the plt.tight_layout() function in Matplotlib?",
+        "options": [
+            "A. Automatically adjusts subplot parameters to give specified padding",
+            "B. Compresses the plot image size",
+            "C. Adds a grid to the plot",
+            "D. Sets the plot aspect ratio"
+        ],
+        "answer": "A. Automatically adjusts subplot parameters to give specified padding"
+    },
+    {
+        "question": "How can you set the limits of the x-axis in a Matplotlib plot?",
+        "options": [
+            "A. plt.set_xlim(min, max)",
+            "B. plt.xlim(min, max)",
+            "C. plt.axis(xmin=min, xmax=max)",
+            "D. Both B and C"
+        ],
+        "answer": "D. Both B and C"
+    },
+    {
+        "question": "Which Matplotlib widget allows interactive slider control over plot parameters?",
+        "options": [
+            "A. Slider",
+            "B. Button",
+            "C. RadioButtons",
+            "D. CheckButtons"
+        ],
+        "answer": "A. Slider"
+    },
+    {
+        "question": "To change the ticks on the y-axis in Matplotlib, which function is used?",
+        "options": [
+            "A. plt.yticks()",
+            "B. plt.set_yticks()",
+            "C. plt.axis('yticks')",
+            "D. plt.tick_params(axis='y')"
+        ],
+        "answer": "A. plt.yticks()"
+    },
+    {
+        "question": "What does the parameter 'dpi' specify when saving a Matplotlib plot using plt.savefig()?",
+        "options": [
+            "A. Dots per inch, controlling the resolution of the saved image",
+            "B. Dimensions per inch, controlling plot size",
+            "C. Data points included",
+            "D. Default plotting interface"
+        ],
+        "answer": "A. Dots per inch, controlling the resolution of the saved image"
+    },
+    {
+        "question": "Which of the following is NOT a supported format when saving Matplotlib plots using plt.savefig()?",
+        "options": [
+            "A. PNG",
+            "B. PDF",
+            "C. SVG",
+            "D. DOCX"
+        ],
+        "answer": "D. DOCX"
+    },
+    {
+        "question": "What is the effect of using plt.grid(True) in a Matplotlib plot?",
+        "options": [
+            "A. Displays grid lines on the plot",
+            "B. Hides the grid lines",
+            "C. Changes grid line color to transparent",
+            "D. Adds a legend named 'Grid'"
+        ],
+        "answer": "A. Displays grid lines on the plot"
+    },
+    {
+        "question": "In Matplotlib, how can you customize the label of the x-axis?",
+        "options": [
+            "A. plt.xlabel('Label Text')",
+            "B. plt.label('x', 'Label Text')",
+            "C. plt.set_xlabel('Label Text')",
+            "D. plt.axis.label('x', 'Label Text')"
+        ],
+        "answer": "A. plt.xlabel('Label Text')"
+    },
+    {
+        "question": "Which function in Matplotlib would you use to create a histogram?",
+        "options": [
+            "A. plt.hist()",
+            "B. plt.bar()",
+            "C. plt.plot()",
+            "D. plt.scatter()"
+        ],
+        "answer": "A. plt.hist()"
+    },
+    {
+        "question": "How do you set the aspect ratio of a Matplotlib plot to be equal?",
+        "options": [
+            "A. plt.axis('equal')",
+            "B. plt.set_aspect('equal')",
+            "C. plt.aspect('equal')",
+            "D. plt.axis('same')"
+        ],
+        "answer": "A. plt.axis('equal')"
+    },
+    {
+        "question": "What is the correct way to install Matplotlib in a Python environment?",
+        "options": [
+            "A. pip install matplotlib",
+            "B. install matplotlib",
+            "C. pip get matplotlib",
+            "D. python setup matplotlib"
+        ],
+        "answer": "A. pip install matplotlib"
+    },
+    {
+        "question": "Which of these commands can be used to display a Matplotlib plot inline within a Jupyter Notebook?",
+        "options": [
+            "A. %matplotlib inline",
+            "B. plt.show(inline=True)",
+            "C. %show matplotlib",
+            "D. plt.inline()"
+        ],
+        "answer": "A. %matplotlib inline"
+    },
+    {
+        "question": "To add multiple subplots in a single figure in Matplotlib, which function is commonly used?",
+        "options": [
+            "A. plt.subplot()",
+            "B. plt.subplots()",
+            "C. plt.plot_multiple()",
+            "D. Both A and B"
+        ],
+        "answer": "D. Both A and B"
+    },
+    {
+        "question": "Which of the following is TRUE about the plt.plot() function in Matplotlib?",
+        "options": [
+            "A. It can plot lines, markers, or both depending on the format string",
+            "B. It only plots scatter plots",
+            "C. It is used only for histograms",
+            "D. It cannot accept color arguments"
+        ],
+        "answer": "A. It can plot lines, markers, or both depending on the format string"
+    },
+    {
+        "question": "When creating an interactive plot with Matplotlib widgets, what is essential for the plot to update on user input?",
+        "options": [
+            "A. Defining callback functions connected to widget events",
+            "B. Manually redrawing the plot every second",
+            "C. Restarting the Python kernel",
+            "D. Exporting the plot as SVG"
+        ],
+        "answer": "A. Defining callback functions connected to widget events"
+    }
+]

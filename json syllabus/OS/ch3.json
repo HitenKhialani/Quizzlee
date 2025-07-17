@@ -1,0 +1,282 @@
+[
+    {
+        "question": "What is CPU scheduling?",
+        "options": [
+            "A. Deciding which process runs next on the CPU",
+            "B. Allocating memory to processes",
+            "C. Scheduling disk operations",
+            "D. Managing process states"
+        ],
+        "answer": "A. Deciding which process runs next on the CPU"
+    },
+    {
+        "question": "What is the CPU burst in a process?",
+        "options": [
+            "A. Time spent performing I/O operations",
+            "B. Time spent executing instructions on the CPU",
+            "C. Time spent waiting for resources",
+            "D. Time spent in the blocked state"
+        ],
+        "answer": "B. Time spent executing instructions on the CPU"
+    },
+    {
+        "question": "What is the I/O burst in a process?",
+        "options": [
+            "A. Time spent waiting for CPU time",
+            "B. Time spent executing instructions on the CPU",
+            "C. Time spent performing I/O operations",
+            "D. Time spent in the ready state"
+        ],
+        "answer": "C. Time spent performing I/O operations"
+    },
+    {
+        "question": "Which of the following is a key characteristic of preemptive scheduling?",
+        "options": [
+            "A. A running process cannot be stopped by the OS",
+            "B. A running process can be interrupted and placed back in the ready queue",
+            "C. The CPU is always dedicated to one process",
+            "D. Processes are never switched out"
+        ],
+        "answer": "B. A running process can be interrupted and placed back in the ready queue"
+    },
+    {
+        "question": "What is non-preemptive scheduling?",
+        "options": [
+            "A. The OS interrupts processes based on priority",
+            "B. A process runs until it completes or voluntarily releases the CPU",
+            "C. A process can be interrupted at any time",
+            "D. None of the above"
+        ],
+        "answer": "B. A process runs until it completes or voluntarily releases the CPU"
+    },
+    {
+        "question": "Which of the following is an example of a scheduling criterion?",
+        "options": [
+            "A. Throughput",
+            "B. CPU burst",
+            "C. Memory allocation",
+            "D. Input/output burst"
+        ],
+        "answer": "A. Throughput"
+    },
+    {
+        "question": "What is the main objective of CPU scheduling?",
+        "options": [
+            "A. To keep the CPU idle",
+            "B. To ensure all processes are in the blocked state",
+            "C. To maximize CPU utilization and minimize wait time",
+            "D. To reduce memory usage"
+        ],
+        "answer": "C. To maximize CPU utilization and minimize wait time"
+    },
+    {
+        "question": "Which scheduling algorithm executes the process that arrives first?",
+        "options": [
+            "A. First Come First Serve (FCFS)",
+            "B. Shortest Job First (SJF)",
+            "C. Round Robin (RR)",
+            "D. Priority Scheduling"
+        ],
+        "answer": "A. First Come First Serve (FCFS)"
+    },
+    {
+        "question": "Which scheduling algorithm executes the process with the shortest burst time first?",
+        "options": [
+            "A. First Come First Serve (FCFS)",
+            "B. Shortest Job First (SJF)",
+            "C. Round Robin (RR)",
+            "D. Priority Scheduling"
+        ],
+        "answer": "B. Shortest Job First (SJF)"
+    },
+    {
+        "question": "Which of the following algorithms is a non-preemptive scheduling algorithm?",
+        "options": [
+            "A. First Come First Serve (FCFS)",
+            "B. Shortest Job First (SJF)",
+            "C. Round Robin (RR)",
+            "D. Both A and B"
+        ],
+        "answer": "D. Both A and B"
+    },
+    {
+        "question": "Which scheduling algorithm assigns CPU time slices to processes in a circular manner?",
+        "options": [
+            "A. Shortest Job First (SJF)",
+            "B. Round Robin (RR)",
+            "C. First Come First Serve (FCFS)",
+            "D. Priority Scheduling"
+        ],
+        "answer": "B. Round Robin (RR)"
+    },
+    {
+        "question": "What does Round Robin (RR) scheduling focus on?",
+        "options": [
+            "A. Minimizing the CPU burst time",
+            "B. Allocating equal CPU time to all processes",
+            "C. Selecting the process with the shortest CPU burst",
+            "D. Assigning CPU time based on priority"
+        ],
+        "answer": "B. Allocating equal CPU time to all processes"
+    },
+    {
+        "question": "Which scheduling algorithm is based on priority values assigned to processes?",
+        "options": [
+            "A. Round Robin (RR)",
+            "B. First Come First Serve (FCFS)",
+            "C. Priority Scheduling",
+            "D. Shortest Job First (SJF)"
+        ],
+        "answer": "C. Priority Scheduling"
+    },
+    {
+        "question": "What is the 'Multilevel Queue Scheduling' algorithm?",
+        "options": [
+            "A. A combination of multiple scheduling algorithms with different priorities",
+            "B. A scheduling algorithm where all processes are treated equally",
+            "C. A queue-based system that schedules based on CPU burst",
+            "D. None of the above"
+        ],
+        "answer": "A. A combination of multiple scheduling algorithms with different priorities"
+    },
+    {
+        "question": "Which of the following is NOT a type of CPU scheduling algorithm?",
+        "options": [
+            "A. Round Robin",
+            "B. Shortest Job First",
+            "C. Multilevel Queue",
+            "D. File Allocation"
+        ],
+        "answer": "D. File Allocation"
+    },
+    {
+        "question": "Which scheduling algorithm is designed to minimize the average waiting time?",
+        "options": [
+            "A. Round Robin",
+            "B. First Come First Serve",
+            "C. Shortest Job First",
+            "D. Priority Scheduling"
+        ],
+        "answer": "C. Shortest Job First"
+    },
+    {
+        "question": "Which scheduling algorithm does NOT consider the burst time of processes?",
+        "options": [
+            "A. First Come First Serve (FCFS)",
+            "B. Round Robin (RR)",
+            "C. Shortest Job First (SJF)",
+            "D. None of the above"
+        ],
+        "answer": "A. First Come First Serve (FCFS)"
+    },
+    {
+        "question": "What does the term 'deadlock' refer to in process management?",
+        "options": [
+            "A. A process that is waiting for CPU time",
+            "B. A situation where processes are stuck in a waiting state, unable to proceed",
+            "C. A process that is running out of memory",
+            "D. A process that has completed its execution"
+        ],
+        "answer": "B. A situation where processes are stuck in a waiting state, unable to proceed"
+    },
+    {
+        "question": "Which of the following is NOT a necessary condition for deadlock to occur?",
+        "options": [
+            "A. Mutual Exclusion",
+            "B. Hold and Wait",
+            "C. Preemption",
+            "D. Circular Wait"
+        ],
+        "answer": "C. Preemption"
+    },
+    {
+        "question": "What is the main approach for handling deadlocks?",
+        "options": [
+            "A. Deadlock prevention",
+            "B. Deadlock avoidance",
+            "C. Deadlock detection",
+            "D. All of the above"
+        ],
+        "answer": "D. All of the above"
+    },
+    {
+        "question": "What is the purpose of the Banker's Algorithm?",
+        "options": [
+            "A. To prevent deadlock by ensuring resource allocation is safe",
+            "B. To detect deadlock after it occurs",
+            "C. To schedule CPU time for processes",
+            "D. To avoid circular waiting"
+        ],
+        "answer": "A. To prevent deadlock by ensuring resource allocation is safe"
+    },
+    {
+        "question": "Which of the following is an example of a system model for deadlock?",
+        "options": [
+            "A. Resource Allocation Graph",
+            "B. Banker's Algorithm",
+            "C. Circular Wait",
+            "D. Both A and B"
+        ],
+        "answer": "D. Both A and B"
+    },
+    {
+        "question": "Which of the following is a strategy to avoid deadlock?",
+        "options": [
+            "A. Deadlock detection",
+            "B. Circular wait prevention",
+            "C. Resource allocation",
+            "D. Mutual exclusion"
+        ],
+        "answer": "B. Circular wait prevention"
+    },
+    {
+        "question": "Which condition must be present for deadlock to occur?",
+        "options": [
+            "A. Mutual Exclusion",
+            "B. Hold and Wait",
+            "C. No Preemption",
+            "D. All of the above"
+        ],
+        "answer": "D. All of the above"
+    },
+    {
+        "question": "Which of the following scheduling algorithms is considered preemptive?",
+        "options": [
+            "A. Shortest Job First",
+            "B. Round Robin",
+            "C. Priority Scheduling",
+            "D. First Come First Serve"
+        ],
+        "answer": "B. Round Robin"
+    },
+    {
+        "question": "Which of the following scheduling algorithms is non-preemptive?",
+        "options": [
+            "A. Round Robin",
+            "B. Priority Scheduling",
+            "C. First Come First Serve",
+            "D. Shortest Job First"
+        ],
+        "answer": "C. First Come First Serve"
+    },
+    {
+        "question": "Which of the following is true about Round Robin Scheduling?",
+        "options": [
+            "A. It is non-preemptive",
+            "B. Each process gets a fixed time slice",
+            "C. It uses priority to select processes",
+            "D. It only works for high-priority processes"
+        ],
+        "answer": "B. Each process gets a fixed time slice"
+    },
+    {
+        "question": "What happens in a deadlock situation?",
+        "options": [
+            "A. Processes continue to execute",
+            "B. Processes become stuck in a waiting state and cannot proceed",
+            "C. Processes are terminated automatically",
+            "D. CPU usage is maximized"
+        ],
+        "answer": "B. Processes become stuck in a waiting state and cannot proceed"
+    }
+]

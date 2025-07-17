@@ -1,0 +1,202 @@
+[
+    {
+        "question": "Which of the following best explains the difference between predictive analytics and prescriptive analytics?",
+        "options": [
+            "A. Predictive analytics forecasts future outcomes; prescriptive analytics recommends actions based on predictions",
+            "B. Predictive analytics focuses on data visualization; prescriptive analytics focuses on data cleaning",
+            "C. Predictive analytics is only used for descriptive purposes; prescriptive analytics is used for diagnostics",
+            "D. Predictive analytics uses historical data; prescriptive analytics ignores historical data"
+        ],
+        "answer": "A. Predictive analytics forecasts future outcomes; prescriptive analytics recommends actions based on predictions"
+    },
+    {
+        "question": "What is a critical factor in ensuring the quality of data used in the data analytics lifecycle?",
+        "options": [
+            "A. Accuracy, completeness, consistency, timeliness",
+            "B. Quantity only",
+            "C. Only the type of data source",
+            "D. Visualization techniques"
+        ],
+        "answer": "A. Accuracy, completeness, consistency, timeliness"
+    },
+    {
+        "question": "Which type of analytics involves exploring data to understand cause-effect relationships?",
+        "options": [
+            "A. Diagnostic analytics",
+            "B. Descriptive analytics",
+            "C. Predictive analytics",
+            "D. Prescriptive analytics"
+        ],
+        "answer": "A. Diagnostic analytics"
+    },
+    {
+        "question": "In the context of the sampling funnel, which step immediately follows 'data collection'?",
+        "options": [
+            "A. Data cleaning and transformation",
+            "B. Sampling design",
+            "C. Hypothesis testing",
+            "D. Data visualization"
+        ],
+        "answer": "A. Data cleaning and transformation"
+    },
+    {
+        "question": "According to the Central Limit Theorem, the sampling distribution of the sample mean will approximate a normal distribution under what condition?",
+        "options": [
+            "A. When the sample size is sufficiently large, regardless of the population distribution",
+            "B. Only when the population distribution is normal",
+            "C. When the population variance is zero",
+            "D. When the data is categorical"
+        ],
+        "answer": "A. When the sample size is sufficiently large, regardless of the population distribution"
+    },
+    {
+        "question": "Which measure of central tendency is most appropriate for a highly skewed dataset?",
+        "options": [
+            "A. Median",
+            "B. Mean",
+            "C. Mode",
+            "D. Range"
+        ],
+        "answer": "A. Median"
+    },
+    {
+        "question": "What does a 95% confidence interval imply in statistical estimation?",
+        "options": [
+            "A. There is a 95% probability that the true population parameter lies within the interval",
+            "B. 95% of the data falls within the interval",
+            "C. The interval includes 95% of the sample observations",
+            "D. The data set is 95% accurate"
+        ],
+        "answer": "A. There is a 95% probability that the true population parameter lies within the interval"
+    },
+    {
+        "question": "Which of the following is NOT a measure of dispersion?",
+        "options": [
+            "A. Variance",
+            "B. Standard deviation",
+            "C. Median",
+            "D. Range"
+        ],
+        "answer": "C. Median"
+    },
+    {
+        "question": "Visual analytics primarily supports which of the following aspects in data analytics?",
+        "options": [
+            "A. Exploration and communication of data insights through graphical means",
+            "B. Automated prediction of outcomes",
+            "C. Cleaning and transforming raw data",
+            "D. Sampling and hypothesis testing"
+        ],
+        "answer": "A. Exploration and communication of data insights through graphical means"
+    },
+    {
+        "question": "In data analytics, which phase focuses on identifying the business problem and understanding data requirements?",
+        "options": [
+            "A. Problem definition and data acquisition phase",
+            "B. Data visualization phase",
+            "C. Model deployment phase",
+            "D. Predictive modeling phase"
+        ],
+        "answer": "A. Problem definition and data acquisition phase"
+    },
+    {
+        "question": "Which of the following statements best describes the role of measurement in data analytics?",
+        "options": [
+            "A. Assigning numbers or labels to variables in a systematic way",
+            "B. Cleaning data for errors",
+            "C. Creating charts and graphs",
+            "D. Predicting future trends"
+        ],
+        "answer": "A. Assigning numbers or labels to variables in a systematic way"
+    },
+    {
+        "question": "Which type of data is nominal data considered to be?",
+        "options": [
+            "A. Categorical data without any order",
+            "B. Quantitative continuous data",
+            "C. Ordinal data with natural order",
+            "D. Ratio data"
+        ],
+        "answer": "A. Categorical data without any order"
+    },
+    {
+        "question": "What is the primary purpose of descriptive analytics?",
+        "options": [
+            "A. To summarize historical data and identify patterns",
+            "B. To recommend actions",
+            "C. To forecast future events",
+            "D. To diagnose causes of problems"
+        ],
+        "answer": "A. To summarize historical data and identify patterns"
+    },
+    {
+        "question": "Which statistical concept explains why the sample mean is an unbiased estimator of the population mean?",
+        "options": [
+            "A. Law of large numbers",
+            "B. Central Limit Theorem",
+            "C. Confidence Interval",
+            "D. Sampling Variation"
+        ],
+        "answer": "A. Law of large numbers"
+    },
+    {
+        "question": "Sampling variation refers to:",
+        "options": [
+            "A. The natural variability in sample statistics when different samples are drawn from the same population",
+            "B. Errors introduced during data collection",
+            "C. Variation caused by outliers",
+            "D. Differences between data types"
+        ],
+        "answer": "A. The natural variability in sample statistics when different samples are drawn from the same population"
+    },
+    {
+        "question": "What is the role of the 'diagnostic analytics' phase in the analytics lifecycle?",
+        "options": [
+            "A. To identify reasons behind past outcomes",
+            "B. To visualize data for presentation",
+            "C. To generate new data from existing datasets",
+            "D. To build predictive models"
+        ],
+        "answer": "A. To identify reasons behind past outcomes"
+    },
+    {
+        "question": "Which measure of central tendency can be used for both numerical and categorical data?",
+        "options": [
+            "A. Mode",
+            "B. Median",
+            "C. Mean",
+            "D. Variance"
+        ],
+        "answer": "A. Mode"
+    },
+    {
+        "question": "Which sampling method is most appropriate when the population is heterogeneous and can be divided into distinct subgroups?",
+        "options": [
+            "A. Stratified sampling",
+            "B. Simple random sampling",
+            "C. Convenience sampling",
+            "D. Systematic sampling"
+        ],
+        "answer": "A. Stratified sampling"
+    },
+    {
+        "question": "In data analytics, what does the term 'prescriptive analytics' primarily aim to provide?",
+        "options": [
+            "A. Recommendations for decision-making based on data",
+            "B. Descriptions of historical data",
+            "C. Diagnoses of causes of failures",
+            "D. Visual representations of data"
+        ],
+        "answer": "A. Recommendations for decision-making based on data"
+    },
+    {
+        "question": "Which of the following is TRUE about the relationship between data quantity and data quality?",
+        "options": [
+            "A. Having a large quantity of data does not necessarily guarantee high data quality",
+            "B. Quantity and quality are always positively correlated",
+            "C. More data automatically means better insights",
+            "D. Data quality is irrelevant if quantity is large"
+        ],
+        "answer": "A. Having a large quantity of data does not necessarily guarantee high data quality"
+    }
+]

@@ -1,0 +1,202 @@
+[
+    {
+        "question": "Which of the following software characteristics primarily impacts maintainability?",
+        "options": [
+            "A. Portability",
+            "B. Modularity",
+            "C. Efficiency",
+            "D. Usability"
+        ],
+        "answer": "B. Modularity"
+    },
+    {
+        "question": "In the layered approach to software engineering, which layer focuses on selecting and defining specific techniques and tools?",
+        "options": [
+            "A. Process",
+            "B. Methods",
+            "C. Tools",
+            "D. Management"
+        ],
+        "answer": "B. Methods"
+    },
+    {
+        "question": "What is the key difference between the Waterfall and Incremental Process Models?",
+        "options": [
+            "A. Waterfall requires full requirements before development, Incremental allows partial delivery",
+            "B. Waterfall is iterative, Incremental is linear",
+            "C. Incremental does not require testing",
+            "D. Waterfall uses prototypes extensively"
+        ],
+        "answer": "A. Waterfall requires full requirements before development, Incremental allows partial delivery"
+    },
+    {
+        "question": "Which statement best describes the Spiral model’s risk management approach?",
+        "options": [
+            "A. Risks are identified and resolved in every iteration",
+            "B. Risk assessment is only done at the start",
+            "C. Risk is ignored to speed up development",
+            "D. Risk analysis is postponed until testing"
+        ],
+        "answer": "A. Risks are identified and resolved in every iteration"
+    },
+    {
+        "question": "Rapid Application Development (RAD) emphasizes:",
+        "options": [
+            "A. Extensive planning and documentation",
+            "B. Minimal user involvement",
+            "C. Quick prototyping and user feedback",
+            "D. Strict sequential phases"
+        ],
+        "answer": "C. Quick prototyping and user feedback"
+    },
+    {
+        "question": "Which Agile method specifically emphasizes pair programming and frequent releases?",
+        "options": [
+            "A. Scrum",
+            "B. Extreme Programming (XP)",
+            "C. Crystal",
+            "D. Adaptive Software Development (ASD)"
+        ],
+        "answer": "B. Extreme Programming (XP)"
+    },
+    {
+        "question": "In the Agile Unified Process (AUP), what is the purpose of the 'Elaboration' phase?",
+        "options": [
+            "A. To define and baseline the architecture",
+            "B. To deploy the software",
+            "C. To gather initial requirements only",
+            "D. To conduct usability testing"
+        ],
+        "answer": "A. To define and baseline the architecture"
+    },
+    {
+        "question": "Which of the following best describes the primary objective of the 'Methods' layer in the layered approach?",
+        "options": [
+            "A. Automate the software development process",
+            "B. Define the 'how' of software development including modeling and design techniques",
+            "C. Manage software projects",
+            "D. Provide development environments and tools"
+        ],
+        "answer": "B. Define the 'how' of software development including modeling and design techniques"
+    },
+    {
+        "question": "What is a significant limitation of the Waterfall model in modern software development?",
+        "options": [
+            "A. Lack of early prototype development",
+            "B. Overemphasis on user feedback",
+            "C. Continuous integration is mandatory",
+            "D. Too flexible for strict timelines"
+        ],
+        "answer": "A. Lack of early prototype development"
+    },
+    {
+        "question": "The Dynamic Systems Development Method (DSDM) is characterized by which principle?",
+        "options": [
+            "A. Prioritizing requirements and iterative development",
+            "B. Fixed scope and flexible time",
+            "C. No user involvement during development",
+            "D. Complete documentation before coding"
+        ],
+        "answer": "A. Prioritizing requirements and iterative development"
+    },
+    {
+        "question": "Which software type is most affected by non-functional requirements like performance and scalability?",
+        "options": [
+            "A. System software",
+            "B. Application software",
+            "C. Utility software",
+            "D. Embedded software"
+        ],
+        "answer": "D. Embedded software"
+    },
+    {
+        "question": "In the Spiral Model, what is the significance of each loop?",
+        "options": [
+            "A. One iteration of development including risk analysis",
+            "B. A phase of the Waterfall Model",
+            "C. A user testing cycle only",
+            "D. A code deployment stage"
+        ],
+        "answer": "A. One iteration of development including risk analysis"
+    },
+    {
+        "question": "Adaptive Software Development (ASD) is best described as:",
+        "options": [
+            "A. Plan-driven and predictive",
+            "B. Iterative, collaborative, and risk-driven",
+            "C. Linear with defined milestones",
+            "D. Focused on heavy documentation"
+        ],
+        "answer": "B. Iterative, collaborative, and risk-driven"
+    },
+    {
+        "question": "Which tool would be most relevant for managing Agile projects?",
+        "options": [
+            "A. Scrum Board",
+            "B. Gantt Chart",
+            "C. Data Flow Diagram",
+            "D. Entity Relationship Diagram"
+        ],
+        "answer": "A. Scrum Board"
+    },
+    {
+        "question": "Crystal methodology differentiates itself from other Agile methods by:",
+        "options": [
+            "A. Tailoring processes based on project size and criticality",
+            "B. Eliminating all documentation",
+            "C. Focusing solely on testing",
+            "D. Using fixed roles for all team members"
+        ],
+        "answer": "A. Tailoring processes based on project size and criticality"
+    },
+    {
+        "question": "Which is NOT a fundamental activity in software engineering processes as per the layered approach?",
+        "options": [
+            "A. Process",
+            "B. Marketing",
+            "C. Methods",
+            "D. Tools"
+        ],
+        "answer": "B. Marketing"
+    },
+    {
+        "question": "One advantage of Incremental Process Model over Waterfall is:",
+        "options": [
+            "A. Early delivery of partial systems",
+            "B. No need for requirement gathering",
+            "C. Less testing required",
+            "D. All phases happen simultaneously"
+        ],
+        "answer": "A. Early delivery of partial systems"
+    },
+    {
+        "question": "Which Agile methodology is most structured with defined roles like Product Owner and Scrum Master?",
+        "options": [
+            "A. Scrum",
+            "B. Extreme Programming",
+            "C. DSDM",
+            "D. Crystal"
+        ],
+        "answer": "A. Scrum"
+    },
+    {
+        "question": "In software development frameworks, 'tools' provide:",
+        "options": [
+            "A. Automation support for process and methods",
+            "B. Requirements analysis techniques",
+            "C. Customer feedback mechanisms",
+            "D. Business process modeling"
+        ],
+        "answer": "A. Automation support for process and methods"
+    },
+    {
+        "question": "What distinguishes a Prototyping model from other evolutionary models?",
+        "options": [
+            "A. It creates incomplete versions for user feedback",
+            "B. It follows strict linear steps",
+            "C. It ignores user involvement",
+            "D. It is always used for large projects only"
+        ],
+        "answer": "A. It creates incomplete versions for user feedback"
+    }
+]

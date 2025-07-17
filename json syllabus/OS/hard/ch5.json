@@ -1,0 +1,142 @@
+[
+    {
+        "question": "Which of the following best describes the **attributes of a file** in an operating system?",
+        "options": [
+            "A. File attributes include the file's name, type, and the data it contains.",
+            "B. File attributes determine the file's structure, access method, and location in memory.",
+            "C. File attributes include properties like ownership, permissions, size, and timestamps, which define how the file is managed by the system.",
+            "D. File attributes are used solely to describe the content and type of a file, but not its physical location."
+        ],
+        "answer": "C. File attributes include properties like ownership, permissions, size, and timestamps, which define how the file is managed by the system."
+    },
+    {
+        "question": "Which of the following is a primary characteristic of **sequential access** file organization?",
+        "options": [
+            "A. Data can be accessed in any order, but it is stored in contiguous blocks.",
+            "B. Data is read or written in a sequential manner, starting from the beginning of the file.",
+            "C. Data can be accessed randomly at any location within the file, without any specific order.",
+            "D. Sequential access files allow faster access to data than random access files."
+        ],
+        "answer": "B. Data is read or written in a sequential manner, starting from the beginning of the file."
+    },
+    {
+        "question": "In **direct access** file organization, how is the data stored and retrieved?",
+        "options": [
+            "A. Data is stored and retrieved sequentially, but can be accessed at any position using a direct address or index.",
+            "B. Data is retrieved in the same order as it was stored, and access to any part of the file is not allowed until the previous data is processed.",
+            "C. Data is accessed directly based on its location within the file using pointers, allowing for random access without sequential reading.",
+            "D. Direct access files do not support efficient retrieval and are used primarily in archival storage."
+        ],
+        "answer": "A. Data is stored and retrieved sequentially, but can be accessed at any position using a direct address or index."
+    },
+    {
+        "question": "Which of the following is a key advantage of **contiguous allocation** of files?",
+        "options": [
+            "A. It minimizes fragmentation and provides faster access due to the contiguity of the blocks.",
+            "B. It eliminates the need for index blocks and allows random access to any part of the file.",
+            "C. It is flexible in handling dynamic file sizes without requiring file reorganization.",
+            "D. It allows for better sharing and protection of files between users."
+        ],
+        "answer": "A. It minimizes fragmentation and provides faster access due to the contiguity of the blocks."
+    },
+    {
+        "question": "What is a significant disadvantage of **contiguous allocation** in file systems?",
+        "options": [
+            "A. Contiguous allocation leads to external fragmentation, where free space becomes scattered across the disk.",
+            "B. It requires complex data structures, such as linked lists, to manage the file allocation.",
+            "C. Contiguous allocation requires a larger block size than necessary for smaller files, resulting in inefficient space usage.",
+            "D. It provides poor access times for large files and leads to longer read/write operations."
+        ],
+        "answer": "A. Contiguous allocation leads to external fragmentation, where free space becomes scattered across the disk."
+    },
+    {
+        "question": "How does **linked allocation** of files manage free space and file access?",
+        "options": [
+            "A. Linked allocation stores file data in contiguous blocks and uses pointers to link the blocks in a chain.",
+            "B. Linked allocation reduces fragmentation by spreading file data across non-contiguous blocks and using pointers for sequential access.",
+            "C. Linked allocation requires the use of a complex indexing mechanism to access the file data.",
+            "D. Linked allocation stores all files in a single directory, minimizing the need for external file systems."
+        ],
+        "answer": "B. Linked allocation reduces fragmentation by spreading file data across non-contiguous blocks and using pointers for sequential access."
+    },
+    {
+        "question": "Which of the following is a disadvantage of **linked allocation**?",
+        "options": [
+            "A. It may result in wasted space due to the need for storing pointers with each block.",
+            "B. Linked allocation requires contiguous disk space for better file access performance.",
+            "C. It allows faster access to files than contiguous allocation for small files.",
+            "D. It uses a fixed-size block for data storage, causing inefficient memory usage."
+        ],
+        "answer": "A. It may result in wasted space due to the need for storing pointers with each block."
+    },
+    {
+        "question": "How does **indexed allocation** solve the problems of both contiguous and linked allocation?",
+        "options": [
+            "A. Indexed allocation uses a fixed index for storing file data in contiguous blocks, improving random access.",
+            "B. It uses an index block to store the pointers to the various non-contiguous blocks, enabling direct access to any block within the file.",
+            "C. Indexed allocation stores files in a single contiguous block and organizes them using linked lists.",
+            "D. It stores file data in multiple directories, reducing the need for indexing and pointers."
+        ],
+        "answer": "B. It uses an index block to store the pointers to the various non-contiguous blocks, enabling direct access to any block within the file."
+    },
+    {
+        "question": "What is a primary advantage of **indexed allocation** over **linked allocation**?",
+        "options": [
+            "A. Indexed allocation reduces the overhead of maintaining pointers for each block, making access faster.",
+            "B. It allows faster sequential access by storing data in contiguous blocks.",
+            "C. It eliminates the need for an index block by directly linking the blocks to each other.",
+            "D. Indexed allocation allows direct access to any block in a file without needing to traverse a chain of pointers."
+        ],
+        "answer": "D. Indexed allocation allows direct access to any block in a file without needing to traverse a chain of pointers."
+    },
+    {
+        "question": "Which of the following best describes the **single-level directory structure**?",
+        "options": [
+            "A. A single-level directory contains all the files in the system, and each file is identified by a unique name.",
+            "B. The single-level directory structure organizes files in multiple subdirectories to create a hierarchical system.",
+            "C. It allows users to create subdirectories and organize files in a tree-like structure.",
+            "D. The single-level directory structure does not allow users to organize files, and all files are stored in a flat namespace."
+        ],
+        "answer": "A. A single-level directory contains all the files in the system, and each file is identified by a unique name."
+    },
+    {
+        "question": "What is a major limitation of a **single-level directory structure**?",
+        "options": [
+            "A. It allows for easy and efficient organization of files into multiple subdirectories.",
+            "B. It can lead to naming conflicts and a lack of organization as the number of files in the system increases.",
+            "C. It provides optimal performance for large-scale file management systems.",
+            "D. It requires a large number of index blocks to manage file storage efficiently."
+        ],
+        "answer": "B. It can lead to naming conflicts and a lack of organization as the number of files in the system increases."
+    },
+    {
+        "question": "Which of the following is a key advantage of a **two-level directory structure**?",
+        "options": [
+            "A. It allows users to organize files by placing them into different directories, avoiding naming conflicts.",
+            "B. It eliminates the need for any directory structure at all and stores files directly in the root directory.",
+            "C. It allows for dynamic allocation of directories and provides a flat namespace for file storage.",
+            "D. It is faster than hierarchical structures due to its simplicity."
+        ],
+        "answer": "A. It allows users to organize files by placing them into different directories, avoiding naming conflicts."
+    },
+    {
+        "question": "What is a **tree-structured directory** used for in file management?",
+        "options": [
+            "A. It organizes files and directories in a hierarchical manner, allowing users to group related files together in subdirectories.",
+            "B. It organizes files in a flat structure, ensuring quick access to all files by maintaining a single-level directory.",
+            "C. It uses a single directory block to store both files and directory names, simplifying the directory structure.",
+            "D. It allows files to be linked across multiple directories, which can improve file access times."
+        ],
+        "answer": "A. It organizes files and directories in a hierarchical manner, allowing users to group related files together in subdirectories."
+    },
+    {
+        "question": "Which of the following is a major advantage of a **tree-structured directory** over a **two-level directory structure**?",
+        "options": [
+            "A. Tree-structured directories are simpler to implement and do not require managing subdirectories.",
+            "B. Tree-structured directories provide better scalability and organization by allowing deeper levels of hierarchy and subdirectories.",
+            "C. Tree-structured directories are faster to search for files due to their flat structure.",
+            "D. Tree-structured directories prevent any form of fragmentation within the file system."
+        ],
+        "answer": "B. Tree-structured directories provide better scalability and organization by allowing deeper levels of hierarchy and subdirectories."
+    }
+]

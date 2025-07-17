@@ -1,0 +1,142 @@
+[
+    {
+        "question": "What is the purpose of a **Techno-commercial feasibility study** for a startup?",
+        "options": [
+            "A. To evaluate only the technological aspects of the project and ignore the financial factors",
+            "B. To analyze both the technical and commercial viability of a project, ensuring it is feasible in terms of technology, market demand, and financial return",
+            "C. To focus solely on the project's marketing aspects",
+            "D. To determine the aesthetic appeal of the product"
+        ],
+        "answer": "B. To analyze both the technical and commercial viability of a project, ensuring it is feasible in terms of technology, market demand, and financial return"
+    },
+    {
+        "question": "Why is the **preparation of a feasibility report** important for startups?",
+        "options": [
+            "A. It is only necessary for large enterprises and not for small startups",
+            "B. It helps entrepreneurs identify potential risks, costs, and market opportunities, providing a clear roadmap for business success",
+            "C. It focuses only on the personal financial situation of the entrepreneur",
+            "D. It is a legal requirement without any significant business impact"
+        ],
+        "answer": "B. It helps entrepreneurs identify potential risks, costs, and market opportunities, providing a clear roadmap for business success"
+    },
+    {
+        "question": "What are the **key evaluation criteria** in a feasibility study for a startup?",
+        "options": [
+            "A. Only market demand and product uniqueness",
+            "B. Technical capabilities, market demand, financial feasibility, regulatory requirements, and sustainability of the business model",
+            "C. The entrepreneur's background and personal interests",
+            "D. The location and aesthetic qualities of the business"
+        ],
+        "answer": "B. Technical capabilities, market demand, financial feasibility, regulatory requirements, and sustainability of the business model"
+    },
+    {
+        "question": "What factors should be considered while **matching an entrepreneur** with a startup project?",
+        "options": [
+            "A. The entrepreneur's personal interests and skills should align with the project's goals, industry, and potential challenges",
+            "B. The entrepreneur's family background and social circle",
+            "C. The entrepreneur's ability to solely manage all operational tasks without any external help",
+            "D. Only the project's potential financial gains"
+        ],
+        "answer": "A. The entrepreneur's personal interests and skills should align with the project's goals, industry, and potential challenges"
+    },
+    {
+        "question": "Why is understanding **ownership and capital** crucial for a startup?",
+        "options": [
+            "A. Ownership determines the entrepreneur’s legal control and share of profits, while capital is crucial for funding operations, scaling, and sustaining the business",
+            "B. Ownership does not affect the startup’s structure or future success",
+            "C. Capital refers only to initial investment and does not impact ongoing operations",
+            "D. Ownership is irrelevant if the entrepreneur is not actively involved in day-to-day operations"
+        ],
+        "answer": "A. Ownership determines the entrepreneur’s legal control and share of profits, while capital is crucial for funding operations, scaling, and sustaining the business"
+    },
+    {
+        "question": "What is the role of **budgeting** in managing a startup?",
+        "options": [
+            "A. It helps the entrepreneur estimate the total capital required for marketing campaigns only",
+            "B. Budgeting ensures efficient allocation of resources across various business functions, maintaining financial stability and preventing overspending",
+            "C. It is only necessary during the startup's initial phase and can be ignored later",
+            "D. Budgeting is irrelevant as long as the business is profitable"
+        ],
+        "answer": "B. Budgeting ensures efficient allocation of resources across various business functions, maintaining financial stability and preventing overspending"
+    },
+    {
+        "question": "What does **Unique Selling Proposition (U.S.P.)** represent for a startup?",
+        "options": [
+            "A. The lowest price point in the market",
+            "B. The unique feature or benefit of the product/service that differentiates it from competitors and appeals to the target market",
+            "C. A generic value proposition that applies to all businesses in the industry",
+            "D. The entrepreneur’s personal brand and influence in the market"
+        ],
+        "answer": "B. The unique feature or benefit of the product/service that differentiates it from competitors and appeals to the target market"
+    },
+    {
+        "question": "Why is **identifying and developing a marketing plan** essential for a startup’s success?",
+        "options": [
+            "A. A marketing plan is needed to only focus on advertising campaigns",
+            "B. A well-developed marketing plan helps reach target customers, communicate the product’s value, and generate sales, ensuring business growth",
+            "C. The marketing plan is only relevant during product development and not after launch",
+            "D. It ensures that the product is sold at the highest price possible"
+        ],
+        "answer": "B. A well-developed marketing plan helps reach target customers, communicate the product’s value, and generate sales, ensuring business growth"
+    },
+    {
+        "question": "How do **policy making, negotiation, and bargaining techniques** contribute to handling a business effectively?",
+        "options": [
+            "A. They help in formulating rules to restrict business growth and avoid conflicts",
+            "B. They ensure that the entrepreneur can make informed decisions, engage in mutually beneficial agreements, and resolve conflicts within and outside the organization",
+            "C. They are only relevant for large businesses and have no place in startups",
+            "D. They focus solely on maximizing profits without regard for ethical standards"
+        ],
+        "answer": "B. They ensure that the entrepreneur can make informed decisions, engage in mutually beneficial agreements, and resolve conflicts within and outside the organization"
+    },
+    {
+        "question": "How does **risk management** help in the startup process?",
+        "options": [
+            "A. Risk management is only about avoiding any form of uncertainty or challenge",
+            "B. It involves planning for calculated risks, initiating low-cost projects, and preparing for uncertainties to maximize business opportunities while minimizing potential losses",
+            "C. Risk management focuses exclusively on cutting operational costs",
+            "D. It is irrelevant for startups and applies only to large corporations"
+        ],
+        "answer": "B. It involves planning for calculated risks, initiating low-cost projects, and preparing for uncertainties to maximize business opportunities while minimizing potential losses"
+    },
+    {
+        "question": "What is the significance of **angel investors** and **venture capitalists** in the startup ecosystem?",
+        "options": [
+            "A. Angel investors and venture capitalists are primarily focused on taking over the operations of a startup",
+            "B. They provide funding to startups, typically in exchange for equity, helping businesses grow and scale rapidly by offering financial and strategic support",
+            "C. They are not interested in startups and prefer investing in established businesses",
+            "D. They are government agencies that control the market"
+        ],
+        "answer": "B. They provide funding to startups, typically in exchange for equity, helping businesses grow and scale rapidly by offering financial and strategic support"
+    },
+    {
+        "question": "What defines the **startup cycle**, and why is it important for entrepreneurs to understand it?",
+        "options": [
+            "A. The startup cycle is a set of predefined rules and processes entrepreneurs must follow to avoid risks",
+            "B. It represents the stages a startup goes through from inception to maturity, helping entrepreneurs anticipate challenges, opportunities, and milestones throughout the journey",
+            "C. It only applies to large businesses and is not relevant for startups",
+            "D. It focuses solely on the marketing phase and ignores product development"
+        ],
+        "answer": "B. It represents the stages a startup goes through from inception to maturity, helping entrepreneurs anticipate challenges, opportunities, and milestones throughout the journey"
+    },
+    {
+        "question": "How do **incubation centers and accelerators** contribute to a startup's growth?",
+        "options": [
+            "A. They provide financial capital exclusively to large enterprises",
+            "B. They offer mentorship, resources, networking opportunities, and sometimes funding to help startups refine their business models and accelerate growth",
+            "C. They focus only on handling the day-to-day operations of the startup",
+            "D. They primarily focus on sales and marketing of the startup’s product"
+        ],
+        "answer": "B. They offer mentorship, resources, networking opportunities, and sometimes funding to help startups refine their business models and accelerate growth"
+    },
+    {
+        "question": "What is the **procedure** for a startup to get involved with an **incubator or accelerator** program?",
+        "options": [
+            "A. Startups must submit a business plan or application to the incubator/accelerator, detailing their business idea, goals, and challenges, and then undergo a selection process",
+            "B. Startups are automatically selected based on their financial projections alone",
+            "C. Incubators and accelerators require no formal application and take any entrepreneur regardless of their idea",
+            "D. Startups need to apply for a government grant before entering the program"
+        ],
+        "answer": "A. Startups must submit a business plan or application to the incubator/accelerator, detailing their business idea, goals, and challenges, and then undergo a selection process"
+    }
+]
