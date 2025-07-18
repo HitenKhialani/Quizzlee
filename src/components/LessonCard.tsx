@@ -40,7 +40,7 @@ export const LessonCard: React.FC<LessonCardProps> = ({ lesson, isCompleted, sco
         <div className="flex items-center justify-between text-sm text-muted-foreground mb-4">
           <div className="flex items-center space-x-1">
             <Clock className="h-4 w-4" />
-            <span>{lesson.estimatedTime} min read</span>
+            <span>{lesson.estimatedTime} min</span>
           </div>
           <div className="flex items-center space-x-1">
             <BookOpen className="h-4 w-4" />
@@ -48,14 +48,8 @@ export const LessonCard: React.FC<LessonCardProps> = ({ lesson, isCompleted, sco
           </div>
         </div>
         
-        <div className="flex space-x-2">
-          <Link to={`/lessons/${lesson.id}`} className="flex-1">
-            <Button variant="outline" className="w-full">
-              <BookOpen className="h-4 w-4 mr-2" />
-              Read
-            </Button>
-          </Link>
-          <Link to={`/quiz/${encodeURIComponent(lesson.title)}`} className="flex-1">
+        <div className="flex justify-center">
+          <Link to={`/quiz/${encodeURIComponent(lesson.title)}`} className="w-full">
             <Button className="w-full group-hover:bg-primary-dark transition-colors">
               <Play className="h-4 w-4 mr-2" />
               Quiz
