@@ -1,13 +1,29 @@
 import React from 'react';
 import { subjects } from '@/data/subjects';
 import { SubjectCard } from '@/components/SubjectCard';
+import { useAuth } from '@/contexts/AuthContext';
+import { calculateUserProgress, hasUserProgress } from '@/lib/progress-utils';
 
 export const Subjects: React.FC = () => {
-  const mockProgress = {
-    'data-analytics': { lessonsCompleted: 3, totalLessons: 5, averageScore: 85 },
-    'operating-systems': { lessonsCompleted: 2, totalLessons: 5, averageScore: 78 },
-    'entrepreneurship': { lessonsCompleted: 4, totalLessons: 5, averageScore: 92 },
-    'software-engineering': { lessonsCompleted: 1, totalLessons: 5, averageScore: 88 }
+  const { isAuthenticated, checkAuth } = useAuth();
+
+  // Calculate dynamic progress only for authenticated users
+  const userProgress = (isAuthenticated || checkAuth()) && hasUserProgress() 
+    ? calculateUserProgress() 
+    : {};
+
+  // Transform progress data to match SubjectCard expected format
+  const getProgressForSubject = (subjectId: string) => {
+    const progress = userProgress[subjectId];
+    if (!progress || progress.totalQuizzesTaken === 0) {
+      return undefined; // Don't show progress if user hasn't taken any quizzes
+    }
+    
+    return {
+      lessonsCompleted: progress.lessonsCompleted,
+      totalLessons: progress.totalLessons,
+      averageScore: progress.averageScore
+    };
   };
 
   return (
@@ -25,7 +41,7 @@ export const Subjects: React.FC = () => {
             <div key={subject.id} className="slide-up">
               <SubjectCard 
                 subject={subject} 
-                progress={mockProgress[subject.id as keyof typeof mockProgress]} 
+                progress={getProgressForSubject(subject.id)} 
               />
             </div>
           ))}

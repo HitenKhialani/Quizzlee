@@ -7,9 +7,12 @@ import { QuizCard } from '@/components/QuizCard';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
+import { useAuth } from '@/contexts/AuthContext';
+import { getLessonProgress, getSubjectProgress, hasUserProgress } from '@/lib/progress-utils';
 
 export const SubjectDetail: React.FC = () => {
   const { subjectId } = useParams<{ subjectId: string }>();
+  const { isAuthenticated, checkAuth } = useAuth();
   const subject = subjectId ? getSubjectById(subjectId) : null;
 
   if (!subject) {
@@ -25,66 +28,57 @@ export const SubjectDetail: React.FC = () => {
     );
   }
 
-  const mockLessonProgress = {
-    'da-1': { isCompleted: true, score: 88 },
-    'da-2': { isCompleted: true, score: 92 },
-    'da-3': { isCompleted: true, score: 85 },
-    'da-4': { isCompleted: false, score: undefined },
-    'da-5': { isCompleted: false, score: undefined },
-  };
+  // Calculate dynamic progress only for authenticated users
+  const isUserAuthenticated = isAuthenticated || checkAuth();
+  const userHasProgress = isUserAuthenticated && hasUserProgress();
+  
+  const lessonProgress = userHasProgress ? getLessonProgress(subjectId) : {};
+  const subjectProgress = userHasProgress ? getSubjectProgress(subjectId) : null;
 
   const totalTime = subject.lessons.reduce((sum, lesson) => sum + lesson.estimatedTime, 0);
-  const completedLessons = Object.values(mockLessonProgress).filter(p => p.isCompleted).length;
-  const progressPercentage = Math.round((completedLessons / subject.lessons.length) * 100);
+  const completedLessons = userHasProgress 
+    ? Object.values(lessonProgress).filter(p => p.isCompleted).length 
+    : 0;
+  const progressPercentage = subject.lessons.length > 0 
+    ? Math.round((completedLessons / subject.lessons.length) * 100) 
+    : 0;
 
-  // Determine quiz details based on subject
-  const getQuizDetails = () => {
-    if (subjectId === 'operating-systems') {
-      return {
-        questions: 30,
-        duration: 45,
-        difficulty: 'Hard' as const,
-        link: `/subject-quiz/${subjectId}`,
-        description: 'Test your knowledge across all OS topics with 30 questions'
-      };
-    }
-    if (subjectId === 'data-analytics') {
-      return {
-        questions: 30,
-        duration: 45,
-        difficulty: 'Hard' as const,
-        link: `/subject-quiz/${subjectId}`,
-        description: 'Test your knowledge across all Data Analytics topics with 30 questions'
-      };
-    }
-    if (subjectId === 'software-engineering') {
-      return {
-        questions: 30,
-        duration: 45,
-        difficulty: 'Hard' as const,
-        link: `/subject-quiz/${subjectId}`,
-        description: 'Test your knowledge across all Software Engineering topics with 30 questions'
-      };
-    }
-    if (subjectId === 'entrepreneurship') {
-      return {
-        questions: 28,
-        duration: 45,
-        difficulty: 'Hard' as const,
-        link: `/subject-quiz/${subjectId}`,
-        description: 'Test your knowledge across all Entrepreneurship topics with 28 questions'
-      };
-    }
-    return {
+  const quizDetails = {
+    'data-analytics': {
+      description: 'Test your knowledge across all Data Analytics concepts',
+      duration: 45,
       questions: 25,
-      duration: 30,
       difficulty: 'Medium' as const,
-      link: `/quiz/subject/${subject.id}`,
-      description: 'Test your knowledge across all lessons'
-    };
+      link: '/subject-quiz/data-analytics'
+    },
+    'operating-systems': {
+      description: 'Comprehensive quiz covering Operating Systems fundamentals',
+      duration: 50,
+      questions: 30,
+      difficulty: 'Hard' as const,
+      link: '/subject-quiz/operating-systems'
+    },
+    'entrepreneurship': {
+      description: 'Evaluate your understanding of entrepreneurship principles',
+      duration: 40,
+      questions: 20,
+      difficulty: 'Medium' as const,
+      link: '/subject-quiz/entrepreneurship'
+    },
+    'software-engineering': {
+      description: 'Challenge yourself with software engineering best practices',
+      duration: 60,
+      questions: 35,
+      difficulty: 'Hard' as const,
+      link: '/subject-quiz/software-engineering'
+    }
+  }[subjectId] || {
+    description: 'Test your knowledge of this subject',
+    duration: 45,
+    questions: 25,
+    difficulty: 'Medium' as const,
+    link: `/subject-quiz/${subjectId}`
   };
-
-  const quizDetails = getQuizDetails();
 
   return (
     <div className="min-h-screen bg-gradient-background">
@@ -119,68 +113,87 @@ export const SubjectDetail: React.FC = () => {
               <Clock className="h-4 w-4 mr-1" />
               {totalTime} min total
             </Badge>
-            <Badge variant="secondary" className="text-sm">
-              <Award className="h-4 w-4 mr-1" />
-              {progressPercentage}% complete
-            </Badge>
+            {userHasProgress && (
+              <Badge variant="secondary" className="text-sm">
+                <Award className="h-4 w-4 mr-1" />
+                {progressPercentage}% complete
+              </Badge>
+            )}
           </div>
         </div>
 
-        {/* Progress Overview */}
-        <div className="grid md:grid-cols-3 gap-6 mb-8">
-          <Card className="quiz-card">
-            <CardHeader className="pb-3">
-              <CardTitle className="text-lg">Progress Overview</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="space-y-2">
-                <div className="flex justify-between text-sm">
-                  <span>Lessons Completed</span>
-                  <span>{completedLessons}/{subject.lessons.length}</span>
-                </div>
-                <div className="w-full bg-muted rounded-full h-2">
-                  <div 
-                    className="bg-primary h-2 rounded-full transition-all duration-500"
-                    style={{ width: `${progressPercentage}%` }}
-                  />
-                </div>
+        <div className="grid lg:grid-cols-3 gap-8">
+          <div className="lg:col-span-2">
+            {/* Progress Overview - only show if user has progress */}
+            {userHasProgress && (
+              <div className="mb-8">
+                <Card className="quiz-card">
+                  <CardHeader className="pb-3">
+                    <CardTitle className="text-lg">Progress Overview</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <div className="space-y-2">
+                      <div className="flex justify-between text-sm">
+                        <span>Lessons Completed</span>
+                        <span>{completedLessons}/{subject.lessons.length}</span>
+                      </div>
+                      <div className="w-full bg-muted rounded-full h-2">
+                        <div 
+                          className="bg-primary h-2 rounded-full transition-all duration-500"
+                          style={{ width: `${progressPercentage}%` }}
+                        />
+                      </div>
+                      {subjectProgress && subjectProgress.averageScore > 0 && (
+                        <div className="flex justify-between text-sm mt-2">
+                          <span>Average Score</span>
+                          <span>{subjectProgress.averageScore}%</span>
+                        </div>
+                      )}
+                    </div>
+                  </CardContent>
+                </Card>
               </div>
-            </CardContent>
-          </Card>
+            )}
 
-          <QuizCard
-            title="Subject Quiz"
-            description={quizDetails.description}
-            duration={quizDetails.duration}
-            questions={quizDetails.questions}
-            difficulty={quizDetails.difficulty}
-            link={quizDetails.link}
-            icon={<Target className="h-5 w-5" />}
-          />
+            {/* Lessons */}
+            <div>
+              <h2 className="text-2xl font-bold mb-6">Lessons</h2>
+              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {subject.lessons.map((lesson) => {
+                  const progress = lessonProgress[lesson.id];
+                  return (
+                    <LessonCard 
+                      key={lesson.id}
+                      lesson={lesson}
+                      isCompleted={progress?.isCompleted || false}
+                      score={progress?.score}
+                    />
+                  );
+                })}
+              </div>
+            </div>
+          </div>
 
-          <QuizCard
-            title="Full Syllabus Test"
-            description="Comprehensive test across all subjects"
-            duration={120}
-            questions={100}
-            difficulty="Hard"
-            link="/quiz/full-syllabus"
-            icon={<Award className="h-5 w-5" />}
-          />
-        </div>
+          <div className="space-y-6">
+            <QuizCard
+              title="Subject Quiz"
+              description={quizDetails.description}
+              duration={quizDetails.duration}
+              questions={quizDetails.questions}
+              difficulty={quizDetails.difficulty}
+              link={quizDetails.link}
+              icon={<Target className="h-5 w-5" />}
+            />
 
-        {/* Lessons */}
-        <div className="mb-8">
-          <h2 className="text-2xl font-bold mb-6">Lessons</h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {subject.lessons.map((lesson) => (
-              <LessonCard 
-                key={lesson.id}
-                lesson={lesson}
-                isCompleted={mockLessonProgress[lesson.id as keyof typeof mockLessonProgress]?.isCompleted}
-                score={mockLessonProgress[lesson.id as keyof typeof mockLessonProgress]?.score}
-              />
-            ))}
+            <QuizCard
+              title="Full Syllabus Test"
+              description="Comprehensive test across all subjects"
+              duration={120}
+              questions={100}
+              difficulty="Hard"
+              link="/quiz/full-syllabus"
+              icon={<Award className="h-5 w-5" />}
+            />
           </div>
         </div>
       </div>
