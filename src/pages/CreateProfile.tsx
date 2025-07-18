@@ -23,7 +23,7 @@ type ProfileFormValues = z.infer<typeof profileSchema>;
 
 export default function CreateProfile() {
   const navigate = useNavigate();
-  const { createProfile } = useAuth();
+  const { createProfile, loginWithEmail } = useAuth();
   const [avatarUrl, setAvatarUrl] = useState<string>('');
   const [isSubmitting, setIsSubmitting] = useState(false);
 
@@ -54,17 +54,25 @@ export default function CreateProfile() {
   const onSubmit = async (data: ProfileFormValues) => {
     setIsSubmitting(true);
     try {
-      const profileData: ProfileFormData = {
-        name: data.name,
-        email: data.email,
-        role: data.role,
-        avatarUrl: avatarUrl || undefined,
-      };
-      
-      await createProfile(profileData);
-      navigate('/subjects'); // Redirect to subjects page after profile creation
+      // First try to login with existing email
+      try {
+        await loginWithEmail(data.email);
+        navigate('/subjects');
+        return;
+      } catch (loginError) {
+        // If login fails, create new profile
+        const profileData: ProfileFormData = {
+          name: data.name,
+          email: data.email,
+          role: data.role,
+          avatarUrl: avatarUrl || undefined,
+        };
+        
+        await createProfile(profileData);
+        navigate('/subjects');
+      }
     } catch (error) {
-      console.error('Error creating profile:', error);
+      console.error('Error with authentication:', error);
     } finally {
       setIsSubmitting(false);
     }

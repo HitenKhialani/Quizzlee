@@ -1,5 +1,6 @@
 import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
 import { UserProfile, ProfileFormData, AuthContextType } from '@/types/user';
+import { apiClient, User } from '@/lib/api';
 
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
 
@@ -10,62 +11,95 @@ interface AuthProviderProps {
 export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
   const [user, setUser] = useState<UserProfile | null>(null);
   const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [loading, setLoading] = useState(true);
 
-  // Check for existing user on app load
+  // Check for existing session on app load
   useEffect(() => {
-    const savedUser = localStorage.getItem('quizzle_user');
-    if (savedUser) {
+    const initializeAuth = async () => {
       try {
-        const userData = JSON.parse(savedUser);
-        setUser(userData);
-        setIsAuthenticated(true);
+        const sessionId = localStorage.getItem('quizzle_session_id');
+        if (sessionId) {
+          const userData = await apiClient.getCurrentUser();
+          setUser(userData);
+          setIsAuthenticated(true);
+        }
       } catch (error) {
-        console.error('Error parsing saved user:', error);
-        localStorage.removeItem('quizzle_user');
+        console.error('Failed to restore session:', error);
+        // Clear invalid session
+        apiClient.clearSession();
+      } finally {
+        setLoading(false);
       }
-    }
+    };
+
+    initializeAuth();
   }, []);
 
   const createProfile = async (profile: ProfileFormData): Promise<void> => {
-    const newUser: UserProfile = {
-      id: crypto.randomUUID(),
-      ...profile,
-      createdAt: new Date().toISOString(),
-      lastLogin: new Date().toISOString(),
-    };
+    try {
+      const user = await apiClient.createProfile(profile);
+      setUser(user);
+      setIsAuthenticated(true);
+    } catch (error) {
+      console.error('Failed to create profile:', error);
+      throw error;
+    }
+  };
 
-    // Save to localStorage (for MVP)
-    localStorage.setItem('quizzle_user', JSON.stringify(newUser));
-    
-    setUser(newUser);
-    setIsAuthenticated(true);
+  const loginWithEmail = async (email: string): Promise<void> => {
+    try {
+      const user = await apiClient.login(email);
+      setUser(user);
+      setIsAuthenticated(true);
+    } catch (error) {
+      console.error('Failed to login:', error);
+      throw error;
+    }
   };
 
   const updateProfile = async (profile: Partial<UserProfile>): Promise<void> => {
     if (!user) return;
-
+    // For now, just update local state since we don't have update endpoint
+    // In a full implementation, you'd call an API endpoint here
     const updatedUser = { ...user, ...profile };
-    localStorage.setItem('quizzle_user', JSON.stringify(updatedUser));
     setUser(updatedUser);
   };
 
-  const logout = (): void => {
-    localStorage.removeItem('quizzle_user');
-    setUser(null);
-    setIsAuthenticated(false);
+  const logout = async (): Promise<void> => {
+    try {
+      await apiClient.logout();
+    } catch (error) {
+      console.error('Logout error:', error);
+    } finally {
+      setUser(null);
+      setIsAuthenticated(false);
+    }
+  };
+
+  const resetProfile = async (): Promise<void> => {
+    try {
+      await apiClient.resetProfile();
+      setUser(null);
+      setIsAuthenticated(false);
+    } catch (error) {
+      console.error('Reset profile error:', error);
+      throw error;
+    }
   };
 
   const checkAuth = (): boolean => {
-    const savedUser = localStorage.getItem('quizzle_user');
-    return !!savedUser;
+    return isAuthenticated && !!user;
   };
 
   const value: AuthContextType = {
     user,
     isAuthenticated,
+    loading,
     createProfile,
+    loginWithEmail,
     updateProfile,
     logout,
+    resetProfile,
     checkAuth,
   };
 

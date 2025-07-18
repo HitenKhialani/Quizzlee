@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft, BookOpen, Target, Clock, Award } from 'lucide-react';
 import { getSubjectById } from '@/data/subjects';
@@ -8,12 +8,32 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { useAuth } from '@/contexts/AuthContext';
-import { getLessonProgress, getSubjectProgress, hasUserProgress } from '@/lib/progress-utils';
+import { getLessonProgress, getSubjectProgress, hasUserProgress } from '@/lib/progress-utils-api';
 
 export const SubjectDetail: React.FC = () => {
   const { subjectId } = useParams<{ subjectId: string }>();
   const { isAuthenticated, checkAuth } = useAuth();
+  const [lessonProgress, setLessonProgress] = useState<any>({});
+  const [subjectProgress, setSubjectProgress] = useState<any>(null);
   const subject = subjectId ? getSubjectById(subjectId) : null;
+
+  useEffect(() => {
+    const loadProgress = async () => {
+      const isUserAuthenticated = isAuthenticated || checkAuth();
+      if (isUserAuthenticated && await hasUserProgress() && subjectId) {
+        try {
+          const lessonProg = await getLessonProgress(subjectId);
+          const subjectProg = await getSubjectProgress(subjectId);
+          setLessonProgress(lessonProg);
+          setSubjectProgress(subjectProg);
+        } catch (error) {
+          console.error('Failed to load progress:', error);
+        }
+      }
+    };
+
+    loadProgress();
+  }, [isAuthenticated, checkAuth, subjectId]);
 
   if (!subject) {
     return (
@@ -28,16 +48,9 @@ export const SubjectDetail: React.FC = () => {
     );
   }
 
-  // Calculate dynamic progress only for authenticated users
-  const isUserAuthenticated = isAuthenticated || checkAuth();
-  const userHasProgress = isUserAuthenticated && hasUserProgress();
-  
-  const lessonProgress = userHasProgress ? getLessonProgress(subjectId) : {};
-  const subjectProgress = userHasProgress ? getSubjectProgress(subjectId) : null;
-
   const totalTime = subject.lessons.reduce((sum, lesson) => sum + lesson.estimatedTime, 0);
-  const completedLessons = userHasProgress 
-    ? Object.values(lessonProgress).filter(p => p.isCompleted).length 
+  const completedLessons = lessonProgress && Object.keys(lessonProgress).length > 0
+    ? Object.values(lessonProgress).filter((p: any) => p.completed).length 
     : 0;
   const progressPercentage = subject.lessons.length > 0 
     ? Math.round((completedLessons / subject.lessons.length) * 100) 
@@ -113,7 +126,7 @@ export const SubjectDetail: React.FC = () => {
               <Clock className="h-4 w-4 mr-1" />
               {totalTime} min total
             </Badge>
-            {userHasProgress && (
+            {(lessonProgress && Object.keys(lessonProgress).length > 0) && (
               <Badge variant="secondary" className="text-sm">
                 <Award className="h-4 w-4 mr-1" />
                 {progressPercentage}% complete
@@ -125,7 +138,7 @@ export const SubjectDetail: React.FC = () => {
         <div className="grid lg:grid-cols-3 gap-8">
           <div className="lg:col-span-2">
             {/* Progress Overview - only show if user has progress */}
-            {userHasProgress && (
+            {(lessonProgress && Object.keys(lessonProgress).length > 0) && (
               <div className="mb-8">
                 <Card className="quiz-card">
                   <CardHeader className="pb-3">
@@ -183,16 +196,6 @@ export const SubjectDetail: React.FC = () => {
               difficulty={quizDetails.difficulty}
               link={quizDetails.link}
               icon={<Target className="h-5 w-5" />}
-            />
-
-            <QuizCard
-              title="Full Syllabus Test"
-              description="Comprehensive test across all subjects"
-              duration={120}
-              questions={100}
-              difficulty="Hard"
-              link="/quiz/full-syllabus"
-              icon={<Award className="h-5 w-5" />}
             />
           </div>
         </div>

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { QuizState, QuizQuestion, SubjectType } from '../types/quiz';
 import { loadFullSyllabusQuiz, shuffleQuestions } from '../data/questions';
-import { saveQuizResult } from '../lib/quiz-utils';
+import { saveQuizResult } from '../lib/progress-utils-api';
 import { Button } from '../components/ui/button';
 import { Card } from '../components/ui/card';
 import { Progress } from '../components/ui/progress';
@@ -320,7 +320,7 @@ export default function FullSyllabusQuiz() {
     }));
   };
 
-  const handleSubmitQuiz = () => {
+  const handleSubmitQuiz = async () => {
     setQuizState(prev => ({
       ...prev,
       isComplete: true
@@ -344,21 +344,25 @@ export default function FullSyllabusQuiz() {
       subject: q.subject
     }));
 
-    // Save quiz result to localStorage for profile tracking
+    // Save quiz result to API for profile tracking
     const percentage = Math.round((finalScore / quizState.questions.length) * 100);
     const passed = percentage >= 60;
     
-    saveQuizResult({
-      subjectId: 'full-syllabus',
-      lessonTitle: 'Full Syllabus Quiz',
-      score: percentage,
-      totalQuestions: quizState.questions.length,
-      timeSpent: timeSpent,
-      selectedAnswers: userAnswers,
-      questions: questionsWithAnswers,
-      passed: passed,
-      quizType: 'full-syllabus'
-    });
+    try {
+      await saveQuizResult({
+        subjectId: 'full-syllabus',
+        lessonTitle: 'Full Syllabus Quiz',
+        score: percentage,
+        totalQuestions: quizState.questions.length,
+        timeSpent: timeSpent,
+        selectedAnswers: userAnswers,
+        questions: questionsWithAnswers,
+        passed: passed,
+        quizType: 'full-syllabus'
+      });
+    } catch (error) {
+      console.error('Failed to save quiz result:', error);
+    }
 
     navigate('/quiz-report', { 
       state: { 

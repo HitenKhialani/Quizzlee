@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { QuizState, QuizQuestion } from '../types/quiz';
 import { loadOSQuestionsByLesson, loadDAQuestionsByLesson, loadSEQuestionsByLesson, loadENTQuestionsByLesson, shuffleQuestions } from '../data/questions';
-import { saveQuizResult } from '../lib/quiz-utils';
+import { saveQuizResult } from '../lib/progress-utils-api';
 import { Button } from '../components/ui/button';
 import { Card } from '../components/ui/card';
 import { Progress } from '../components/ui/progress';
@@ -244,7 +244,7 @@ export default function LessonQuiz() {
     }
   };
 
-  const handleSubmitQuiz = () => {
+  const handleSubmitQuiz = async () => {
     // Save current answer if selected
     if (quizState.selectedAnswer) {
       setUserAnswers(prev => ({
@@ -273,21 +273,25 @@ export default function LessonQuiz() {
       userAnswer: userAnswers[index] || null
     }));
 
-    // Save quiz result to localStorage for profile tracking
+    // Save quiz result to API for profile tracking
     const percentage = Math.round((finalScore / quizState.questions.length) * 100);
     const passed = percentage >= 60;
     
-    saveQuizResult({
-      subjectId: subject === 'DA' ? 'data-analytics' : subject === 'SE' ? 'software-engineering' : subject === 'ENT' ? 'entrepreneurship' : 'operating-systems',
-      lessonTitle: decodeURIComponent(lessonTitle || ''),
-      score: percentage,
-      totalQuestions: quizState.questions.length,
-      timeSpent: timeSpent,
-      selectedAnswers: userAnswers,
-      questions: questionsWithAnswers,
-      passed: passed,
-      quizType: 'lesson'
-    });
+    try {
+      await saveQuizResult({
+        subjectId: subject === 'DA' ? 'data-analytics' : subject === 'SE' ? 'software-engineering' : subject === 'ENT' ? 'entrepreneurship' : 'operating-systems',
+        lessonTitle: decodeURIComponent(lessonTitle || ''),
+        score: percentage,
+        totalQuestions: quizState.questions.length,
+        timeSpent: timeSpent,
+        selectedAnswers: userAnswers,
+        questions: questionsWithAnswers,
+        passed: passed,
+        quizType: 'lesson'
+      });
+    } catch (error) {
+      console.error('Failed to save quiz result:', error);
+    }
 
     navigate('/quiz-report', { 
       state: { 

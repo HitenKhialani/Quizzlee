@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { User, Calendar, Clock, Award, TrendingUp, Settings, Moon, Sun, LogOut, Edit, Trash2 } from 'lucide-react';
+import { User, Clock, Award, TrendingUp, Settings, Moon, Sun, LogOut, Edit, Trash2 } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
@@ -9,26 +9,38 @@ import { LineChart, Line, XAxis, YAxis, CartesianGrid, ResponsiveContainer, PieC
 import { useTheme } from '@/contexts/ThemeContext';
 import { useAuth } from '@/contexts/AuthContext';
 import { getLessonById } from '@/data/subjects';
-import { getQuizResults, calculateStreak, QuizResult } from '@/lib/quiz-utils';
+import { QuizResult, ProfileStats, apiClient } from '@/lib/api';
+import { getQuizResults } from '@/lib/progress-utils-api';
 import { useNavigate } from 'react-router-dom';
 
 export const Profile: React.FC = () => {
   const { theme, toggleTheme } = useTheme();
-  const { user, logout } = useAuth();
+  const { user, logout, resetProfile } = useAuth();
   const navigate = useNavigate();
   const [quizHistory, setQuizHistory] = useState<QuizResult[]>([]);
-  const [currentStreak, setCurrentStreak] = useState(0);
+  const [profileStats, setProfileStats] = useState<ProfileStats | null>(null);
 
   useEffect(() => {
-    // Load quiz history from localStorage using the new utility
-    const results = getQuizResults();
-    setQuizHistory(results.sort((a, b) => 
-      new Date(b.completedAt).getTime() - new Date(a.completedAt).getTime()
-    ));
-    
-    // Calculate streak using the new utility
-    setCurrentStreak(calculateStreak(results));
-  }, []);
+    const loadData = async () => {
+      try {
+        // Load quiz history
+        const results = await getQuizResults();
+        setQuizHistory(results.sort((a, b) => 
+          new Date(b.completedAt).getTime() - new Date(a.completedAt).getTime()
+        ));
+
+        // Load profile stats
+        const stats = await apiClient.getProfileStats();
+        setProfileStats(stats);
+      } catch (error) {
+        console.error('Failed to load profile data:', error);
+      }
+    };
+
+    if (user) {
+      loadData();
+    }
+  }, [user]);
 
   const formatTime = (seconds: number) => {
     const mins = Math.floor(seconds / 60);
@@ -65,12 +77,15 @@ export const Profile: React.FC = () => {
     navigate('/');
   };
 
-  const handleResetProfile = () => {
+  const handleResetProfile = async () => {
     if (confirm('Are you sure you want to reset your profile? This will clear all your data.')) {
-      localStorage.removeItem('quizResults');
-      localStorage.removeItem('quizzle_user');
-      logout();
-      navigate('/create-profile');
+      try {
+        await resetProfile();
+        navigate('/create-profile');
+      } catch (error) {
+        console.error('Failed to reset profile:', error);
+        alert('Failed to reset profile. Please try again.');
+      }
     }
   };
 
@@ -114,13 +129,14 @@ export const Profile: React.FC = () => {
     averageTime: Math.round(data.totalTime / data.count / 60) // Convert to minutes
   }));
 
-  const overallStats = {
+  const overallStats = profileStats || {
     totalQuizzes: quizHistory.length,
     averageScore: quizHistory.length > 0 ? 
       Math.round(quizHistory.reduce((sum, result) => sum + result.score, 0) / quizHistory.length) : 0,
     passRate: quizHistory.length > 0 ? 
       Math.round((quizHistory.filter(result => result.passed).length / quizHistory.length) * 100) : 0,
-    totalTimeSpent: quizHistory.reduce((sum, result) => sum + result.timeSpent, 0)
+    totalTimeSpent: quizHistory.reduce((sum, result) => sum + result.timeSpent, 0),
+    streak: 0
   };
 
   const COLORS = ['#8884d8', '#82ca9d', '#ffc658', '#ff7c7c', '#8dd1e1'];
@@ -181,7 +197,7 @@ export const Profile: React.FC = () => {
         </Card>
 
         {/* Profile Overview */}
-        <div className="grid md:grid-cols-4 gap-6 mb-8">
+        <div className="grid md:grid-cols-3 gap-6 mb-8">
           <Card className="quiz-card">
             <CardHeader className="pb-3">
               <CardTitle className="flex items-center space-x-2">
@@ -224,19 +240,7 @@ export const Profile: React.FC = () => {
             </CardContent>
           </Card>
 
-          <Card className="quiz-card">
-            <CardHeader className="pb-3">
-              <CardTitle className="flex items-center space-x-2">
-                <Calendar className="h-5 w-5" />
-                <span>Current Streak</span>
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="text-3xl font-bold text-orange-600">
-                {currentStreak} days
-              </div>
-            </CardContent>
-          </Card>
+
         </div>
 
         {/* Quiz History Table */}
@@ -395,37 +399,22 @@ export const Profile: React.FC = () => {
           </div>
         )}
 
-        {/* Streak & Activity */}
+        {/* Recent Activity */}
         <Card className="quiz-card mb-8">
           <CardHeader>
-            <CardTitle>Activity & Streak</CardTitle>
+            <CardTitle>Recent Activity</CardTitle>
           </CardHeader>
           <CardContent>
-            <div className="grid md:grid-cols-2 gap-6">
-              <div>
-                <h3 className="font-semibold mb-3">Current Streak</h3>
-                <div className="flex items-center space-x-4">
-                  <div className="text-4xl font-bold text-orange-600">
-                    {currentStreak}
-                  </div>
-                  <div className="text-muted-foreground">
-                    {currentStreak === 1 ? 'day' : 'days'} of consistent learning
-                  </div>
+            <h3 className="font-semibold mb-3">Recent Activity</h3>
+            <div className="space-y-2">
+              {quizHistory.slice(0, 3).map((result, index) => (
+                <div key={index} className="flex items-center justify-between p-2 bg-muted/50 rounded">
+                  <span className="text-sm">{result.lessonTitle}</span>
+                  <Badge variant="outline" className="text-xs">
+                    {result.score}%
+                  </Badge>
                 </div>
-              </div>
-              <div>
-                <h3 className="font-semibold mb-3">Recent Activity</h3>
-                <div className="space-y-2">
-                  {quizHistory.slice(0, 3).map((result, index) => (
-                    <div key={index} className="flex items-center justify-between p-2 bg-muted/50 rounded">
-                      <span className="text-sm">{result.lessonTitle}</span>
-                      <Badge variant="outline" className="text-xs">
-                        {result.score}%
-                      </Badge>
-                    </div>
-                  ))}
-                </div>
-              </div>
+              ))}
             </div>
           </CardContent>
         </Card>

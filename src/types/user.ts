@@ -18,8 +18,11 @@ export interface ProfileFormData {
 export interface AuthContextType {
   user: UserProfile | null;
   isAuthenticated: boolean;
+  loading: boolean;
   createProfile: (profile: ProfileFormData) => Promise<void>;
+  loginWithEmail: (email: string) => Promise<void>;
   updateProfile: (profile: Partial<UserProfile>) => Promise<void>;
-  logout: () => void;
+  logout: () => Promise<void>;
+  resetProfile: () => Promise<void>;
   checkAuth: () => boolean;
 } 

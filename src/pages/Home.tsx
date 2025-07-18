@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { ArrowRight, Target } from 'lucide-react';
 import { subjects } from '@/data/subjects';
@@ -6,23 +6,26 @@ import { SubjectCard } from '@/components/SubjectCard';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { useAuth } from '@/contexts/AuthContext';
-import { calculateUserProgress, hasUserProgress } from '@/lib/progress-utils';
+import { calculateUserProgress, hasUserProgress } from '@/lib/progress-utils-api';
 
 export const Home: React.FC = () => {
-  const { isAuthenticated, checkAuth } = useAuth();
+  const { isAuthenticated, checkAuth, user } = useAuth();
   const navigate = useNavigate();
+  const [userProgress, setUserProgress] = useState<any>({});
+
+  // Remove automatic redirect - let users enjoy the full home page design
 
   useEffect(() => {
-    // If user is authenticated, redirect to subjects page
-    if (isAuthenticated || checkAuth()) {
-      navigate('/subjects');
-    }
-  }, [isAuthenticated, checkAuth, navigate]);
+    // Calculate dynamic progress only for authenticated users
+    const loadProgress = async () => {
+      if ((isAuthenticated || checkAuth()) && await hasUserProgress()) {
+        const progress = await calculateUserProgress();
+        setUserProgress(progress);
+      }
+    };
 
-  // Calculate dynamic progress only for authenticated users
-  const userProgress = (isAuthenticated || checkAuth()) && hasUserProgress() 
-    ? calculateUserProgress() 
-    : {};
+    loadProgress();
+  }, [isAuthenticated, checkAuth]);
 
   // Transform progress data to match SubjectCard expected format
   const getProgressForSubject = (subjectId: string) => {
@@ -44,6 +47,11 @@ export const Home: React.FC = () => {
       <section className="relative py-20 px-4">
         <div className="container mx-auto text-center">
           <div className="max-w-3xl mx-auto">
+            {(isAuthenticated || checkAuth()) && user ? (
+              <div className="mb-4 fade-in">
+                <p className="text-lg text-primary">Welcome back, {user.name}! 👋</p>
+              </div>
+            ) : null}
             <h1 className="text-4xl md:text-6xl font-bold mb-6 fade-in">
               Master Your <span className="gradient-text">Technical Skills</span>
             </h1>
@@ -54,7 +62,7 @@ export const Home: React.FC = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center fade-in">
               <Link to="/subjects">
                 <Button size="lg" className="bg-gradient-primary hover:opacity-90 transition-opacity">
-                  Start Learning
+                  {(isAuthenticated || checkAuth()) ? 'Continue Learning' : 'Start Learning'}
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
               </Link>
