@@ -49,7 +49,7 @@ export const ENT_CHAPTERS: QuizChapter[] = ['ch1', 'ch2', 'ch3', 'ch4'];
 
 export async function loadOSQuestions(difficulty: QuizDifficulty, chapter: QuizChapter): Promise<QuizQuestion[]> {
   try {
-    const response = await fetch(`/json syllabus/OS/${difficulty}/${chapter}.json`);
+    const response = await fetch(`/api/quiz-questions/OS/${difficulty}/${chapter}`);
     if (!response.ok) {
       throw new Error(`Failed to load questions: ${response.statusText}`);
     }
@@ -63,7 +63,7 @@ export async function loadOSQuestions(difficulty: QuizDifficulty, chapter: QuizC
 
 export async function loadDAQuestions(difficulty: QuizDifficulty, chapter: QuizChapter): Promise<QuizQuestion[]> {
   try {
-    const response = await fetch(`/json syllabus/DATA_ANALYTICS/${difficulty}/${chapter}.json`);
+    const response = await fetch(`/api/quiz-questions/DATA_ANALYTICS/${difficulty}/${chapter}`);
     if (!response.ok) {
       throw new Error(`Failed to load questions: ${response.statusText}`);
     }
@@ -77,7 +77,7 @@ export async function loadDAQuestions(difficulty: QuizDifficulty, chapter: QuizC
 
 export async function loadSEQuestions(difficulty: QuizDifficulty, chapter: QuizChapter): Promise<QuizQuestion[]> {
   try {
-    const response = await fetch(`/json syllabus/software en/${difficulty}/${chapter}.json`);
+    const response = await fetch(`/api/quiz-questions/software en/${difficulty}/${chapter}`);
     if (!response.ok) {
       throw new Error(`Failed to load questions: ${response.statusText}`);
     }
@@ -91,7 +91,7 @@ export async function loadSEQuestions(difficulty: QuizDifficulty, chapter: QuizC
 
 export async function loadENTQuestions(difficulty: QuizDifficulty, chapter: QuizChapter): Promise<QuizQuestion[]> {
   try {
-    const response = await fetch(`/json syllabus/ENTREPRENEURSHIP/${difficulty}/${chapter}.json`);
+    const response = await fetch(`/api/quiz-questions/ENTREPRENEURSHIP/${difficulty}/${chapter}`);
     if (!response.ok) {
       throw new Error(`Failed to load questions: ${response.statusText}`);
     }

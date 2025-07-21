@@ -212,20 +212,30 @@ app.get('/api/test', (req, res) => {
   res.json({ message: 'Server is running!' });
 });
 
-// Test syllabus file access
-app.get('/api/test-syllabus', (req, res) => {
-  const testPath = path.join(__dirname, '../json syllabus/OS/hard/ch1.json');
-  console.log(`🧪 Testing syllabus file access: ${testPath}`);
-  
-  res.sendFile(testPath, (err) => {
-    if (err) {
-      console.error('❌ Syllabus test failed:', err);
-      res.status(500).json({ error: 'Syllabus file not accessible', details: err.message });
-    } else {
-      console.log('✅ Syllabus test successful');
-      res.json({ message: 'Syllabus files are accessible' });
+// Test syllabus file access via API
+app.get('/api/test-syllabus', async (req, res) => {
+  try {
+    const testPath = path.join(__dirname, '../json syllabus/OS/hard/ch1.json');
+    console.log(`🧪 Testing syllabus file access: ${testPath}`);
+    
+    const fs = await import('fs');
+    if (!fs.existsSync(testPath)) {
+      return res.status(404).json({ error: 'Test file not found' });
     }
-  });
+    
+    const fileContent = fs.readFileSync(testPath, 'utf8');
+    const questions = JSON.parse(fileContent);
+    
+    console.log('✅ Syllabus test successful');
+    res.json({ 
+      message: 'Syllabus files are accessible',
+      questionCount: questions.length,
+      firstQuestion: questions[0]?.question || 'No questions found'
+    });
+  } catch (error) {
+    console.error('❌ Syllabus test failed:', error);
+    res.status(500).json({ error: 'Syllabus file not accessible', details: error.message });
+  }
 });
 
 // Test route to simulate syllabus file response
@@ -238,70 +248,31 @@ app.get('/api/test-json-response', (req, res) => {
   });
 });
 
-// Debug route to catch all syllabus requests
-app.get('/json syllabus/*', (req, res) => {
-  console.log(`🔍 DEBUG: Syllabus request received`);
-  console.log(`🔍 Path: ${req.path}`);
-  console.log(`🔍 URL: ${req.url}`);
-  console.log(`🔍 Original URL: ${req.originalUrl}`);
-  console.log(`🔍 Method: ${req.method}`);
-  console.log(`🔍 Headers:`, req.headers);
-  
-  // Parse the path to extract subject, difficulty, chapter
-  const pathParts = req.path.split('/').filter(part => part.length > 0);
-  console.log(`🔍 Path parts:`, pathParts);
-  
-  if (pathParts.length >= 4) {
-    const [, , subject, difficulty, chapterFile] = pathParts;
-    const chapter = chapterFile?.replace('.json', '');
+// API endpoint to serve quiz questions
+app.get('/api/quiz-questions/:subject/:difficulty/:chapter', async (req, res) => {
+  try {
+    const { subject, difficulty, chapter } = req.params;
+    console.log(`📚 Request for quiz questions: ${subject}/${difficulty}/${chapter}`);
     
-    console.log(`🔍 Parsed: subject=${subject}, difficulty=${difficulty}, chapter=${chapter}`);
+    const filePath = path.join(__dirname, '..', 'json syllabus', subject, difficulty, `${chapter}.json`);
+    console.log(`📁 Reading file: ${filePath}`);
     
-    if (subject && difficulty && chapter) {
-      const filePath = path.join(__dirname, '..', 'json syllabus', subject, difficulty, `${chapter}.json`);
-      console.log(`🔍 Full file path: ${filePath}`);
-      
-      // Check if file exists
-      import('fs').then(fs => {
-        if (!fs.existsSync(filePath)) {
-          console.error(`❌ File not found: ${filePath}`);
-          return res.status(404).json({ error: 'Syllabus file not found', path: filePath });
-        }
-        
-        console.log(`✅ File exists, serving: ${filePath}`);
-        res.sendFile(filePath, (err) => {
-          if (err) {
-            console.error('Error serving syllabus file:', err);
-            res.status(404).json({ error: 'Syllabus file not found' });
-          } else {
-            console.log(`✅ Successfully served: ${req.path}`);
-          }
-        });
-      });
-    } else {
-      console.error(`❌ Invalid path structure: ${req.path}`);
-      res.status(404).json({ error: 'Invalid syllabus file path' });
+    // Read file using fs
+    const fs = await import('fs');
+    if (!fs.existsSync(filePath)) {
+      console.error(`❌ File not found: ${filePath}`);
+      return res.status(404).json({ error: 'Quiz questions not found' });
     }
-  } else {
-    console.error(`❌ Path too short: ${req.path}`);
-    res.status(404).json({ error: 'Invalid syllabus file path' });
+    
+    const fileContent = fs.readFileSync(filePath, 'utf8');
+    const questions = JSON.parse(fileContent);
+    
+    console.log(`✅ Successfully loaded ${questions.length} questions`);
+    res.json(questions);
+  } catch (error) {
+    console.error('Error loading quiz questions:', error);
+    res.status(500).json({ error: 'Failed to load quiz questions' });
   }
-});
-
-// Fallback route for any other syllabus file requests
-app.get('/json syllabus/*', (req, res) => {
-  console.log(`📁 Fallback request for syllabus file: ${req.path}`);
-  const filePath = path.join(__dirname, '..', req.path);
-  console.log(`📁 Full file path: ${filePath}`);
-  
-  res.sendFile(filePath, (err) => {
-    if (err) {
-      console.error('Error serving syllabus file:', err);
-      res.status(404).json({ error: 'Syllabus file not found' });
-    } else {
-      console.log(`✅ Successfully served: ${req.path}`);
-    }
-  });
 });
 
 // Serve static files in production
@@ -311,15 +282,9 @@ if (process.env.NODE_ENV === 'production') {
 
 // Serve React app for all non-API routes in production (must be last)
 if (process.env.NODE_ENV === 'production') {
+  // Handle React routes (everything that's not API or JSON files)
   app.get('*', (req, res) => {
-    // Skip API routes and syllabus files
-    if (req.path.startsWith('/api/') || req.path.startsWith('/json syllabus/')) {
-      console.log(`🚫 Blocked request to: ${req.path}`);
-      return res.status(404).json({ error: 'Endpoint not found' });
-    }
-    
     console.log(`📄 Serving React app for: ${req.path}`);
-    // Serve React app for all other routes
     res.sendFile(path.join(__dirname, '../dist/index.html'));
   });
 }
