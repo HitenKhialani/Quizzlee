@@ -1,0 +1,465 @@
+[
+    {
+        "question": "What is the main function of an Operating System?",
+        "options": [
+            "A. To manage files",
+            "B. To manage hardware and software resources",
+            "C. To write code for applications",
+            "D. To store data"
+        ],
+        "answer": "B. To manage hardware and software resources"
+    },
+    {
+        "question": "Which of these is a type of Operating System?",
+        "options": [
+            "A. Web OS",
+            "B. Android OS",
+            "C. Data OS",
+            "D. User OS"
+        ],
+        "answer": "B. Android OS"
+    },
+    {
+        "question": "Which of the following Operating Systems is mainly used for personal computers?",
+        "options": [
+            "A. Android OS",
+            "B. Windows OS",
+            "C. iOS",
+            "D. RTOS"
+        ],
+        "answer": "B. Windows OS"
+    },
+    {
+        "question": "What is the function of the 'Process Manager' in an OS?",
+        "options": [
+            "A. Manage files",
+            "B. Manage memory",
+            "C. Manage processes or programs",
+            "D. Manage hardware"
+        ],
+        "answer": "C. Manage processes or programs"
+    },
+    {
+        "question": "Which of the following is an example of a GUI-based OS?",
+        "options": [
+            "A. DOS",
+            "B. Windows",
+            "C. UNIX",
+            "D. Linux"
+        ],
+        "answer": "B. Windows"
+    },
+    {
+        "question": "Which system is used to manage hardware resources in a computer?",
+        "options": [
+            "A. Compiler",
+            "B. Operating System",
+            "C. Network Protocol",
+            "D. Database Management System"
+        ],
+        "answer": "B. Operating System"
+    },
+    {
+        "question": "Which of the following Operating Systems is commonly used in smartphones?",
+        "options": [
+            "A. Windows OS",
+            "B. Android OS",
+            "C. macOS",
+            "D. UNIX"
+        ],
+        "answer": "B. Android OS"
+    },
+    {
+        "question": "What does the 'File Management' component of an OS do?",
+        "options": [
+            "A. Manages running programs",
+            "B. Manages files and directories",
+            "C. Manages CPU",
+            "D. Manages memory"
+        ],
+        "answer": "B. Manages files and directories"
+    },
+    {
+        "question": "Which of the following is an example of a command-line interface?",
+        "options": [
+            "A. Windows",
+            "B. macOS",
+            "C. UNIX",
+            "D. Android"
+        ],
+        "answer": "C. UNIX"
+    },
+    {
+        "question": "Which of the following Operating Systems is primarily used for real-time applications?",
+        "options": [
+            "A. Windows",
+            "B. Real-Time OS",
+            "C. Linux",
+            "D. macOS"
+        ],
+        "answer": "B. Real-Time OS"
+    },
+    {
+        "question": "Which of these is a part of an operating system that allocates memory to running programs?",
+        "options": [
+            "A. Process Management",
+            "B. Memory Management",
+            "C. File Management",
+            "D. I/O Management"
+        ],
+        "answer": "B. Memory Management"
+    },
+    {
+        "question": "What is a 'system call' in an Operating System?",
+        "options": [
+            "A. A method to access hardware resources",
+            "B. A type of system software",
+            "C. A way to access files",
+            "D. A function to communicate with the OS from a program"
+        ],
+        "answer": "D. A function to communicate with the OS from a program"
+    },
+    {
+        "question": "Which of the following Operating Systems is known for its use in personal and professional devices?",
+        "options": [
+            "A. Linux",
+            "B. Windows",
+            "C. macOS",
+            "D. Android OS"
+        ],
+        "answer": "B. Windows"
+    },
+    {
+        "question": "Which Operating System was designed specifically for mobile devices?",
+        "options": [
+            "A. Android OS",
+            "B. Windows OS",
+            "C. macOS",
+            "D. Linux"
+        ],
+        "answer": "A. Android OS"
+    },
+    {
+        "question": "What is the main role of 'File System' in an Operating System?",
+        "options": [
+            "A. Managing CPU allocation",
+            "B. Managing files and directories",
+            "C. Managing memory",
+            "D. Managing user input"
+        ],
+        "answer": "B. Managing files and directories"
+    },
+    {
+        "question": "Which of the following is an example of a batch Operating System?",
+        "options": [
+            "A. UNIX",
+            "B. Windows",
+            "C. Linux",
+            "D. None of the Above"
+        ],
+        "answer": "D. None of the Above"
+    },
+    {
+        "question": "Which of the following is a feature of a 'Time-Sharing OS'?",
+        "options": [
+            "A. Only one user can interact with the system at a time",
+            "B. It allocates CPU time to multiple users",
+            "C. It runs real-time applications",
+            "D. It is designed for mobile devices"
+        ],
+        "answer": "B. It allocates CPU time to multiple users"
+    },
+    {
+        "question": "Which of the following is an example of a mobile operating system?",
+        "options": [
+            "A. Android",
+            "B. Windows",
+            "C. macOS",
+            "D. UNIX"
+        ],
+        "answer": "A. Android"
+    },
+    {
+        "question": "What does the 'I/O Management' component of an OS do?",
+        "options": [
+            "A. Manage files",
+            "B. Manage input and output devices",
+            "C. Manage running programs",
+            "D. Manage memory"
+        ],
+        "answer": "B. Manage input and output devices"
+    },
+    {
+        "question": "Which Operating System was first developed by Microsoft for personal computers?",
+        "options": [
+            "A. Windows",
+            "B. macOS",
+            "C. Android",
+            "D. Linux"
+        ],
+        "answer": "A. Windows"
+    },
+    {
+        "question": "Which of these is an example of a Multi-User Operating System?",
+        "options": [
+            "A. Windows",
+            "B. UNIX",
+            "C. Android",
+            "D. iOS"
+        ],
+        "answer": "B. UNIX"
+    },
+
+    {
+            "question": "Which of the following is the primary function of an operating system?",
+            "options": [
+                "A. Run applications",
+                "B. Manage system resources",
+                "C. Provide internet access",
+                "D. Browse the web"
+            ],
+            "answer": "B. Manage system resources"
+        },
+        {
+            "question": "Which of the following is an example of a mobile operating system?",
+            "options": [
+                "A. Windows",
+                "B. macOS",
+                "C. Android",
+                "D. Linux"
+            ],
+            "answer": "C. Android"
+        },
+        {
+            "question": "What is the main role of the 'Kernel' in an operating system?",
+            "options": [
+                "A. Manage user input",
+                "B. Manage hardware resources",
+                "C. Provide graphical user interface",
+                "D. Manage network connections"
+            ],
+            "answer": "B. Manage hardware resources"
+        },
+        {
+            "question": "Which component of the OS is responsible for managing memory?",
+            "options": [
+                "A. Process Manager",
+                "B. Memory Manager",
+                "C. File Manager",
+                "D. I/O Manager"
+            ],
+            "answer": "B. Memory Manager"
+        },
+        {
+            "question": "Which of these Operating Systems uses a graphical user interface?",
+            "options": [
+                "A. DOS",
+                "B. Linux",
+                "C. Windows",
+                "D. UNIX"
+            ],
+            "answer": "C. Windows"
+        },
+        {
+            "question": "Which of these is an example of a time-sharing Operating System?",
+            "options": [
+                "A. Windows",
+                "B. macOS",
+                "C. UNIX",
+                "D. Android"
+            ],
+            "answer": "C. UNIX"
+        },
+        {
+            "question": "Which Operating System is developed by Apple for its computers?",
+            "options": [
+                "A. Windows",
+                "B. macOS",
+                "C. Android",
+                "D. Linux"
+            ],
+            "answer": "B. macOS"
+        },
+        {
+            "question": "What does the term 'real-time operating system' refer to?",
+            "options": [
+                "A. OS used for mobile phones",
+                "B. OS used for servers",
+                "C. OS used for immediate processing of critical data",
+                "D. OS used for computers"
+            ],
+            "answer": "C. OS used for immediate processing of critical data"
+        },
+        {
+            "question": "What is the main function of the 'File System' in an operating system?",
+            "options": [
+                "A. Manage files and directories",
+                "B. Manage user input",
+                "C. Handle network requests",
+                "D. Manage memory"
+            ],
+            "answer": "A. Manage files and directories"
+        },
+        {
+            "question": "Which system call is used to request a service from the OS?",
+            "options": [
+                "A. Process Creation",
+                "B. File Handling",
+                "C. I/O Operations",
+                "D. System Call"
+            ],
+            "answer": "D. System Call"
+        },
+        {
+            "question": "Which of the following is a feature of a Batch Operating System?",
+            "options": [
+                "A. Processes run in the background",
+                "B. Multiple users can interact with the system simultaneously",
+                "C. All tasks are processed at once without user interaction",
+                "D. The system does not manage memory"
+            ],
+            "answer": "C. All tasks are processed at once without user interaction"
+        },
+        {
+            "question": "Which OS is primarily used for high-performance computing and servers?",
+            "options": [
+                "A. Linux",
+                "B. macOS",
+                "C. Android",
+                "D. Windows"
+            ],
+            "answer": "A. Linux"
+        },
+        {
+            "question": "Which of the following is a key component of an operating system?",
+            "options": [
+                "A. Processor",
+                "B. File Management",
+                "C. Router",
+                "D. Keyboard"
+            ],
+            "answer": "B. File Management"
+        },
+        {
+            "question": "What does the 'Input/Output Management' in an OS control?",
+            "options": [
+                "A. User interface",
+                "B. Access to files and directories",
+                "C. Interaction with input and output devices",
+                "D. Network communication"
+            ],
+            "answer": "C. Interaction with input and output devices"
+        },
+        {
+            "question": "Which Operating System is known for being used in web servers?",
+            "options": [
+                "A. Windows",
+                "B. Linux",
+                "C. Android",
+                "D. iOS"
+            ],
+            "answer": "B. Linux"
+        },
+        {
+            "question": "Which of the following is a multi-user operating system?",
+            "options": [
+                "A. Windows",
+                "B. macOS",
+                "C. UNIX",
+                "D. Android"
+            ],
+            "answer": "C. UNIX"
+        },
+        {
+            "question": "Which OS was originally designed for command-line operations?",
+            "options": [
+                "A. Linux",
+                "B. Windows",
+                "C. DOS",
+                "D. macOS"
+            ],
+            "answer": "C. DOS"
+        },
+        {
+            "question": "Which of the following is an example of a 'multiprocessing' operating system?",
+            "options": [
+                "A. UNIX",
+                "B. Linux",
+                "C. Windows",
+                "D. All of the Above"
+            ],
+            "answer": "D. All of the Above"
+        },
+        {
+            "question": "Which of these operating systems is used mainly on personal devices such as laptops and desktop computers?",
+            "options": [
+                "A. Android",
+                "B. macOS",
+                "C. Windows",
+                "D. Real-Time OS"
+            ],
+            "answer": "C. Windows"
+        },
+        {
+            "question": "What is a characteristic of a real-time operating system?",
+            "options": [
+                "A. It can run only one program at a time",
+                "B. It ensures tasks are processed in a fixed time frame",
+                "C. It does not allow file management",
+                "D. It is mainly used on personal computers"
+            ],
+            "answer": "B. It ensures tasks are processed in a fixed time frame"
+        },
+        {
+            "question": "Which of these is an example of a graphical user interface?",
+            "options": [
+                "A. Windows",
+                "B. DOS",
+                "C. UNIX",
+                "D. All of the Above"
+            ],
+            "answer": "A. Windows"
+        },
+        {
+            "question": "Which of these is the first step in the booting process of an OS?",
+            "options": [
+                "A. Loading the OS into memory",
+                "B. Initializing the hardware",
+                "C. Running system diagnostics",
+                "D. Opening the login screen"
+            ],
+            "answer": "B. Initializing the hardware"
+        },
+        {
+            "question": "Which of the following best describes a mobile OS?",
+            "options": [
+                "A. Operating system for personal computers",
+                "B. Operating system used to manage mobile devices like smartphones",
+                "C. Operating system used for high-performance tasks",
+                "D. Operating system used for mainframe computers"
+            ],
+            "answer": "B. Operating system used to manage mobile devices like smartphones"
+        },
+        {
+            "question": "Which of the following is the primary function of the 'Process Management' component in an OS?",
+            "options": [
+                "A. To manage file access",
+                "B. To manage and schedule processes",
+                "C. To manage memory allocation",
+                "D. To manage I/O operations"
+            ],
+            "answer": "B. To manage and schedule processes"
+        },
+        {
+            "question": "Which of the following operating systems is commonly used in server environments?",
+            "options": [
+                "A. Windows",
+                "B. macOS",
+                "C. Linux",
+                "D. Android"
+            ],
+            "answer": "C. Linux"
+        }
+
+    
+]

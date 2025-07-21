@@ -1,0 +1,242 @@
+[
+    {
+        "question": "What does a techno-commercial feasibility study involve?",
+        "options": [
+            "A. Only technical aspects of the project",
+            "B. Only financial aspects of the project",
+            "C. Both technical and financial aspects",
+            "D. None of the above"
+        ],
+        "answer": "C. Both technical and financial aspects"
+    },
+    {
+        "question": "What is the primary purpose of a feasibility report?",
+        "options": [
+            "A. To outline the market strategy",
+            "B. To evaluate the potential success of a project",
+            "C. To define the ownership structure",
+            "D. To list suppliers and distributors"
+        ],
+        "answer": "B. To evaluate the potential success of a project"
+    },
+    {
+        "question": "Which of the following is NOT typically included in a feasibility report?",
+        "options": [
+            "A. Financial analysis",
+            "B. Legal requirements",
+            "C. Risk assessment",
+            "D. Marketing strategies"
+        ],
+        "answer": "D. Marketing strategies"
+    },
+    {
+        "question": "What is an essential component in evaluating a feasibility report?",
+        "options": [
+            "A. Customer feedback",
+            "B. Competitive analysis",
+            "C. Profitability assessment",
+            "D. Political environment"
+        ],
+        "answer": "C. Profitability assessment"
+    },
+    {
+        "question": "What is the role of ownership in managing an enterprise?",
+        "options": [
+            "A. Determining the operational structure",
+            "B. Deciding on the market strategy",
+            "C. Establishing business goals",
+            "D. Managing financial resources"
+        ],
+        "answer": "A. Determining the operational structure"
+    },
+    {
+        "question": "What is meant by 'matching entrepreneur with the project'?",
+        "options": [
+            "A. Aligning the entrepreneur’s skills with the project needs",
+            "B. Finding the best market for the product",
+            "C. Hiring employees for the startup",
+            "D. Creating a project budget"
+        ],
+        "answer": "A. Aligning the entrepreneur’s skills with the project needs"
+    },
+    {
+        "question": "Which of the following is NOT a factor in capital budgeting?",
+        "options": [
+            "A. Forecasting future cash flows",
+            "B. Evaluating profitability",
+            "C. Assessing market demand",
+            "D. Deciding on loan repayment terms"
+        ],
+        "answer": "C. Assessing market demand"
+    },
+    {
+        "question": "What does a Unique Selling Proposition (USP) represent?",
+        "options": [
+            "A. A legal trademark",
+            "B. The unique benefits of a product/service",
+            "C. A cost-effective strategy",
+            "D. A partnership agreement"
+        ],
+        "answer": "B. The unique benefits of a product/service"
+    },
+    {
+        "question": "How can a business identify its Unique Selling Proposition?",
+        "options": [
+            "A. By analyzing competitors",
+            "B. By conducting market surveys",
+            "C. By evaluating customer pain points",
+            "D. All of the above"
+        ],
+        "answer": "D. All of the above"
+    },
+    {
+        "question": "Which of the following is an essential part of developing a marketing plan?",
+        "options": [
+            "A. Budget allocation",
+            "B. Target audience identification",
+            "C. Brand positioning",
+            "D. All of the above"
+        ],
+        "answer": "D. All of the above"
+    },
+    {
+        "question": "What is the main goal of preparing strategies for handling business?",
+        "options": [
+            "A. To identify key competitors",
+            "B. To manage operations efficiently",
+            "C. To define the startup’s mission",
+            "D. To maximize marketing expenditures"
+        ],
+        "answer": "B. To manage operations efficiently"
+    },
+    {
+        "question": "What is policy making in business management?",
+        "options": [
+            "A. Establishing procedures for negotiations",
+            "B. Creating a framework for decision-making and operations",
+            "C. Setting pricing strategies",
+            "D. Managing human resources"
+        ],
+        "answer": "B. Creating a framework for decision-making and operations"
+    },
+    {
+        "question": "What is the purpose of negotiation and bargaining techniques in business?",
+        "options": [
+            "A. To resolve legal disputes",
+            "B. To gain favorable terms from suppliers, clients, or partners",
+            "C. To increase marketing reach",
+            "D. To identify new business opportunities"
+        ],
+        "answer": "B. To gain favorable terms from suppliers, clients, or partners"
+    },
+    {
+        "question": "What is the focus of risk management in entrepreneurship?",
+        "options": [
+            "A. Avoiding all risks",
+            "B. Managing risks to minimize their impact on business",
+            "C. Maximizing risk to increase profits",
+            "D. Delegating all risk-related decisions to investors"
+        ],
+        "answer": "B. Managing risks to minimize their impact on business"
+    },
+    {
+        "question": "What is meant by 'calculated risk taking'?",
+        "options": [
+            "A. Taking risks without any analysis",
+            "B. Making informed decisions based on data and analysis",
+            "C. Relying on luck to make business decisions",
+            "D. Ignoring potential risks in a project"
+        ],
+        "answer": "B. Making informed decisions based on data and analysis"
+    },
+    {
+        "question": "Why is initiating low-cost projects important in risk management?",
+        "options": [
+            "A. It helps in testing the market without significant financial exposure",
+            "B. It leads to high revenue",
+            "C. It focuses on maximizing profits from the start",
+            "D. It guarantees success"
+        ],
+        "answer": "A. It helps in testing the market without significant financial exposure"
+    },
+    {
+        "question": "What does integrated futuristic planning involve?",
+        "options": [
+            "A. Short-term goal setting",
+            "B. Long-term strategic planning with flexibility for changes",
+            "C. Planning only for the first year",
+            "D. Focusing on immediate profits"
+        ],
+        "answer": "B. Long-term strategic planning with flexibility for changes"
+    },
+    {
+        "question": "What is meant by 'startup cycle'?",
+        "options": [
+            "A. The stages a business goes through from idea to success",
+            "B. The process of launching a product",
+            "C. The time taken to secure funding",
+            "D. The business life cycle of any startup"
+        ],
+        "answer": "A. The stages a business goes through from idea to success"
+    },
+    {
+        "question": "Which of the following describes an ecosystem in business?",
+        "options": [
+            "A. A group of competing companies",
+            "B. A network of interrelated businesses and resources that help startups thrive",
+            "C. A collection of suppliers only",
+            "D. A group of investors supporting one company"
+        ],
+        "answer": "B. A network of interrelated businesses and resources that help startups thrive"
+    },
+    {
+        "question": "Who are angel investors?",
+        "options": [
+            "A. Individuals who invest in businesses at an early stage in exchange for equity",
+            "B. Banks providing loans to startups",
+            "C. Government agencies offering grants",
+            "D. Venture capitalists providing large sums of money"
+        ],
+        "answer": "A. Individuals who invest in businesses at an early stage in exchange for equity"
+    },
+    {
+        "question": "What role do venture capitalists play in the startup ecosystem?",
+        "options": [
+            "A. They provide small, low-interest loans to startups",
+            "B. They offer funding to businesses in exchange for equity, often at later stages",
+            "C. They give grants to nonprofits",
+            "D. They purchase existing businesses"
+        ],
+        "answer": "B. They offer funding to businesses in exchange for equity, often at later stages"
+    },
+    {
+        "question": "What is the role of an incubation center?",
+        "options": [
+            "A. To provide initial capital funding for startups",
+            "B. To offer mentoring, resources, and facilities to early-stage businesses",
+            "C. To promote the startup in international markets",
+            "D. To help startups scale immediately"
+        ],
+        "answer": "B. To offer mentoring, resources, and facilities to early-stage businesses"
+    },
+    {
+        "question": "What is the purpose of accelerators for startups?",
+        "options": [
+            "A. To provide office space for startups",
+            "B. To offer a fast-paced environment with mentorship and investment for scaling businesses",
+            "C. To offer loans to businesses",
+            "D. To organize networking events only"
+        ],
+        "answer": "B. To offer a fast-paced environment with mentorship and investment for scaling businesses"
+    },
+    {
+        "question": "What is the typical procedure for joining an incubation center?",
+        "options": [
+            "A. Signing a legal contract",
+            "B. Applying for a spot, passing evaluation criteria, and receiving mentorship",
+            "C. Attending a free seminar",
+            "D. Registering for an online program"
+        ],
+        "answer": "B. Applying for a spot, passing evaluation criteria, and receiving mentorship"
+    }
+]

@@ -1,0 +1,272 @@
+[
+    {
+        "question": "What is the first step in the product/service selection process?",
+        "options": [
+            "A. Identifying market trends",
+            "B. Determining core competence",
+            "C. Selecting the location",
+            "D. Designing the product"
+        ],
+        "answer": "B. Determining core competence"
+    },
+    {
+        "question": "Which phase represents the life span of a product/service?",
+        "options": [
+            "A. Product Development",
+            "B. Market Survey",
+            "C. Product/Service Life Cycle",
+            "D. Process Selection"
+        ],
+        "answer": "C. Product/Service Life Cycle"
+    },
+    {
+        "question": "What is the goal of the product/service development process?",
+        "options": [
+            "A. To create new products/services",
+            "B. To focus on cost reduction",
+            "C. To survey the market",
+            "D. To assess financial viability"
+        ],
+        "answer": "A. To create new products/services"
+    },
+    {
+        "question": "What does the mortality curve show?",
+        "options": [
+            "A. The age of a product",
+            "B. The rise and fall of a product in the market",
+            "C. Product failures over time",
+            "D. The stages of product development"
+        ],
+        "answer": "B. The rise and fall of a product in the market"
+    },
+    {
+        "question": "What is creativity in product/service modification?",
+        "options": [
+            "A. Copying competitors' products",
+            "B. Making minor updates to existing products",
+            "C. Creating entirely new products",
+            "D. Focusing on reducing costs"
+        ],
+        "answer": "B. Making minor updates to existing products"
+    },
+    {
+        "question": "What defines the technology life cycle?",
+        "options": [
+            "A. The time taken to develop new technology",
+            "B. The stages a technology goes through from introduction to decline",
+            "C. The number of patents related to a technology",
+            "D. The market demand for a technology"
+        ],
+        "answer": "B. The stages a technology goes through from introduction to decline"
+    },
+    {
+        "question": "Which of these is a key factor affecting process selection?",
+        "options": [
+            "A. Technology",
+            "B. Market Trends",
+            "C. Production Costs",
+            "D. All of the above"
+        ],
+        "answer": "D. All of the above"
+    },
+    {
+        "question": "What is meant by the term 'material handling'?",
+        "options": [
+            "A. Choosing suppliers",
+            "B. Managing product pricing",
+            "C. Moving and storing materials during production",
+            "D. Analyzing market data"
+        ],
+        "answer": "C. Moving and storing materials during production"
+    },
+    {
+        "question": "What is the first step in the market study process?",
+        "options": [
+            "A. Designing a questionnaire",
+            "B. Collecting data",
+            "C. Analyzing results",
+            "D. Defining the target market"
+        ],
+        "answer": "D. Defining the target market"
+    },
+    {
+        "question": "What is the purpose of a market survey?",
+        "options": [
+            "A. To collect feedback from customers",
+            "B. To test new products",
+            "C. To find suppliers",
+            "D. To decide on pricing strategies"
+        ],
+        "answer": "A. To collect feedback from customers"
+    },
+    {
+        "question": "What is a key factor in designing a good questionnaire?",
+        "options": [
+            "A. Asking leading questions",
+            "B. Keeping questions clear and relevant",
+            "C. Making the survey as long as possible",
+            "D. Focusing on one topic only"
+        ],
+        "answer": "B. Keeping questions clear and relevant"
+    },
+    {
+        "question": "What is sampling in market study?",
+        "options": [
+            "A. Analyzing market trends",
+            "B. Selecting a group of individuals for survey",
+            "C. Collecting raw data",
+            "D. Defining market segments"
+        ],
+        "answer": "B. Selecting a group of individuals for survey"
+    },
+    {
+        "question": "Which institution supports small and medium enterprises in India?",
+        "options": [
+            "A. Ministry of Commerce",
+            "B. Khadi Village Industries Commission (KVIC)",
+            "C. Prime Minister Employment Generation Program (PMEGP)",
+            "D. All of the above"
+        ],
+        "answer": "D. All of the above"
+    },
+    {
+        "question": "Which of the following is NOT a role of the National Institute for Micro, Small, and Medium Enterprises (NI-MSME)?",
+        "options": [
+            "A. Providing training and consultancy services",
+            "B. Promoting large scale industries",
+            "C. Supporting product development",
+            "D. Offering financial assistance"
+        ],
+        "answer": "B. Promoting large scale industries"
+    },
+    {
+        "question": "Which of the following is NOT an objective of the Maharashtra Centre for Entrepreneurship Development (MCED)?",
+        "options": [
+            "A. Providing skill development training",
+            "B. Supporting rural entrepreneurship",
+            "C. Funding large corporate enterprises",
+            "D. Conducting workshops and seminars"
+        ],
+        "answer": "C. Funding large corporate enterprises"
+    },
+    {
+        "question": "What does the Prime Minister Employment Generation Program (PMEGP) aim to do?",
+        "options": [
+            "A. Generate employment through industrialization",
+            "B. Create job opportunities through government offices",
+            "C. Promote large scale exports",
+            "D. Subsidize multinational companies"
+        ],
+        "answer": "A. Generate employment through industrialization"
+    },
+    {
+        "question": "Which is a form of transformation in process selection?",
+        "options": [
+            "A. Manufacturing",
+            "B. Marketing",
+            "C. Distribution",
+            "D. None of the above"
+        ],
+        "answer": "A. Manufacturing"
+    },
+    {
+        "question": "Which of the following affects process selection?",
+        "options": [
+            "A. Product complexity",
+            "B. Production volume",
+            "C. Technology",
+            "D. All of the above"
+        ],
+        "answer": "D. All of the above"
+    },
+    {
+        "question": "What is an example of a stakeholder providing valuable information during the startup process?",
+        "options": [
+            "A. Market survey results",
+            "B. Feedback from employees",
+            "C. Support from MCED",
+            "D. Customer reviews"
+        ],
+        "answer": "C. Support from MCED"
+    },
+    {
+        "question": "Which organization focuses on improving the welfare of small industries in India?",
+        "options": [
+            "A. Khadi Village Industries Commission (KVIC)",
+            "B. Directorate of Industries (DI)",
+            "C. National Institute for Micro, Small and Medium Enterprises (NI-MSME)",
+            "D. All of the above"
+        ],
+        "answer": "D. All of the above"
+    },
+    {
+        "question": "What is the primary aim of the Directorate of Industries?",
+        "options": [
+            "A. To promote entrepreneurship in rural areas",
+            "B. To offer financial support to large industries",
+            "C. To promote small and medium industries",
+            "D. To organize industrial fairs"
+        ],
+        "answer": "C. To promote small and medium industries"
+    },
+    {
+        "question": "What is a crucial factor to consider when selecting the location for an industry?",
+        "options": [
+            "A. Proximity to raw materials",
+            "B. Accessibility to skilled labor",
+            "C. Access to transportation infrastructure",
+            "D. All of the above"
+        ],
+        "answer": "D. All of the above"
+    },
+    {
+        "question": "Which of the following is NOT part of the new product/service development process?",
+        "options": [
+            "A. Idea Generation",
+            "B. Market Testing",
+            "C. Product/Service Launch",
+            "D. Product Copying"
+        ],
+        "answer": "D. Product Copying"
+    },
+    {
+        "question": "What does the mortality curve help entrepreneurs predict?",
+        "options": [
+            "A. Customer retention",
+            "B. Product lifespan in the market",
+            "C. Technology adoption rate",
+            "D. Process development time"
+        ],
+        "answer": "B. Product lifespan in the market"
+    },
+    {
+        "question": "Which of the following is a key benefit of market surveys?",
+        "options": [
+            "A. Understanding customer needs",
+            "B. Predicting competitor actions",
+            "C. Analyzing industry regulations",
+            "D. Identifying funding opportunities"
+        ],
+        "answer": "A. Understanding customer needs"
+    },
+    {
+        "question": "What is a key feature of questionnaire design?",
+        "options": [
+            "A. Ensuring the questions are unbiased",
+            "B. Making the questionnaire as long as possible",
+            "C. Including irrelevant questions",
+            "D. Making questions complex and difficult"
+        ],
+        "answer": "A. Ensuring the questions are unbiased"
+    },
+    {
+        "question": "What is the goal of sampling in market research?",
+        "options": [
+            "A. To analyze large volumes of data",
+            "B. To select a representative group from the target market",
+            "C. To minimize the number of respondents",
+            "D. To collect opinions from stakeholders"
+        ],
+        "answer": "B. To select a representative group from the target market"
+    }
+]

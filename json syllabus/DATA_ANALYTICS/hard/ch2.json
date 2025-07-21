@@ -1,0 +1,202 @@
+[
+    {
+        "question": "Which of the following best describes the interpretation of kurtosis in a dataset?",
+        "options": [
+            "A. It measures the asymmetry of the data distribution",
+            "B. It measures the peakedness or tail heaviness of the distribution",
+            "C. It shows the central tendency of the data",
+            "D. It represents the spread of the middle 50% of the data"
+        ],
+        "answer": "B. It measures the peakedness or tail heaviness of the distribution"
+    },
+    {
+        "question": "In regression analysis, what does multicollinearity imply?",
+        "options": [
+            "A. Independent variables are highly correlated with each other",
+            "B. Dependent variable is not correlated with independent variables",
+            "C. Residuals have constant variance",
+            "D. There is no linear relationship between variables"
+        ],
+        "answer": "A. Independent variables are highly correlated with each other"
+    },
+    {
+        "question": "Which imputation technique replaces missing values with the most frequent value of the variable?",
+        "options": [
+            "A. Mode imputation",
+            "B. Mean imputation",
+            "C. Regression imputation",
+            "D. Hot-deck imputation"
+        ],
+        "answer": "A. Mode imputation"
+    },
+    {
+        "question": "In ANOVA, the null hypothesis typically states:",
+        "options": [
+            "A. All group means are equal",
+            "B. At least one group mean is different",
+            "C. Variances between groups are unequal",
+            "D. No relationship exists between variables"
+        ],
+        "answer": "A. All group means are equal"
+    },
+    {
+        "question": "Which of the following best describes the Chi-square test's main use?",
+        "options": [
+            "A. To test the independence between categorical variables",
+            "B. To test equality of means between groups",
+            "C. To measure correlation between variables",
+            "D. To estimate missing data"
+        ],
+        "answer": "A. To test the independence between categorical variables"
+    },
+    {
+        "question": "A scatter diagram primarily helps in identifying:",
+        "options": [
+            "A. Relationship and correlation between two quantitative variables",
+            "B. Differences in group means",
+            "C. Frequency distribution of a categorical variable",
+            "D. Data distribution symmetry"
+        ],
+        "answer": "A. Relationship and correlation between two quantitative variables"
+    },
+    {
+        "question": "What is the main objective of hypothesis testing in statistics?",
+        "options": [
+            "A. To make inferences about population parameters based on sample data",
+            "B. To visualize data distribution",
+            "C. To calculate central tendency",
+            "D. To summarize data"
+        ],
+        "answer": "A. To make inferences about population parameters based on sample data"
+    },
+    {
+        "question": "Which sampling distribution property allows us to use the normal distribution to approximate the sampling distribution of the sample mean?",
+        "options": [
+            "A. Central Limit Theorem",
+            "B. Law of Large Numbers",
+            "C. Chebyshev's Inequality",
+            "D. Bayesian Inference"
+        ],
+        "answer": "A. Central Limit Theorem"
+    },
+    {
+        "question": "Which of the following is a discrete probability distribution?",
+        "options": [
+            "A. Binomial distribution",
+            "B. Normal distribution",
+            "C. Exponential distribution",
+            "D. Gamma distribution"
+        ],
+        "answer": "A. Binomial distribution"
+    },
+    {
+        "question": "In data cleaning, what is the primary objective of outlier detection?",
+        "options": [
+            "A. To identify and handle data points that deviate significantly from others",
+            "B. To remove all missing values",
+            "C. To normalize data",
+            "D. To visualize data distributions"
+        ],
+        "answer": "A. To identify and handle data points that deviate significantly from others"
+    },
+    {
+        "question": "Skewness in a data distribution refers to:",
+        "options": [
+            "A. The measure of asymmetry in the data",
+            "B. The peakedness of the distribution",
+            "C. The central value of the dataset",
+            "D. The variability of the data"
+        ],
+        "answer": "A. The measure of asymmetry in the data"
+    },
+    {
+        "question": "Which of the following is NOT an assumption of linear regression?",
+        "options": [
+            "A. Linearity between dependent and independent variables",
+            "B. Homoscedasticity of residuals",
+            "C. Independence of errors",
+            "D. Normality of independent variables"
+        ],
+        "answer": "D. Normality of independent variables"
+    },
+    {
+        "question": "Which imputation technique uses predictive modeling to estimate missing values?",
+        "options": [
+            "A. Regression imputation",
+            "B. Mean imputation",
+            "C. Median imputation",
+            "D. Mode imputation"
+        ],
+        "answer": "A. Regression imputation"
+    },
+    {
+        "question": "What does a p-value in hypothesis testing represent?",
+        "options": [
+            "A. The probability of observing the test statistic or something more extreme assuming the null hypothesis is true",
+            "B. The probability that the null hypothesis is true",
+            "C. The confidence level of the test",
+            "D. The sample size"
+        ],
+        "answer": "A. The probability of observing the test statistic or something more extreme assuming the null hypothesis is true"
+    },
+    {
+        "question": "Which graphical technique is best suited for visualizing the distribution, median, quartiles, and potential outliers of a dataset?",
+        "options": [
+            "A. Box plot",
+            "B. Histogram",
+            "C. Scatter plot",
+            "D. Pie chart"
+        ],
+        "answer": "A. Box plot"
+    },
+    {
+        "question": "Which of the following best describes the 'counting principle' in probability?",
+        "options": [
+            "A. The total number of possible outcomes in an experiment",
+            "B. A method for hypothesis testing",
+            "C. A graphical technique for data visualization",
+            "D. The expected value calculation"
+        ],
+        "answer": "A. The total number of possible outcomes in an experiment"
+    },
+    {
+        "question": "In ANOVA, what does the F-statistic represent?",
+        "options": [
+            "A. The ratio of variance between groups to variance within groups",
+            "B. The correlation coefficient between variables",
+            "C. The sum of squares total",
+            "D. The p-value of the test"
+        ],
+        "answer": "A. The ratio of variance between groups to variance within groups"
+    },
+    {
+        "question": "Which type of probability distribution is used to model the time between events in a Poisson process?",
+        "options": [
+            "A. Exponential distribution",
+            "B. Binomial distribution",
+            "C. Uniform distribution",
+            "D. Normal distribution"
+        ],
+        "answer": "A. Exponential distribution"
+    },
+    {
+        "question": "Data cleaning involves several steps. Which of the following is typically NOT part of data cleaning?",
+        "options": [
+            "A. Removing duplicate records",
+            "B. Handling missing data",
+            "C. Data imputation",
+            "D. Building predictive models"
+        ],
+        "answer": "D. Building predictive models"
+    },
+    {
+        "question": "Which correlation coefficient is appropriate for measuring the strength of a linear relationship between two continuous variables?",
+        "options": [
+            "A. Pearson correlation coefficient",
+            "B. Spearman rank correlation",
+            "C. Point-biserial correlation",
+            "D. Kendall’s tau"
+        ],
+        "answer": "A. Pearson correlation coefficient"
+    }
+]

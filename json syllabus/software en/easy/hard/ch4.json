@@ -1,0 +1,202 @@
+[
+    {
+        "question": "What are the 4P’s in the management spectrum?",
+        "options": [
+            "A. Product, Process, People, Project",
+            "B. Plan, Perform, Produce, Publish",
+            "C. Price, Place, Promotion, Product",
+            "D. People, Performance, Price, Process"
+        ],
+        "answer": "A. Product, Process, People, Project"
+    },
+    {
+        "question": "Which metric measures the size of software by counting the number of lines in the code?",
+        "options": [
+            "A. Function Points",
+            "B. Line of Code (LoC)",
+            "C. Cyclomatic Complexity",
+            "D. Use-case Points"
+        ],
+        "answer": "B. Line of Code (LoC)"
+    },
+    {
+        "question": "What does FP stand for in software estimation?",
+        "options": [
+            "A. Functional Process",
+            "B. Function Points",
+            "C. Final Product",
+            "D. File Pointer"
+        ],
+        "answer": "B. Function Points"
+    },
+    {
+        "question": "Which estimation approach uses expert judgment and rules of thumb?",
+        "options": [
+            "A. Heuristic",
+            "B. Analytical",
+            "C. Empirical",
+            "D. Mathematical"
+        ],
+        "answer": "A. Heuristic"
+    },
+    {
+        "question": "COCOMO stands for:",
+        "options": [
+            "A. Constructive Cost Model",
+            "B. Computer Cost Model",
+            "C. Comprehensive Cost Model",
+            "D. Calculated Cost Model"
+        ],
+        "answer": "A. Constructive Cost Model"
+    },
+    {
+        "question": "COCOMO II is:",
+        "options": [
+            "A. A programming language",
+            "B. An updated version of COCOMO",
+            "C. A software testing tool",
+            "D. A database model"
+        ],
+        "answer": "B. An updated version of COCOMO"
+    },
+    {
+        "question": "Which of the following is NOT part of risk management?",
+        "options": [
+            "A. Risk identification",
+            "B. Risk assessment",
+            "C. Risk monitoring",
+            "D. Ignoring risks"
+        ],
+        "answer": "D. Ignoring risks"
+    },
+    {
+        "question": "Risk assessment involves:",
+        "options": [
+            "A. Identifying possible risks",
+            "B. Measuring the impact and likelihood of risks",
+            "C. Writing code",
+            "D. Deploying software"
+        ],
+        "answer": "B. Measuring the impact and likelihood of risks"
+    },
+    {
+        "question": "What is the purpose of the RMMM plan?",
+        "options": [
+            "A. Code review",
+            "B. Risk Reduction, Monitoring, and Management",
+            "C. Software deployment",
+            "D. Performance testing"
+        ],
+        "answer": "B. Risk Reduction, Monitoring, and Management"
+    },
+    {
+        "question": "Which metric is useful for estimating the functionality provided to the user?",
+        "options": [
+            "A. Line of Code (LoC)",
+            "B. Function Points (FP)",
+            "C. Cyclomatic Complexity",
+            "D. Code Coverage"
+        ],
+        "answer": "B. Function Points (FP)"
+    },
+    {
+        "question": "Analytical estimation approach is based on:",
+        "options": [
+            "A. Data and mathematical models",
+            "B. Expert opinion only",
+            "C. Random guessing",
+            "D. User feedback"
+        ],
+        "answer": "A. Data and mathematical models"
+    },
+    {
+        "question": "Empirical estimation is based on:",
+        "options": [
+            "A. Past project data and experience",
+            "B. Mathematical formulas only",
+            "C. Random choice",
+            "D. Customer demands"
+        ],
+        "answer": "A. Past project data and experience"
+    },
+    {
+        "question": "Which of the following is a factor in software project cost estimation?",
+        "options": [
+            "A. Software size",
+            "B. Color of user interface",
+            "C. Number of developers’ shoes",
+            "D. Office location"
+        ],
+        "answer": "A. Software size"
+    },
+    {
+        "question": "The management spectrum includes:",
+        "options": [
+            "A. Four Ps",
+            "B. Four Ws",
+            "C. Four Ss",
+            "D. Four Ms"
+        ],
+        "answer": "A. Four Ps"
+    },
+    {
+        "question": "Risk refinement in risk management means:",
+        "options": [
+            "A. Ignoring small risks",
+            "B. Breaking down and understanding risks better",
+            "C. Coding software",
+            "D. Writing documentation"
+        ],
+        "answer": "B. Breaking down and understanding risks better"
+    },
+    {
+        "question": "What is the first step in risk management?",
+        "options": [
+            "A. Risk monitoring",
+            "B. Risk assessment",
+            "C. Risk identification",
+            "D. Risk mitigation"
+        ],
+        "answer": "C. Risk identification"
+    },
+    {
+        "question": "Which of the following is NOT a cost estimation approach?",
+        "options": [
+            "A. Heuristic",
+            "B. Analytical",
+            "C. Empirical",
+            "D. Hypothetical"
+        ],
+        "answer": "D. Hypothetical"
+    },
+    {
+        "question": "Which estimation technique uses historical project data?",
+        "options": [
+            "A. Empirical",
+            "B. Heuristic",
+            "C. Analytical",
+            "D. Guesswork"
+        ],
+        "answer": "A. Empirical"
+    },
+    {
+        "question": "Function Point metric is primarily used to estimate:",
+        "options": [
+            "A. Lines of code",
+            "B. Software functionality size",
+            "C. Software bugs",
+            "D. Hardware requirements"
+        ],
+        "answer": "B. Software functionality size"
+    },
+    {
+        "question": "Which of the following helps in monitoring risks throughout the project?",
+        "options": [
+            "A. Risk mitigation only",
+            "B. Risk assessment only",
+            "C. Risk monitoring and management",
+            "D. Deployment plan"
+        ],
+        "answer": "C. Risk monitoring and management"
+    }
+]

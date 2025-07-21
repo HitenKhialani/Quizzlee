@@ -1,0 +1,202 @@
+[
+    {
+        "question": "What is the purpose of a Work Breakdown Structure (WBS) in project management?",
+        "options": [
+            "A. To break down the project into smaller tasks",
+            "B. To write the project code",
+            "C. To create software models",
+            "D. To test the software"
+        ],
+        "answer": "A. To break down the project into smaller tasks"
+    },
+    {
+        "question": "Which of the following is a project scheduling tool that shows activities over time?",
+        "options": [
+            "A. Gantt Chart",
+            "B. Flowchart",
+            "C. UML Diagram",
+            "D. Use-case Diagram"
+        ],
+        "answer": "A. Gantt Chart"
+    },
+    {
+        "question": "What does CPM stand for in project management?",
+        "options": [
+            "A. Critical Path Method",
+            "B. Cost Performance Measure",
+            "C. Critical Project Model",
+            "D. Cost Planning Method"
+        ],
+        "answer": "A. Critical Path Method"
+    },
+    {
+        "question": "PERT stands for:",
+        "options": [
+            "A. Program Evaluation Review Technique",
+            "B. Project Estimation and Reporting Tool",
+            "C. Performance Evaluation Review Test",
+            "D. Program Execution and Review Task"
+        ],
+        "answer": "A. Program Evaluation Review Technique"
+    },
+    {
+        "question": "Which chart is used for project tracking by showing progress against planned timeline?",
+        "options": [
+            "A. Timeline Chart",
+            "B. Pie Chart",
+            "C. Bar Chart",
+            "D. Scatter Plot"
+        ],
+        "answer": "A. Timeline Chart"
+    },
+    {
+        "question": "Earned Value Analysis helps in:",
+        "options": [
+            "A. Measuring project performance and progress",
+            "B. Writing software code",
+            "C. Designing software architecture",
+            "D. Testing software functionality"
+        ],
+        "answer": "A. Measuring project performance and progress"
+    },
+    {
+        "question": "The basic principle of project scheduling is to:",
+        "options": [
+            "A. Allocate tasks and estimate time",
+            "B. Write code faster",
+            "C. Perform software testing",
+            "D. Create database models"
+        ],
+        "answer": "A. Allocate tasks and estimate time"
+    },
+    {
+        "question": "In a Work Breakdown Structure, tasks are arranged:",
+        "options": [
+            "A. Hierarchically",
+            "B. Alphabetically",
+            "C. Randomly",
+            "D. Chronologically"
+        ],
+        "answer": "A. Hierarchically"
+    },
+    {
+        "question": "Which technique helps to identify the longest sequence of tasks in a project?",
+        "options": [
+            "A. Critical Path Method (CPM)",
+            "B. Earned Value Analysis",
+            "C. Gantt Chart",
+            "D. Flowchart"
+        ],
+        "answer": "A. Critical Path Method (CPM)"
+    },
+    {
+        "question": "PERT technique is used mainly to:",
+        "options": [
+            "A. Estimate project duration when task times are uncertain",
+            "B. Track project cost",
+            "C. Break down project tasks",
+            "D. Create software models"
+        ],
+        "answer": "A. Estimate project duration when task times are uncertain"
+    },
+    {
+        "question": "Gantt charts represent project tasks as:",
+        "options": [
+            "A. Bars on a timeline",
+            "B. Points on a graph",
+            "C. Steps in a flowchart",
+            "D. Tables of data"
+        ],
+        "answer": "A. Bars on a timeline"
+    },
+    {
+        "question": "Project tracking helps managers to:",
+        "options": [
+            "A. Monitor progress and make adjustments",
+            "B. Write code",
+            "C. Design user interfaces",
+            "D. Create use-case diagrams"
+        ],
+        "answer": "A. Monitor progress and make adjustments"
+    },
+    {
+        "question": "Activity network diagrams show:",
+        "options": [
+            "A. Task dependencies",
+            "B. Code structure",
+            "C. User interfaces",
+            "D. Test cases"
+        ],
+        "answer": "A. Task dependencies"
+    },
+    {
+        "question": "Which of these is NOT a scheduling technique?",
+        "options": [
+            "A. Critical Path Method (CPM)",
+            "B. Program Evaluation Review Technique (PERT)",
+            "C. Earned Value Analysis",
+            "D. Flowchart"
+        ],
+        "answer": "D. Flowchart"
+    },
+    {
+        "question": "In Earned Value Analysis, what does 'earned value' represent?",
+        "options": [
+            "A. Value of work actually completed",
+            "B. Estimated total project cost",
+            "C. Remaining work",
+            "D. Time spent on project"
+        ],
+        "answer": "A. Value of work actually completed"
+    },
+    {
+        "question": "Which scheduling tool is best for showing task dependencies?",
+        "options": [
+            "A. Activity Network Diagram",
+            "B. Gantt Chart",
+            "C. Pie Chart",
+            "D. Line Chart"
+        ],
+        "answer": "A. Activity Network Diagram"
+    },
+    {
+        "question": "The main output of project scheduling is:",
+        "options": [
+            "A. A timeline showing task start and end times",
+            "B. A code module",
+            "C. Test reports",
+            "D. User manuals"
+        ],
+        "answer": "A. A timeline showing task start and end times"
+    },
+    {
+        "question": "PERT uses three time estimates for activities: optimistic, pessimistic, and:",
+        "options": [
+            "A. Most likely",
+            "B. Average",
+            "C. Estimated",
+            "D. Maximum"
+        ],
+        "answer": "A. Most likely"
+    },
+    {
+        "question": "Critical Path Method helps to identify:",
+        "options": [
+            "A. The sequence of tasks that determine the project duration",
+            "B. The cheapest resources",
+            "C. User requirements",
+            "D. Software bugs"
+        ],
+        "answer": "A. The sequence of tasks that determine the project duration"
+    },
+    {
+        "question": "Which of these is a benefit of using Gantt charts?",
+        "options": [
+            "A. Easy visualization of project progress",
+            "B. Automated code generation",
+            "C. Testing software",
+            "D. Writing documentation"
+        ],
+        "answer": "A. Easy visualization of project progress"
+    }
+]

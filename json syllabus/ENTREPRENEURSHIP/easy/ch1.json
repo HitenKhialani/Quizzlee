@@ -1,0 +1,142 @@
+[
+    {
+        "question": "Which of the following is a **benefit** of choosing entrepreneurship as a career?",
+        "options": [
+            "A. Guaranteed success",
+            "B. Freedom to make decisions and control one's own work environment",
+            "C. No financial risks",
+            "D. No need to learn new skills"
+        ],
+        "answer": "B. Freedom to make decisions and control one's own work environment"
+    },
+    {
+        "question": "What is a **disadvantage** of being an entrepreneur?",
+        "options": [
+            "A. Freedom to set your own schedule",
+            "B. Limited control over business decisions",
+            "C. High level of financial risk",
+            "D. Job security"
+        ],
+        "answer": "C. High level of financial risk"
+    },
+    {
+        "question": "Which of the following is an example of a **global scope** in entrepreneurship?",
+        "options": [
+            "A. Opening a small local bakery in your town",
+            "B. Starting an online business that can be accessed from anywhere in the world",
+            "C. Working for a local retail store",
+            "D. Managing a small family-owned business"
+        ],
+        "answer": "B. Starting an online business that can be accessed from anywhere in the world"
+    },
+    {
+        "question": "Which **trait** is essential for an entrepreneur to overcome setbacks and continue pushing forward?",
+        "options": [
+            "A. Assertiveness",
+            "B. Persistence",
+            "C. Creativity",
+            "D. Initiative"
+        ],
+        "answer": "B. Persistence"
+    },
+    {
+        "question": "Which of the following is NOT considered a **trait of a successful entrepreneur**?",
+        "options": [
+            "A. Creativity",
+            "B. Inconsistent decision-making",
+            "C. Information seeking",
+            "D. Initiative"
+        ],
+        "answer": "B. Inconsistent decision-making"
+    },
+    {
+        "question": "Which **trait** helps an entrepreneur to gather all the necessary details and make informed decisions?",
+        "options": [
+            "A. Assertiveness",
+            "B. Learning from failure",
+            "C. Information seeking",
+            "D. Calculated risk-taking"
+        ],
+        "answer": "C. Information seeking"
+    },
+    {
+        "question": "Which type of enterprise involves the production of goods or products?",
+        "options": [
+            "A. Service enterprise",
+            "B. Manufacturing enterprise",
+            "C. Trading enterprise",
+            "D. Online enterprise"
+        ],
+        "answer": "B. Manufacturing enterprise"
+    },
+    {
+        "question": "Which type of enterprise focuses on providing intangible services rather than physical products?",
+        "options": [
+            "A. Trading enterprise",
+            "B. Manufacturing enterprise",
+            "C. Service enterprise",
+            "D. Retail enterprise"
+        ],
+        "answer": "C. Service enterprise"
+    },
+    {
+        "question": "Which type of enterprise involves buying and selling of goods without altering them?",
+        "options": [
+            "A. Manufacturing enterprise",
+            "B. Trading enterprise",
+            "C. Service enterprise",
+            "D. E-commerce enterprise"
+        ],
+        "answer": "B. Trading enterprise"
+    },
+    {
+        "question": "What is **calculated risk-taking** in entrepreneurship?",
+        "options": [
+            "A. Taking risks without understanding the consequences",
+            "B. Avoiding risks entirely",
+            "C. Analyzing potential risks and rewards before making a decision",
+            "D. Taking risks based only on intuition"
+        ],
+        "answer": "C. Analyzing potential risks and rewards before making a decision"
+    },
+    {
+        "question": "Which of the following best describes the **trait of initiative** for an entrepreneur?",
+        "options": [
+            "A. Waiting for others to make decisions",
+            "B. Taking proactive steps to start and run the business",
+            "C. Relying only on external advice",
+            "D. Focusing solely on managing day-to-day operations"
+        ],
+        "answer": "B. Taking proactive steps to start and run the business"
+    },
+    {
+        "question": "Which of the following is a key characteristic of an **entrepreneurial enterprise**?",
+        "options": [
+            "A. Low investment and minimal risks",
+            "B. Focus on creativity, innovation, and value creation",
+            "C. Dependence on external financial support",
+            "D. Stable, low-paced growth"
+        ],
+        "answer": "B. Focus on creativity, innovation, and value creation"
+    },
+    {
+        "question": "Which of the following is true about **entrepreneurial communication**?",
+        "options": [
+            "A. Entrepreneurs should only focus on written communication.",
+            "B. Entrepreneurs must handle business communication effectively to build relationships with customers, suppliers, and partners.",
+            "C. Verbal communication is irrelevant in business.",
+            "D. Business communication should be informal and casual."
+        ],
+        "answer": "B. Entrepreneurs must handle business communication effectively to build relationships with customers, suppliers, and partners."
+    },
+    {
+        "question": "What does **learning from failure** mean in the context of entrepreneurship?",
+        "options": [
+            "A. Giving up after a failure",
+            "B. Using failure as an opportunity to gain valuable lessons and improve future decisions",
+            "C. Avoiding risks altogether to prevent failure",
+            "D. Blaming others for business failures"
+        ],
+        "answer": "B. Using failure as an opportunity to gain valuable lessons and improve future decisions"
+    }
+]

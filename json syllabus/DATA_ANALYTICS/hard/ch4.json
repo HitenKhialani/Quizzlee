@@ -1,0 +1,202 @@
+[
+    {
+        "question": "When creating a chart from non-adjacent cells in Excel, which of the following is the correct method to select the data?",
+        "options": [
+            "A. Use the Chart Wizard and select the entire worksheet",
+            "B. Hold down the Ctrl key and select each range of cells separately before creating the chart",
+            "C. Select one continuous range including empty cells",
+            "D. Select only the first data range and then add the others manually"
+        ],
+        "answer": "B. Hold down the Ctrl key and select each range of cells separately before creating the chart"
+    },
+    {
+        "question": "In Excel, what is the effect of moving an embedded chart to a chart sheet?",
+        "options": [
+            "A. The chart becomes larger and occupies a full sheet without gridlines or other worksheet elements",
+            "B. The chart is converted into a table",
+            "C. The chart loses all formatting",
+            "D. The chart becomes uneditable"
+        ],
+        "answer": "A. The chart becomes larger and occupies a full sheet without gridlines or other worksheet elements"
+    },
+    {
+        "question": "Which of the following is NOT a valid way to modify a chart type in Excel after it has been created?",
+        "options": [
+            "A. Using the 'Change Chart Type' option from the Chart Tools Design tab",
+            "B. Right-clicking the chart and selecting 'Change Chart Type'",
+            "C. Manually editing the source data to force a different chart style",
+            "D. Selecting a different chart style from the Quick Layout gallery"
+        ],
+        "answer": "C. Manually editing the source data to force a different chart style"
+    },
+    {
+        "question": "When formatting a chart’s plot area, which of the following can you NOT directly modify?",
+        "options": [
+            "A. Background color",
+            "B. Border style",
+            "C. Data point values",
+            "D. Shadow effects"
+        ],
+        "answer": "C. Data point values"
+    },
+    {
+        "question": "How does 'exploding' a slice in a pie chart affect the visualization?",
+        "options": [
+            "A. It deletes that slice from the chart",
+            "B. It highlights the slice by separating it slightly from the rest of the pie",
+            "C. It combines that slice with another slice",
+            "D. It changes the slice color to black"
+        ],
+        "answer": "B. It highlights the slice by separating it slightly from the rest of the pie"
+    },
+    {
+        "question": "Which chart element controls the display of descriptive text like titles, data labels, and legends in Excel charts?",
+        "options": [
+            "A. Chart Items",
+            "B. Chart Filters",
+            "C. Chart Styles",
+            "D. Chart Templates"
+        ],
+        "answer": "A. Chart Items"
+    },
+    {
+        "question": "When moving the legend in an Excel chart, which of the following placement options is NOT available by default?",
+        "options": [
+            "A. Top",
+            "B. Bottom",
+            "C. Floating outside the chart area",
+            "D. Left"
+        ],
+        "answer": "C. Floating outside the chart area"
+    },
+    {
+        "question": "In Excel, what is the result of changing the way data is displayed in a chart from 'Rows' to 'Columns'?",
+        "options": [
+            "A. The chart switches the data series and categories axes, effectively transposing the data visualization",
+            "B. The data values are recalculated",
+            "C. The chart converts into a table",
+            "D. The chart formatting is reset"
+        ],
+        "answer": "A. The chart switches the data series and categories axes, effectively transposing the data visualization"
+    },
+    {
+        "question": "Which of the following is the best practice when adding data labels to a pie chart with many small slices?",
+        "options": [
+            "A. Show data labels only for the largest slices to avoid clutter",
+            "B. Show data labels for all slices regardless of size",
+            "C. Do not show any data labels",
+            "D. Explode all slices instead"
+        ],
+        "answer": "A. Show data labels only for the largest slices to avoid clutter"
+    },
+    {
+        "question": "How does formatting numbers in chart data labels improve the chart's readability?",
+        "options": [
+            "A. By aligning the numbers to the left",
+            "B. By displaying values in consistent formats such as currency, percentages, or decimals",
+            "C. By converting all numbers to text",
+            "D. By hiding the numbers completely"
+        ],
+        "answer": "B. By displaying values in consistent formats such as currency, percentages, or decimals"
+    },
+    {
+        "question": "What is the primary difference between chart templates and predefined chart styles in Excel?",
+        "options": [
+            "A. Templates save a customized chart type and formatting for reuse, styles only change color schemes",
+            "B. Styles save chart layouts permanently",
+            "C. Templates can only be used once",
+            "D. Styles change the data source of the chart"
+        ],
+        "answer": "A. Templates save a customized chart type and formatting for reuse, styles only change color schemes"
+    },
+    {
+        "question": "What are the steps involved in resizing an embedded chart in Excel without distorting the proportions?",
+        "options": [
+            "A. Drag the corner sizing handles while holding the Shift key",
+            "B. Drag the side handles only",
+            "C. Use the format pane to enter exact dimensions ignoring aspect ratio",
+            "D. Use the zoom slider"
+        ],
+        "answer": "A. Drag the corner sizing handles while holding the Shift key"
+    },
+    {
+        "question": "How does moving a chart legend from the default position to the top affect the interpretation of the chart?",
+        "options": [
+            "A. It makes the legend more prominent and often improves immediate comprehension of the data categories",
+            "B. It hides the legend",
+            "C. It converts the legend into data labels",
+            "D. It reduces the chart area size drastically"
+        ],
+        "answer": "A. It makes the legend more prominent and often improves immediate comprehension of the data categories"
+    },
+    {
+        "question": "Which of the following is NOT a common use case for modifying chart types during data visualization?",
+        "options": [
+            "A. To better represent relationships in data",
+            "B. To enhance visual clarity and appeal",
+            "C. To manipulate the underlying data set",
+            "D. To match audience preferences"
+        ],
+        "answer": "C. To manipulate the underlying data set"
+    },
+    {
+        "question": "Why is it important to format the plot area separately from the chart area in Excel?",
+        "options": [
+            "A. The plot area controls the data visualization space while the chart area includes titles, legends, and labels",
+            "B. Formatting the plot area changes the data values",
+            "C. Formatting the plot area affects the worksheet layout",
+            "D. There is no difference"
+        ],
+        "answer": "A. The plot area controls the data visualization space while the chart area includes titles, legends, and labels"
+    },
+    {
+        "question": "What does the Chart Wizard in older versions of Excel help a user accomplish?",
+        "options": [
+            "A. Step-by-step chart creation including selecting data, chart type, and formatting options",
+            "B. Automatic data cleaning",
+            "C. Running pivot tables",
+            "D. Exporting charts to other programs"
+        ],
+        "answer": "A. Step-by-step chart creation including selecting data, chart type, and formatting options"
+    },
+    {
+        "question": "Which of the following best explains why pie charts should be used cautiously in data visualization?",
+        "options": [
+            "A. They can be difficult to interpret when there are many small slices with similar values",
+            "B. They automatically distort data",
+            "C. They are not supported in Excel",
+            "D. They require advanced coding skills"
+        ],
+        "answer": "A. They can be difficult to interpret when there are many small slices with similar values"
+    },
+    {
+        "question": "How does adding data labels to a pie chart enhance data comprehension?",
+        "options": [
+            "A. By showing exact values or percentages directly on each slice, reducing the need to infer from legend",
+            "B. By hiding the legend",
+            "C. By changing the slice colors automatically",
+            "D. By resizing the chart"
+        ],
+        "answer": "A. By showing exact values or percentages directly on each slice, reducing the need to infer from legend"
+    },
+    {
+        "question": "What is the impact of changing the chart type from a column chart to a line chart in terms of data visualization?",
+        "options": [
+            "A. It better shows trends over time by connecting data points continuously",
+            "B. It hides data labels",
+            "C. It changes the data source",
+            "D. It reduces chart size"
+        ],
+        "answer": "A. It better shows trends over time by connecting data points continuously"
+    },
+    {
+        "question": "In Excel chart formatting, why might one choose to format data markers individually instead of applying a global format?",
+        "options": [
+            "A. To highlight specific data points of interest such as outliers or targets",
+            "B. To save time",
+            "C. Because global formatting is not possible",
+            "D. To change the data source"
+        ],
+        "answer": "A. To highlight specific data points of interest such as outliers or targets"
+    }
+]

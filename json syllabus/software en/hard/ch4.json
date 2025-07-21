@@ -1,0 +1,202 @@
+[
+    {
+        "question": "Which of the following is NOT one of the 4P’s in the Management Spectrum?",
+        "options": [
+            "A. Product",
+            "B. Process",
+            "C. Project",
+            "D. Performance"
+        ],
+        "answer": "D. Performance"
+    },
+    {
+        "question": "Line of Code (LoC) as a size estimation metric primarily measures:",
+        "options": [
+            "A. The number of executable statements in the software",
+            "B. The number of functional requirements",
+            "C. The effort in person-hours",
+            "D. The number of test cases"
+        ],
+        "answer": "A. The number of executable statements in the software"
+    },
+    {
+        "question": "Function Points (FP) differ from LoC in that FP:",
+        "options": [
+            "A. Measures software functionality from the user's perspective",
+            "B. Counts the number of lines of code written",
+            "C. Measures developer productivity",
+            "D. Is language dependent"
+        ],
+        "answer": "A. Measures software functionality from the user's perspective"
+    },
+    {
+        "question": "Which estimation approach relies heavily on expert judgment and previous project experience?",
+        "options": [
+            "A. Heuristic",
+            "B. Analytical",
+            "C. Empirical",
+            "D. Algorithmic"
+        ],
+        "answer": "A. Heuristic"
+    },
+    {
+        "question": "Analytical estimation models primarily use:",
+        "options": [
+            "A. Mathematical formulas based on project parameters",
+            "B. Expert intuition",
+            "C. Random guesswork",
+            "D. Historical analogies"
+        ],
+        "answer": "A. Mathematical formulas based on project parameters"
+    },
+    {
+        "question": "Empirical estimation approaches are characterized by:",
+        "options": [
+            "A. Use of statistical data from past projects",
+            "B. Pure theoretical models",
+            "C. Intuition-based estimates",
+            "D. Ignoring historical data"
+        ],
+        "answer": "A. Use of statistical data from past projects"
+    },
+    {
+        "question": "In the original COCOMO model, the effort estimation equation is expressed as Effort = a * (KLOC)^b. What do 'a' and 'b' represent?",
+        "options": [
+            "A. Calibration constants based on project type",
+            "B. Number of developers and months",
+            "C. Code complexity and number of modules",
+            "D. Lines of code and function points"
+        ],
+        "answer": "A. Calibration constants based on project type"
+    },
+    {
+        "question": "COCOMO II introduces which significant enhancement over the original COCOMO model?",
+        "options": [
+            "A. It includes factors for modern software development practices and reuse",
+            "B. It eliminates the use of KLOC",
+            "C. It uses only expert judgment",
+            "D. It focuses on hardware cost estimation"
+        ],
+        "answer": "A. It includes factors for modern software development practices and reuse"
+    },
+    {
+        "question": "What is the primary purpose of risk identification in risk management?",
+        "options": [
+            "A. To list potential events that could negatively impact the project",
+            "B. To assign budget to the project",
+            "C. To develop the software architecture",
+            "D. To create test cases"
+        ],
+        "answer": "A. To list potential events that could negatively impact the project"
+    },
+    {
+        "question": "Risk assessment involves:",
+        "options": [
+            "A. Evaluating the likelihood and impact of identified risks",
+            "B. Writing deployment plans",
+            "C. Coding risk mitigation tools",
+            "D. Scheduling project tasks"
+        ],
+        "answer": "A. Evaluating the likelihood and impact of identified risks"
+    },
+    {
+        "question": "Which activity in risk management focuses on reducing the probability or impact of risks?",
+        "options": [
+            "A. Risk mitigation",
+            "B. Risk identification",
+            "C. Risk acceptance",
+            "D. Risk avoidance"
+        ],
+        "answer": "A. Risk mitigation"
+    },
+    {
+        "question": "What is a Risk Refinement and Mitigation (RMMM) Plan?",
+        "options": [
+            "A. A documented strategy to address and control project risks",
+            "B. A schedule for testing activities",
+            "C. A software design document",
+            "D. A marketing plan"
+        ],
+        "answer": "A. A documented strategy to address and control project risks"
+    },
+    {
+        "question": "Which metric would be most affected by the programming language used in the project?",
+        "options": [
+            "A. Line of Code (LoC)",
+            "B. Function Points (FP)",
+            "C. Risk assessment",
+            "D. Project schedule"
+        ],
+        "answer": "A. Line of Code (LoC)"
+    },
+    {
+        "question": "In cost estimation, 'Effort' is usually measured in:",
+        "options": [
+            "A. Person-months",
+            "B. Lines of code",
+            "C. Function points",
+            "D. Number of modules"
+        ],
+        "answer": "A. Person-months"
+    },
+    {
+        "question": "Which of the following is a limitation of using LoC as a metric for size estimation?",
+        "options": [
+            "A. It is language dependent and does not reflect functionality",
+            "B. It is independent of code quality",
+            "C. It does not require detailed design",
+            "D. It is unaffected by programming style"
+        ],
+        "answer": "A. It is language dependent and does not reflect functionality"
+    },
+    {
+        "question": "Which factor is typically NOT considered in the COCOMO cost drivers?",
+        "options": [
+            "A. Developer experience",
+            "B. Software reliability",
+            "C. Customer satisfaction",
+            "D. Product complexity"
+        ],
+        "answer": "C. Customer satisfaction"
+    },
+    {
+        "question": "Heuristic estimation methods are often used when:",
+        "options": [
+            "A. There is little historical data available",
+            "B. Precise analytical models exist",
+            "C. The project is highly predictable",
+            "D. All code is written"
+        ],
+        "answer": "A. There is little historical data available"
+    },
+    {
+        "question": "In empirical estimation, which statistical technique is commonly applied?",
+        "options": [
+            "A. Regression analysis",
+            "B. Monte Carlo simulation",
+            "C. Logical inference",
+            "D. Deductive reasoning"
+        ],
+        "answer": "A. Regression analysis"
+    },
+    {
+        "question": "Risk monitoring and control in a software project involves:",
+        "options": [
+            "A. Tracking identified risks and implementing risk response plans",
+            "B. Writing test cases",
+            "C. Coding user interfaces",
+            "D. Finalizing project budgets"
+        ],
+        "answer": "A. Tracking identified risks and implementing risk response plans"
+    },
+    {
+        "question": "Which of the following is NOT typically part of the project cost estimation process?",
+        "options": [
+            "A. Identifying size and effort metrics",
+            "B. Risk analysis",
+            "C. Writing user documentation",
+            "D. Applying estimation models"
+        ],
+        "answer": "C. Writing user documentation"
+    }
+]

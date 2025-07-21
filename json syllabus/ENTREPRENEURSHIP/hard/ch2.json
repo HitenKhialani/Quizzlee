@@ -1,0 +1,162 @@
+[
+    {
+        "question": "What is the importance of product/service selection in the startup process?",
+        "options": [
+            "A. It helps in identifying competitors in the market",
+            "B. It determines the success or failure of a startup by aligning the product/service with market needs and entrepreneur competencies",
+            "C. It focuses on reducing production costs only",
+            "D. It limits innovation and focuses on existing products"
+        ],
+        "answer": "B. It determines the success or failure of a startup by aligning the product/service with market needs and entrepreneur competencies"
+    },
+    {
+        "question": "How does the concept of 'core competence' relate to product/service selection?",
+        "options": [
+            "A. It refers to the skills that allow a business to manage financial resources efficiently",
+            "B. It focuses on the unique strengths and capabilities of a business that allow it to deliver superior value in its product/service offerings",
+            "C. It involves the ability to replicate existing products without much innovation",
+            "D. It deals with expanding product lines without focus"
+        ],
+        "answer": "B. It focuses on the unique strengths and capabilities of a business that allow it to deliver superior value in its product/service offerings"
+    },
+    {
+        "question": "What is the product/service life cycle, and why is it important in the startup selection process?",
+        "options": [
+            "A. It refers to the stages a product or service goes through from introduction to decline, and helps entrepreneurs understand market timing, development, and potential longevity",
+            "B. It is irrelevant to the startup process and is only a concept for large corporations",
+            "C. It defines the pricing strategies throughout a product's life",
+            "D. It only focuses on the marketing aspect of a product or service"
+        ],
+        "answer": "A. It refers to the stages a product or service goes through from introduction to decline, and helps entrepreneurs understand market timing, development, and potential longevity"
+    },
+    {
+        "question": "Which of the following best describes the mortality curve in the context of product/service development?",
+        "options": [
+            "A. It shows the decline in product sales over time",
+            "B. It illustrates the pattern of product/service success and failure in the market, showing how many startups fail within a certain period",
+            "C. It predicts the rise in product prices over time",
+            "D. It explains the lifecycle of products based on seasonal demand"
+        ],
+        "answer": "B. It illustrates the pattern of product/service success and failure in the market, showing how many startups fail within a certain period"
+    },
+    {
+        "question": "What is the role of creativity and innovation in product/service modification or development?",
+        "options": [
+            "A. It only serves to attract attention but doesn’t impact long-term business growth",
+            "B. It helps differentiate products/services from competitors, driving market demand and continuous improvement",
+            "C. It solely focuses on reducing costs and increasing product quantity",
+            "D. It limits the entrepreneur's vision to existing business models and doesn't encourage risk-taking"
+        ],
+        "answer": "B. It helps differentiate products/services from competitors, driving market demand and continuous improvement"
+    },
+    {
+        "question": "What is the technology life cycle, and how does it influence process selection in a startup?",
+        "options": [
+            "A. It is the process of developing new technologies that don’t impact business operations",
+            "B. It outlines the stages a technology goes through from introduction to obsolescence, influencing the choice of processes and technologies for production based on their maturity",
+            "C. It refers to only software development stages in the startup context",
+            "D. It focuses only on the initial introduction of a product and neglects post-launch aspects"
+        ],
+        "answer": "B. It outlines the stages a technology goes through from introduction to obsolescence, influencing the choice of processes and technologies for production based on their maturity"
+    },
+    {
+        "question": "Why is it important for a startup to carefully select its process based on the cost of transformation?",
+        "options": [
+            "A. To ensure the process is cost-effective and aligns with the financial capacity of the startup while maintaining quality",
+            "B. To choose the most expensive method to impress investors",
+            "C. To maximize operational risks and challenges",
+            "D. To avoid technological innovations in the process"
+        ],
+        "answer": "A. To ensure the process is cost-effective and aligns with the financial capacity of the startup while maintaining quality"
+    },
+    {
+        "question": "Which factor is most likely to affect the process selection for an industry?",
+        "options": [
+            "A. The location of the business and the availability of skilled labor",
+            "B. The color of the product being manufactured",
+            "C. The celebrity endorsements for the product",
+            "D. The weather conditions during production"
+        ],
+        "answer": "A. The location of the business and the availability of skilled labor"
+    },
+    {
+        "question": "What is the significance of material handling in process selection for startups?",
+        "options": [
+            "A. It helps in optimizing the supply chain by ensuring efficient movement, storage, and control of materials required for production",
+            "B. It only applies to the logistics industry and has no relevance to startups",
+            "C. It reduces the overall customer service quality",
+            "D. It focuses on the aesthetics of the product packaging"
+        ],
+        "answer": "A. It helps in optimizing the supply chain by ensuring efficient movement, storage, and control of materials required for production"
+    },
+    {
+        "question": "Why is a market study an essential procedure for a startup?",
+        "options": [
+            "A. It only helps in determining pricing strategies",
+            "B. It helps the entrepreneur understand customer preferences, market demand, competitive landscape, and risks before launching a product or service",
+            "C. It is a legal requirement for all startups",
+            "D. It solely focuses on targeting high-income consumers"
+        ],
+        "answer": "B. It helps the entrepreneur understand customer preferences, market demand, competitive landscape, and risks before launching a product or service"
+    },
+    {
+        "question": "How does questionnaire design play a critical role in market study procedures?",
+        "options": [
+            "A. It collects random data without a structured approach",
+            "B. It helps gather relevant and specific data by asking targeted questions that guide the entrepreneur in decision-making",
+            "C. It is not important as entrepreneurs can make decisions based on their instincts",
+            "D. It only serves as a marketing tool to promote products"
+        ],
+        "answer": "B. It helps gather relevant and specific data by asking targeted questions that guide the entrepreneur in decision-making"
+    },
+    {
+        "question": "What is the significance of sampling in market research?",
+        "options": [
+            "A. It helps in collecting data from a small group of people that represents the larger population, ensuring efficiency and cost-effectiveness",
+            "B. It eliminates the need for data analysis",
+            "C. It focuses only on large sample sizes for accuracy",
+            "D. It is not relevant for startups conducting market research"
+        ],
+        "answer": "A. It helps in collecting data from a small group of people that represents the larger population, ensuring efficiency and cost-effectiveness"
+    },
+    {
+        "question": "Why is data analysis crucial after conducting a market survey for a startup?",
+        "options": [
+            "A. It helps convert raw data into actionable insights that inform product/service development, marketing strategies, and operational improvements",
+            "B. It is unnecessary and can be skipped if the survey was large enough",
+            "C. It only helps in improving the aesthetics of the final report",
+            "D. It is required only for large-scale enterprises, not startups"
+        ],
+        "answer": "A. It helps convert raw data into actionable insights that inform product/service development, marketing strategies, and operational improvements"
+    },
+    {
+        "question": "How can the Maharashtra Centre for Entrepreneurship Development (MCED) assist a startup?",
+        "options": [
+            "A. By providing financial support and advice to entrepreneurs, guiding them in their startup journey",
+            "B. By offering free legal services",
+            "C. By managing the day-to-day operations of the startup",
+            "D. By investing in the product's marketing campaigns"
+        ],
+        "answer": "A. By providing financial support and advice to entrepreneurs, guiding them in their startup journey"
+    },
+    {
+        "question": "What role does the National Institute for Micro, Small, and Medium Enterprises (NI-MSME) play in the startup ecosystem?",
+        "options": [
+            "A. It offers loans only to large corporations",
+            "B. It provides training, consultancy, and resources to help entrepreneurs and small businesses grow and scale",
+            "C. It focuses solely on large-scale manufacturing businesses",
+            "D. It regulates taxes for startups"
+        ],
+        "answer": "B. It provides training, consultancy, and resources to help entrepreneurs and small businesses grow and scale"
+    },
+    {
+        "question": "How can the Prime Minister’s Employment Generation Program (PMEGP) benefit a startup?",
+        "options": [
+            "A. By offering grants to entrepreneurs to support the establishment of micro-enterprises",
+            "B. By providing an investment for large multinational corporations only",
+            "C. By focusing solely on overseas business expansion",
+            "D. By offering tax exemptions to foreign businesses"
+        ],
+        "answer": "A. By offering grants to entrepreneurs to support the establishment of micro-enterprises"
+    }
+]

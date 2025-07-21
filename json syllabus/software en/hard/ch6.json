@@ -1,0 +1,202 @@
+[
+    {
+        "question": "Which of the following best differentiates Software Quality Management (SQM) from Software Quality Assurance (SQA)?",
+        "options": [
+            "A. SQM focuses on the overall quality goals while SQA ensures processes comply with quality standards",
+            "B. SQA manages the entire quality system, SQM focuses only on testing",
+            "C. SQM is concerned with coding standards only",
+            "D. SQA is performed after product release"
+        ],
+        "answer": "A. SQM focuses on the overall quality goals while SQA ensures processes comply with quality standards"
+    },
+    {
+        "question": "During which phase of Software Quality Assurance is the Quality Assurance plan developed?",
+        "options": [
+            "A. Planning phase",
+            "B. Audit phase",
+            "C. Review phase",
+            "D. Execution phase"
+        ],
+        "answer": "A. Planning phase"
+    },
+    {
+        "question": "Which activity in SQA primarily focuses on identifying deviations from standards and procedures?",
+        "options": [
+            "A. Audit",
+            "B. Planning",
+            "C. Review",
+            "D. Construction"
+        ],
+        "answer": "A. Audit"
+    },
+    {
+        "question": "In the context of SQA, what is the main objective of the review phase?",
+        "options": [
+            "A. To evaluate the quality of deliverables and ensure corrective actions",
+            "B. To create software design",
+            "C. To manage project risks",
+            "D. To allocate resources"
+        ],
+        "answer": "A. To evaluate the quality of deliverables and ensure corrective actions"
+    },
+    {
+        "question": "Which of the following best describes the Six Sigma methodology in software quality assurance?",
+        "options": [
+            "A. A data-driven approach to eliminate defects and reduce process variation",
+            "B. A coding style guide",
+            "C. A project management technique",
+            "D. A customer feedback tool"
+        ],
+        "answer": "A. A data-driven approach to eliminate defects and reduce process variation"
+    },
+    {
+        "question": "Which Six Sigma phase focuses on measuring current process performance?",
+        "options": [
+            "A. Measure",
+            "B. Define",
+            "C. Control",
+            "D. Improve"
+        ],
+        "answer": "A. Measure"
+    },
+    {
+        "question": "CMMI Level 2 primarily focuses on which aspect of process maturity?",
+        "options": [
+            "A. Managed processes with project-level management and discipline",
+            "B. Optimized processes with continuous process improvement",
+            "C. Initial unpredictable processes",
+            "D. Quantitatively managed processes"
+        ],
+        "answer": "A. Managed processes with project-level management and discipline"
+    },
+    {
+        "question": "Which CMMI process area is mainly concerned with verifying that products meet requirements before delivery?",
+        "options": [
+            "A. Verification",
+            "B. Configuration Management",
+            "C. Risk Management",
+            "D. Project Planning"
+        ],
+        "answer": "A. Verification"
+    },
+    {
+        "question": "What is a key benefit of implementing CMMI in software organizations?",
+        "options": [
+            "A. Improved process quality leading to reduced defects and better project predictability",
+            "B. Increased number of developers",
+            "C. Faster coding speeds",
+            "D. Reduced documentation"
+        ],
+        "answer": "A. Improved process quality leading to reduced defects and better project predictability"
+    },
+    {
+        "question": "In SQA planning, which of the following is NOT typically included?",
+        "options": [
+            "A. Defining quality standards and procedures",
+            "B. Risk management plan",
+            "C. Detailed coding guidelines for developers",
+            "D. Schedule for quality audits and reviews"
+        ],
+        "answer": "C. Detailed coding guidelines for developers"
+    },
+    {
+        "question": "Which SQA activity is responsible for ensuring corrective actions are implemented after an audit identifies deficiencies?",
+        "options": [
+            "A. Review",
+            "B. Planning",
+            "C. Testing",
+            "D. Deployment"
+        ],
+        "answer": "A. Review"
+    },
+    {
+        "question": "Which of the following is NOT a characteristic of a well-defined SQA process?",
+        "options": [
+            "A. Repeatability",
+            "B. Predictability",
+            "C. Flexibility without documentation",
+            "D. Continuous improvement"
+        ],
+        "answer": "C. Flexibility without documentation"
+    },
+    {
+        "question": "In the context of Six Sigma, what does a 'Defect Per Million Opportunities (DPMO)' measure?",
+        "options": [
+            "A. The number of defects per one million opportunities for error",
+            "B. The total number of bugs in the software",
+            "C. The number of features implemented per release",
+            "D. The time taken to fix bugs"
+        ],
+        "answer": "A. The number of defects per one million opportunities for error"
+    },
+    {
+        "question": "Which CMMI level introduces quantitative process management for controlling process performance?",
+        "options": [
+            "A. Level 4",
+            "B. Level 1",
+            "C. Level 2",
+            "D. Level 3"
+        ],
+        "answer": "A. Level 4"
+    },
+    {
+        "question": "During an SQA audit, which document is most critical to verify adherence to defined standards and procedures?",
+        "options": [
+            "A. Process documentation and audit reports",
+            "B. Code comments",
+            "C. User manuals",
+            "D. Marketing materials"
+        ],
+        "answer": "A. Process documentation and audit reports"
+    },
+    {
+        "question": "What is the main goal of the control phase in Six Sigma DMAIC methodology?",
+        "options": [
+            "A. To sustain improvements and ensure process stability",
+            "B. To identify the root cause of defects",
+            "C. To design new processes",
+            "D. To gather data"
+        ],
+        "answer": "A. To sustain improvements and ensure process stability"
+    },
+    {
+        "question": "Which of the following is an example of a preventive quality assurance activity?",
+        "options": [
+            "A. Process audits",
+            "B. Bug fixing",
+            "C. Software deployment",
+            "D. Customer feedback collection"
+        ],
+        "answer": "A. Process audits"
+    },
+    {
+        "question": "In CMMI, which process area focuses on managing organizational training to ensure personnel are capable of performing their roles?",
+        "options": [
+            "A. Organizational Training",
+            "B. Process and Product Quality Assurance",
+            "C. Risk Management",
+            "D. Supplier Agreement Management"
+        ],
+        "answer": "A. Organizational Training"
+    },
+    {
+        "question": "Which of the following best describes the 'Plan-Do-Check-Act' (PDCA) cycle relevance in SQA?",
+        "options": [
+            "A. A continuous improvement model used to enhance quality processes",
+            "B. A software development lifecycle model",
+            "C. A code testing methodology",
+            "D. A scheduling technique"
+        ],
+        "answer": "A. A continuous improvement model used to enhance quality processes"
+    },
+    {
+        "question": "Which of the following is NOT a recognized benefit of implementing Six Sigma in software quality assurance?",
+        "options": [
+            "A. Reduced process variation",
+            "B. Increased defect rates",
+            "C. Improved customer satisfaction",
+            "D. Enhanced process control"
+        ],
+        "answer": "B. Increased defect rates"
+    }
+]

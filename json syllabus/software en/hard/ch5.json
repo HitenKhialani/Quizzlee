@@ -1,0 +1,202 @@
+[
+    {
+        "question": "Which of the following is NOT a basic principle of project scheduling?",
+        "options": [
+            "A. Defining activities clearly",
+            "B. Assigning resources arbitrarily",
+            "C. Estimating activity durations accurately",
+            "D. Sequencing activities logically"
+        ],
+        "answer": "B. Assigning resources arbitrarily"
+    },
+    {
+        "question": "What is the primary purpose of a Work Breakdown Structure (WBS) in project management?",
+        "options": [
+            "A. To decompose the project into manageable tasks",
+            "B. To assign team members to tasks",
+            "C. To track project costs",
+            "D. To create user manuals"
+        ],
+        "answer": "A. To decompose the project into manageable tasks"
+    },
+    {
+        "question": "In an activity network, what does a node typically represent?",
+        "options": [
+            "A. An event or milestone",
+            "B. A resource",
+            "C. A project budget",
+            "D. A risk"
+        ],
+        "answer": "A. An event or milestone"
+    },
+    {
+        "question": "Which of the following is a key feature of Timeline charts in project tracking?",
+        "options": [
+            "A. Visualizing the sequence and duration of activities",
+            "B. Showing detailed resource allocation",
+            "C. Presenting budget expenditures",
+            "D. Documenting software requirements"
+        ],
+        "answer": "A. Visualizing the sequence and duration of activities"
+    },
+    {
+        "question": "What does Earned Value Analysis (EVA) help project managers determine?",
+        "options": [
+            "A. Project performance against scope, schedule, and cost",
+            "B. Team member productivity",
+            "C. Software quality",
+            "D. User satisfaction"
+        ],
+        "answer": "A. Project performance against scope, schedule, and cost"
+    },
+    {
+        "question": "Which of the following is NOT typically displayed on a Gantt chart?",
+        "options": [
+            "A. Activity start and end dates",
+            "B. Activity dependencies",
+            "C. Critical path",
+            "D. Budget details"
+        ],
+        "answer": "D. Budget details"
+    },
+    {
+        "question": "What is the primary objective of the Critical Path Method (CPM)?",
+        "options": [
+            "A. To identify the longest sequence of dependent activities",
+            "B. To estimate software size",
+            "C. To assign tasks to developers",
+            "D. To monitor software quality"
+        ],
+        "answer": "A. To identify the longest sequence of dependent activities"
+    },
+    {
+        "question": "In CPM, the 'float' or 'slack' time represents:",
+        "options": [
+            "A. The amount of time an activity can be delayed without delaying the project",
+            "B. Total project duration",
+            "C. Number of resources allocated",
+            "D. Budget surplus"
+        ],
+        "answer": "A. The amount of time an activity can be delayed without delaying the project"
+    },
+    {
+        "question": "PERT differs from CPM primarily because PERT:",
+        "options": [
+            "A. Incorporates uncertainty by using probabilistic time estimates",
+            "B. Uses deterministic time estimates",
+            "C. Focuses only on resource management",
+            "D. Does not consider dependencies"
+        ],
+        "answer": "A. Incorporates uncertainty by using probabilistic time estimates"
+    },
+    {
+        "question": "Which of the following time estimates is NOT part of PERT’s three-time estimation approach?",
+        "options": [
+            "A. Optimistic time",
+            "B. Most likely time",
+            "C. Pessimistic time",
+            "D. Average resource time"
+        ],
+        "answer": "D. Average resource time"
+    },
+    {
+        "question": "How is the expected time (TE) calculated in PERT?",
+        "options": [
+            "A. (Optimistic + 4 × Most Likely + Pessimistic) / 6",
+            "B. (Optimistic + Pessimistic) / 2",
+            "C. (Most Likely × 2) / 3",
+            "D. Average of all three estimates"
+        ],
+        "answer": "A. (Optimistic + 4 × Most Likely + Pessimistic) / 6"
+    },
+    {
+        "question": "Which project tracking method allows the identification of schedule variances by comparing planned versus actual progress?",
+        "options": [
+            "A. Earned Value Analysis",
+            "B. Work Breakdown Structure",
+            "C. Critical Path Method",
+            "D. PERT"
+        ],
+        "answer": "A. Earned Value Analysis"
+    },
+    {
+        "question": "Which of the following statements about Gantt charts is TRUE?",
+        "options": [
+            "A. They provide a clear visual timeline of project activities",
+            "B. They show risk assessments",
+            "C. They automatically calculate the critical path",
+            "D. They are primarily used for software testing"
+        ],
+        "answer": "A. They provide a clear visual timeline of project activities"
+    },
+    {
+        "question": "In project scheduling, a milestone typically represents:",
+        "options": [
+            "A. A significant event or checkpoint in the project timeline",
+            "B. A daily work log",
+            "C. A detailed task",
+            "D. A resource allocation"
+        ],
+        "answer": "A. A significant event or checkpoint in the project timeline"
+    },
+    {
+        "question": "Which factor most directly affects the length of the critical path in a project schedule?",
+        "options": [
+            "A. The duration of the longest sequence of dependent activities",
+            "B. The number of developers assigned",
+            "C. The budget allocated",
+            "D. The number of tasks"
+        ],
+        "answer": "A. The duration of the longest sequence of dependent activities"
+    },
+    {
+        "question": "Why is resource leveling important in project scheduling?",
+        "options": [
+            "A. To resolve resource over-allocation and balance workload",
+            "B. To decrease the project budget",
+            "C. To increase the number of activities",
+            "D. To create user documentation"
+        ],
+        "answer": "A. To resolve resource over-allocation and balance workload"
+    },
+    {
+        "question": "Which of the following is a limitation of the Critical Path Method?",
+        "options": [
+            "A. It assumes deterministic activity durations",
+            "B. It incorporates probabilistic estimates",
+            "C. It can handle resource constraints easily",
+            "D. It ignores dependencies"
+        ],
+        "answer": "A. It assumes deterministic activity durations"
+    },
+    {
+        "question": "The variance of the activity duration in PERT is calculated as:",
+        "options": [
+            "A. ((Pessimistic - Optimistic) / 6)^2",
+            "B. (Optimistic + Pessimistic) / 2",
+            "C. (Most Likely)^2",
+            "D. (Optimistic - Pessimistic)^2"
+        ],
+        "answer": "A. ((Pessimistic - Optimistic) / 6)^2"
+    },
+    {
+        "question": "Which of the following is NOT typically used as an input in project scheduling?",
+        "options": [
+            "A. Activity duration estimates",
+            "B. Project scope statement",
+            "C. Risk mitigation strategies",
+            "D. Activity dependencies"
+        ],
+        "answer": "C. Risk mitigation strategies"
+    },
+    {
+        "question": "In Earned Value Analysis, the Cost Performance Index (CPI) is calculated by:",
+        "options": [
+            "A. EV / AC (Earned Value / Actual Cost)",
+            "B. AC / EV",
+            "C. Planned Value / EV",
+            "D. EV / PV (Earned Value / Planned Value)"
+        ],
+        "answer": "A. EV / AC (Earned Value / Actual Cost)"
+    }
+]

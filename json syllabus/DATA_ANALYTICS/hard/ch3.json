@@ -1,0 +1,202 @@
+[
+    {
+        "question": "Which of the following best describes the use of dynamic filters in Excel dashboards?",
+        "options": [
+            "A. To permanently delete rows that don't meet criteria",
+            "B. To allow users to interactively filter data without changing the underlying dataset",
+            "C. To create static summary tables",
+            "D. To protect data from editing"
+        ],
+        "answer": "B. To allow users to interactively filter data without changing the underlying dataset"
+    },
+    {
+        "question": "In trend analysis within Excel, what is the purpose of using the FORECAST function?",
+        "options": [
+            "A. To calculate historical averages",
+            "B. To predict future values based on linear regression",
+            "C. To filter data dynamically",
+            "D. To create pivot charts"
+        ],
+        "answer": "B. To predict future values based on linear regression"
+    },
+    {
+        "question": "When creating a Pivot Table, which of the following steps is essential before specifying the data source?",
+        "options": [
+            "A. Sorting the data alphabetically",
+            "B. Ensuring the data is in a tabular format without blank rows or columns",
+            "C. Adding formulas to data columns",
+            "D. Formatting cells as currency"
+        ],
+        "answer": "B. Ensuring the data is in a tabular format without blank rows or columns"
+    },
+    {
+        "question": "Which Excel feature allows you to summarize data by grouping dates into months, quarters, or years in a Pivot Table?",
+        "options": [
+            "A. Grouping Items",
+            "B. Slicers",
+            "C. Data Validation",
+            "D. Conditional Formatting"
+        ],
+        "answer": "A. Grouping Items"
+    },
+    {
+        "question": "What is the key difference between filtering a Pivot Table and using slicers?",
+        "options": [
+            "A. Filtering requires formulas; slicers do not",
+            "B. Slicers provide a more interactive and visual way to filter Pivot Table data",
+            "C. Filtering works only on charts",
+            "D. Slicers are only available for tables, not Pivot Tables"
+        ],
+        "answer": "B. Slicers provide a more interactive and visual way to filter Pivot Table data"
+    },
+    {
+        "question": "Which of the following calculation types can NOT be directly performed within a Pivot Table’s value field settings?",
+        "options": [
+            "A. Sum",
+            "B. Median",
+            "C. Count",
+            "D. Average"
+        ],
+        "answer": "B. Median"
+    },
+    {
+        "question": "In Pivot Tables, what does the 'Calculated Field' feature allow you to do?",
+        "options": [
+            "A. Create new fields based on formulas involving other fields in the data source",
+            "B. Change the data source dynamically",
+            "C. Format data cells conditionally",
+            "D. Import external data"
+        ],
+        "answer": "A. Create new fields based on formulas involving other fields in the data source"
+    },
+    {
+        "question": "How can you refresh data in a Pivot Table after the underlying dataset has been updated?",
+        "options": [
+            "A. Right-click the Pivot Table and select 'Refresh'",
+            "B. Recreate the Pivot Table",
+            "C. Restart Excel",
+            "D. Edit the source data"
+        ],
+        "answer": "A. Right-click the Pivot Table and select 'Refresh'"
+    },
+    {
+        "question": "Which Excel feature enables you to visually display trends and patterns using small, cell-sized charts within a dashboard?",
+        "options": [
+            "A. Sparklines",
+            "B. Slicers",
+            "C. Pivot Charts",
+            "D. Conditional Formatting"
+        ],
+        "answer": "A. Sparklines"
+    },
+    {
+        "question": "When working with Pivot Charts, what happens if you filter data in the associated Pivot Table?",
+        "options": [
+            "A. The Pivot Chart updates automatically to reflect the filter",
+            "B. The Pivot Chart remains unchanged",
+            "C. The Pivot Chart data is deleted",
+            "D. The Pivot Chart converts to a static chart"
+        ],
+        "answer": "A. The Pivot Chart updates automatically to reflect the filter"
+    },
+    {
+        "question": "Which of the following is TRUE regarding data grids in Excel dashboards?",
+        "options": [
+            "A. They are used only to enter raw data",
+            "B. They display summarized or detailed data dynamically for quick insights",
+            "C. They cannot be connected to Pivot Tables",
+            "D. They automatically generate charts"
+        ],
+        "answer": "B. They display summarized or detailed data dynamically for quick insights"
+    },
+    {
+        "question": "What is the advantage of using slicers over traditional filter dropdowns in Pivot Tables?",
+        "options": [
+            "A. They allow multi-select filtering with a visual button interface",
+            "B. They only work with date fields",
+            "C. They automatically apply conditional formatting",
+            "D. They prevent users from editing data"
+        ],
+        "answer": "A. They allow multi-select filtering with a visual button interface"
+    },
+    {
+        "question": "In Excel dashboards, what is the function of 'dynamic controls' such as sliders or dropdowns?",
+        "options": [
+            "A. To allow user interaction that changes displayed data or calculations in real-time",
+            "B. To lock data cells from editing",
+            "C. To automate VBA macros",
+            "D. To print dashboard summaries"
+        ],
+        "answer": "A. To allow user interaction that changes displayed data or calculations in real-time"
+    },
+    {
+        "question": "What does grouping by multiple fields in a Pivot Table allow you to achieve?",
+        "options": [
+            "A. Nested categorization and summarization of data for complex analysis",
+            "B. Creation of duplicate data",
+            "C. Removal of data inconsistencies",
+            "D. Applying conditional formatting automatically"
+        ],
+        "answer": "A. Nested categorization and summarization of data for complex analysis"
+    },
+    {
+        "question": "Which of the following is NOT a valid method to change the layout of a Pivot Table?",
+        "options": [
+            "A. Dragging fields between Rows, Columns, and Values areas",
+            "B. Using the 'Design' tab to switch report layouts",
+            "C. Modifying the source data directly",
+            "D. Applying different Pivot Table styles"
+        ],
+        "answer": "C. Modifying the source data directly"
+    },
+    {
+        "question": "How can you create a Pivot Chart from an existing Pivot Table?",
+        "options": [
+            "A. Select the Pivot Table and insert a chart from the Insert tab",
+            "B. Create a new table and link it to the Pivot Table",
+            "C. Use the formula bar to write a chart formula",
+            "D. Copy and paste data into a new worksheet"
+        ],
+        "answer": "A. Select the Pivot Table and insert a chart from the Insert tab"
+    },
+    {
+        "question": "What role do slicers play in formatting Pivot Tables for dashboards?",
+        "options": [
+            "A. They act as interactive filters with customizable styles enhancing usability",
+            "B. They permanently delete filtered data",
+            "C. They add calculated fields",
+            "D. They sort data alphabetically"
+        ],
+        "answer": "A. They act as interactive filters with customizable styles enhancing usability"
+    },
+    {
+        "question": "When updating a Pivot Table, which of the following can cause the update to fail or produce incorrect results?",
+        "options": [
+            "A. Adding blank rows within the data source",
+            "B. Refreshing the Pivot Table after changes",
+            "C. Using slicers for filtering",
+            "D. Grouping date fields"
+        ],
+        "answer": "A. Adding blank rows within the data source"
+    },
+    {
+        "question": "In forecasting trends using Excel’s built-in tools, which chart type is most appropriate for visualizing time-series data?",
+        "options": [
+            "A. Line chart",
+            "B. Pie chart",
+            "C. Bar chart",
+            "D. Scatter plot"
+        ],
+        "answer": "A. Line chart"
+    },
+    {
+        "question": "What is the effect of sorting a Pivot Table by value instead of by label?",
+        "options": [
+            "A. It rearranges rows or columns based on calculated numeric data instead of alphabetical order",
+            "B. It sorts only the data source, not the Pivot Table",
+            "C. It resets all filters",
+            "D. It removes all calculated fields"
+        ],
+        "answer": "A. It rearranges rows or columns based on calculated numeric data instead of alphabetical order"
+    }
+]

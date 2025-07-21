@@ -1,0 +1,559 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Educational Learning Platform Design System */
+
+@layer base {
+  :root {
+    /* Base Colors */
+    --background: 240 20% 99%;
+    --foreground: 230 25% 11%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 230 25% 11%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 230 25% 11%;
+
+    /* Primary - Educational Blue */
+    --primary: 220 91% 54%;
+    --primary-foreground: 220 91% 98%;
+    --primary-light: 220 91% 64%;
+    --primary-dark: 220 91% 44%;
+
+    /* Secondary - Academic Purple */
+    --secondary: 250 71% 95%;
+    --secondary-foreground: 250 71% 15%;
+
+    --muted: 220 14% 96%;
+    --muted-foreground: 220 14% 40%;
+
+    --accent: 220 14% 96%;
+    --accent-foreground: 220 14% 15%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 14% 91%;
+    --input: 220 14% 91%;
+    --ring: 220 91% 54%;
+
+    /* Subject Colors */
+    --data-analytics: 198 93% 50%;
+    --operating-systems: 142 76% 36%;
+    --entrepreneurship: 21 90% 48%;
+    --software-engineering: 262 83% 58%;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(220, 91%, 54%), hsl(250, 71%, 60%));
+    --gradient-data: linear-gradient(135deg, hsl(198, 93%, 50%), hsl(210, 100%, 45%));
+    --gradient-os: linear-gradient(135deg, hsl(142, 76%, 36%), hsl(160, 84%, 30%));
+    --gradient-entrepreneur: linear-gradient(135deg, hsl(21, 90%, 48%), hsl(45, 90%, 55%));
+    --gradient-software: linear-gradient(135deg, hsl(262, 83%, 58%), hsl(290, 83%, 65%));
+    --gradient-background: linear-gradient(135deg, hsl(240, 20%, 99%), hsl(220, 14%, 96%));
+
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+    /* Shadows */
+    --shadow-card: 0 4px 16px -4px hsl(220, 14%, 40%, 0.1);
+    --shadow-card-hover: 0 8px 32px -8px hsl(220, 14%, 40%, 0.2);
+    --shadow-quiz: 0 6px 24px -6px hsl(220, 91%, 54%, 0.15);
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    /* Base Colors - Dark Mode */
+    --background: 230 25% 6%;
+    --foreground: 220 91% 98%;
+
+    --card: 230 25% 8%;
+    --card-foreground: 220 91% 96%;
+
+    --popover: 230 25% 8%;
+    --popover-foreground: 220 91% 96%;
+
+    /* Primary - Brighter in dark mode */
+    --primary: 220 91% 64%;
+    --primary-foreground: 230 25% 6%;
+    --primary-light: 220 91% 74%;
+    --primary-dark: 220 91% 54%;
+
+    /* Secondary - Darker purple in dark mode */
+    --secondary: 250 71% 15%;
+    --secondary-foreground: 250 71% 95%;
+
+    --muted: 220 14% 15%;
+    --muted-foreground: 220 14% 65%;
+
+    --accent: 220 14% 15%;
+    --accent-foreground: 220 14% 95%;
+
+    --destructive: 0 84% 65%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 14% 20%;
+    --input: 220 14% 20%;
+    --ring: 220 91% 64%;
+
+    /* Subject Colors - Adjusted for dark mode */
+    --data-analytics: 198 93% 60%;
+    --operating-systems: 142 76% 50%;
+    --entrepreneurship: 21 90% 58%;
+    --software-engineering: 262 83% 68%;
+
+    /* Gradients - Dark mode versions */
+    --gradient-primary: linear-gradient(135deg, hsl(220, 91%, 64%), hsl(250, 71%, 70%));
+    --gradient-data: linear-gradient(135deg, hsl(198, 93%, 60%), hsl(210, 100%, 55%));
+    --gradient-os: linear-gradient(135deg, hsl(142, 76%, 50%), hsl(160, 84%, 45%));
+    --gradient-entrepreneur: linear-gradient(135deg, hsl(21, 90%, 58%), hsl(45, 90%, 65%));
+    --gradient-software: linear-gradient(135deg, hsl(262, 83%, 68%), hsl(290, 83%, 75%));
+    --gradient-background: linear-gradient(135deg, hsl(230, 25%, 6%), hsl(220, 14%, 10%));
+
+    /* Shadows - Darker in dark mode */
+    --shadow-card: 0 4px 16px -4px hsl(0, 0%, 0%, 0.3);
+    --shadow-card-hover: 0 8px 32px -8px hsl(0, 0%, 0%, 0.4);
+    --shadow-quiz: 0 6px 24px -6px hsl(220, 91%, 64%, 0.25);
+
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    background: var(--gradient-background);
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@layer components {
+  /* Subject Card Variants */
+  .subject-card {
+    @apply relative overflow-hidden rounded-xl p-6 transition-all duration-300 hover:scale-105 cursor-pointer;
+    box-shadow: var(--shadow-card);
+  }
+
+  .subject-card:hover {
+    box-shadow: var(--shadow-card-hover);
+  }
+
+  .subject-card-data {
+    background: var(--gradient-data);
+    @apply text-white;
+  }
+
+  .subject-card-os {
+    background: var(--gradient-os);
+    @apply text-white;
+  }
+
+  .subject-card-entrepreneur {
+    background: var(--gradient-entrepreneur);
+    @apply text-white;
+  }
+
+  .subject-card-software {
+    background: var(--gradient-software);
+    @apply text-white;
+  }
+
+  /* Quiz Components */
+  .quiz-card {
+    @apply bg-card border border-border rounded-lg p-6 transition-all duration-300;
+    box-shadow: var(--shadow-quiz);
+  }
+
+  .quiz-option {
+    @apply p-4 border-2 border-border rounded-lg cursor-pointer transition-all duration-200 hover:border-primary;
+  }
+
+  .quiz-option.selected {
+    @apply border-primary bg-primary/10;
+  }
+
+  .quiz-option.correct {
+    @apply border-green-500 bg-green-500/10;
+  }
+
+  .quiz-option.incorrect {
+    @apply border-red-500 bg-red-500/10;
+  }
+
+  /* Quiz Option Text Wrapping Improvements */
+  .quiz-option-text {
+    @apply break-words whitespace-normal leading-relaxed;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+  }
+
+  .quiz-option-container {
+    @apply flex items-start space-x-3 w-full min-h-[60px];
+  }
+
+  .quiz-option-circle {
+    @apply flex-shrink-0 mt-1;
+  }
+
+  .quiz-option-content {
+    @apply flex-1 break-words whitespace-normal leading-relaxed;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+  }
+
+  .quiz-option-icon {
+    @apply flex-shrink-0 mt-1;
+  }
+
+  /* Progress Components */
+  .progress-ring {
+    @apply relative w-16 h-16;
+  }
+
+  .progress-ring circle {
+    @apply fill-none stroke-current;
+    stroke-width: 4;
+    stroke-linecap: round;
+  }
+
+  /* Animations */
+  .bounce-in {
+    animation: bounceIn 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+
+  .fade-in {
+    animation: fadeIn 0.3s ease-out;
+  }
+
+  .slide-up {
+    animation: slideUp 0.4s ease-out;
+  }
+
+  /* Gradient Text */
+  .gradient-text {
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.3);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  70% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .subject-card {
+    @apply hover:scale-100;
+  }
+  
+  /* Mobile-specific improvements */
+  .container {
+    @apply px-4;
+  }
+  
+  /* Improve touch targets */
+  button, a {
+    @apply min-h-[44px] min-w-[44px];
+  }
+  
+  /* Better spacing for mobile */
+  .quiz-card {
+    @apply p-4 sm:p-6;
+  }
+  
+  /* Improve text readability on mobile */
+  h1 {
+    @apply text-2xl sm:text-3xl md:text-4xl;
+  }
+  
+  h2 {
+    @apply text-xl sm:text-2xl md:text-3xl;
+  }
+  
+  h3 {
+    @apply text-lg sm:text-xl md:text-2xl;
+  }
+  
+  /* Better table responsiveness */
+  .table-responsive {
+    @apply overflow-x-auto;
+  }
+  
+  /* Improve chart responsiveness */
+  .recharts-wrapper {
+    @apply max-w-full;
+  }
+  
+  /* Better form elements on mobile */
+  input, select, textarea {
+    @apply text-base;
+  }
+  
+  /* Improve button spacing on mobile */
+  .button-group {
+    @apply flex flex-col sm:flex-row gap-2 sm:gap-3;
+  }
+  
+  /* Better card layouts on mobile */
+  .card-grid {
+    @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6;
+  }
+  
+  /* Improve navigation on mobile */
+  .nav-mobile {
+    @apply flex flex-col space-y-2;
+  }
+  
+  /* Better modal/dialog responsiveness */
+  .modal-content {
+    @apply w-[95vw] max-w-md mx-auto;
+  }
+  
+  /* Improve progress indicators */
+  .progress-mobile {
+    @apply h-2 sm:h-3;
+  }
+  
+  /* Better badge sizing on mobile */
+  .badge-mobile {
+    @apply text-xs sm:text-sm px-2 py-1;
+  }
+  
+  /* Improve icon sizing on mobile */
+  .icon-mobile {
+    @apply h-4 w-4 sm:h-5 sm:w-5;
+  }
+  
+  /* Better spacing for mobile forms */
+  .form-mobile {
+    @apply space-y-4 sm:space-y-6;
+  }
+  
+  /* Improve quiz options on mobile */
+  .quiz-option-mobile {
+    @apply p-3 sm:p-4 text-sm sm:text-base;
+  }
+  
+  /* Better navigation panel on mobile */
+  .nav-panel-mobile {
+    @apply w-full lg:w-80;
+  }
+  
+  /* Improve chart legends on mobile */
+  .chart-legend-mobile {
+    @apply text-xs sm:text-sm space-y-1 sm:space-y-2;
+  }
+  
+  /* Better loading states on mobile */
+  .loading-mobile {
+    @apply text-center py-8 sm:py-12;
+  }
+  
+  /* Improve error states on mobile */
+  .error-mobile {
+    @apply text-center py-6 sm:py-8;
+  }
+  
+  /* Better success states on mobile */
+  .success-mobile {
+    @apply text-center py-6 sm:py-8;
+  }
+  
+  /* Improve toast notifications on mobile */
+  .toast-mobile {
+    @apply max-w-[90vw] sm:max-w-md;
+  }
+  
+  /* Better dropdown menus on mobile */
+  .dropdown-mobile {
+    @apply w-full sm:w-auto;
+  }
+  
+  /* Improve tooltips on mobile */
+  .tooltip-mobile {
+    @apply text-xs sm:text-sm;
+  }
+  
+  /* Better scroll areas on mobile */
+  .scroll-mobile {
+    @apply max-h-[60vh] sm:max-h-[70vh];
+  }
+  
+  /* Improve focus states for accessibility */
+  *:focus {
+    @apply outline-none ring-2 ring-primary ring-offset-2;
+  }
+  
+  /* Better hover states for touch devices */
+  @media (hover: none) {
+    .hover\:scale-105:hover {
+      @apply scale-100;
+    }
+    
+    .hover\:shadow-lg:hover {
+      @apply shadow-md;
+    }
+  }
+  
+  /* Improve text selection */
+  ::selection {
+    @apply bg-primary/20 text-primary;
+  }
+  
+  /* Better scrollbar styling */
+  ::-webkit-scrollbar {
+    @apply w-2;
+  }
+  
+  ::-webkit-scrollbar-track {
+    @apply bg-gray-100 dark:bg-gray-800;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    @apply bg-gray-300 dark:bg-gray-600 rounded-full;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-gray-400 dark:bg-gray-500;
+  }
+}
+
+/* Tablet-specific improvements */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .container {
+    @apply px-6;
+  }
+  
+  .card-grid {
+    @apply grid-cols-2 lg:grid-cols-3;
+  }
+}
+
+/* Large screen optimizations */
+@media (min-width: 1025px) {
+  .container {
+    @apply px-8;
+  }
+  
+  .card-grid {
+    @apply grid-cols-4;
+  }
+}
+
+/* High DPI display improvements */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .icon-mobile {
+    @apply transform scale-110;
+  }
+}
+
+/* Reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    @apply transition-none animate-none;
+  }
+  
+  .fade-in, .slide-up, .bounce-in {
+    @apply opacity-100 transform-none;
+  }
+}
+
+/* Dark mode improvements for mobile */
+@media (prefers-color-scheme: dark) {
+  .dark .subject-card {
+    @apply shadow-lg;
+  }
+  
+  .dark .quiz-card {
+    @apply border-gray-700;
+  }
+}
+
+/* PDF Export Styles */
+@media print {
+  .pdf-header {
+    page-break-after: always;
+  }
+  
+  .pdf-footer {
+    page-break-before: always;
+  }
+  
+  .page-break {
+    page-break-before: always;
+  }
+  
+  /* Hide elements that shouldn't be in PDF */
+  button, .no-print {
+    display: none !important;
+  }
+}

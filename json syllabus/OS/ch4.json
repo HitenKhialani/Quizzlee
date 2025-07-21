@@ -1,0 +1,242 @@
+[
+    {
+        "question": "What is the purpose of memory management in an operating system?",
+        "options": [
+            "A. To manage the allocation of memory to processes",
+            "B. To manage file access",
+            "C. To handle input and output operations",
+            "D. To manage CPU scheduling"
+        ],
+        "answer": "A. To manage the allocation of memory to processes"
+    },
+    {
+        "question": "What is partitioning in memory management?",
+        "options": [
+            "A. Dividing memory into fixed-size blocks",
+            "B. Dividing memory into variable-sized blocks",
+            "C. Dividing memory into equal partitions",
+            "D. Dividing memory into specific user-defined sizes"
+        ],
+        "answer": "B. Dividing memory into variable-sized blocks"
+    },
+    {
+        "question": "Which of the following is a free space management technique?",
+        "options": [
+            "A. Bitmap",
+            "B. Paging",
+            "C. Segmentation",
+            "D. Compaction"
+        ],
+        "answer": "A. Bitmap"
+    },
+    {
+        "question": "In free space management, what does the Bitmap technique do?",
+        "options": [
+            "A. It maintains a list of allocated and free memory blocks",
+            "B. It allocates memory to processes",
+            "C. It assigns memory pages to the system",
+            "D. It manages CPU scheduling"
+        ],
+        "answer": "A. It maintains a list of allocated and free memory blocks"
+    },
+    {
+        "question": "What is a linked list used for in memory management?",
+        "options": [
+            "A. Managing process states",
+            "B. Keeping track of free memory blocks",
+            "C. Handling file access",
+            "D. Managing disk operations"
+        ],
+        "answer": "B. Keeping track of free memory blocks"
+    },
+    {
+        "question": "What is swapping in memory management?",
+        "options": [
+            "A. Transferring data between disk and memory",
+            "B. Moving processes between CPU and memory",
+            "C. Moving processes between memory and secondary storage",
+            "D. Moving memory partitions"
+        ],
+        "answer": "C. Moving processes between memory and secondary storage"
+    },
+    {
+        "question": "What is the main goal of memory compaction?",
+        "options": [
+            "A. To increase the memory size",
+            "B. To remove fragmentation by combining free memory blocks",
+            "C. To improve CPU scheduling",
+            "D. To minimize page faults"
+        ],
+        "answer": "B. To remove fragmentation by combining free memory blocks"
+    },
+    {
+        "question": "What is fragmentation in memory management?",
+        "options": [
+            "A. When free memory is scattered into small non-contiguous blocks",
+            "B. When memory blocks are fully utilized",
+            "C. When memory is completely reserved for a process",
+            "D. When a process is swapped out"
+        ],
+        "answer": "A. When free memory is scattered into small non-contiguous blocks"
+    },
+    {
+        "question": "What is the First Fit partitioning algorithm?",
+        "options": [
+            "A. Allocates the first memory block that is large enough",
+            "B. Allocates the largest memory block available",
+            "C. Allocates the smallest memory block",
+            "D. Allocates memory based on process priority"
+        ],
+        "answer": "A. Allocates the first memory block that is large enough"
+    },
+    {
+        "question": "What is the Best Fit partitioning algorithm?",
+        "options": [
+            "A. Allocates the smallest available memory block",
+            "B. Allocates the first available memory block",
+            "C. Allocates the largest available memory block",
+            "D. Allocates memory based on process priority"
+        ],
+        "answer": "A. Allocates the smallest available memory block"
+    },
+    {
+        "question": "What is the Worst Fit partitioning algorithm?",
+        "options": [
+            "A. Allocates the largest available memory block",
+            "B. Allocates the smallest available memory block",
+            "C. Allocates the first available memory block",
+            "D. Allocates memory based on process priority"
+        ],
+        "answer": "A. Allocates the largest available memory block"
+    },
+    {
+        "question": "What does non-contiguous memory management mean?",
+        "options": [
+            "A. Processes are allocated continuous memory blocks",
+            "B. Memory is allocated in scattered, non-adjacent blocks",
+            "C. Memory is divided into fixed-size partitions",
+            "D. Memory is divided into one large block"
+        ],
+        "answer": "B. Memory is allocated in scattered, non-adjacent blocks"
+    },
+    {
+        "question": "What is Paging in non-contiguous memory management?",
+        "options": [
+            "A. Dividing memory into fixed-size blocks called pages",
+            "B. Allocating memory to processes in a linear fashion",
+            "C. Dividing memory into variable-size blocks",
+            "D. Moving processes to the secondary storage"
+        ],
+        "answer": "A. Dividing memory into fixed-size blocks called pages"
+    },
+    {
+        "question": "What is Segmentation in non-contiguous memory management?",
+        "options": [
+            "A. Dividing memory into fixed-size pages",
+            "B. Dividing memory into variable-sized segments",
+            "C. Allocating memory continuously to processes",
+            "D. None of the above"
+        ],
+        "answer": "B. Dividing memory into variable-sized segments"
+    },
+    {
+        "question": "What is Virtual Memory?",
+        "options": [
+            "A. Memory allocated for physical storage",
+            "B. Memory that appears larger than physical memory using secondary storage",
+            "C. Memory used only for I/O operations",
+            "D. Memory used for CPU scheduling"
+        ],
+        "answer": "B. Memory that appears larger than physical memory using secondary storage"
+    },
+    {
+        "question": "What is Demand Paging?",
+        "options": [
+            "A. Loading pages into memory when they are requested by a process",
+            "B. Storing all pages of a process in memory at once",
+            "C. Moving pages between CPU and disk",
+            "D. Allocating memory to a process continuously"
+        ],
+        "answer": "A. Loading pages into memory when they are requested by a process"
+    },
+    {
+        "question": "What happens during a Page Fault?",
+        "options": [
+            "A. A process gets terminated",
+            "B. The requested page is not in memory and needs to be fetched from disk",
+            "C. A page is swapped from one memory block to another",
+            "D. Memory is allocated to the process"
+        ],
+        "answer": "B. The requested page is not in memory and needs to be fetched from disk"
+    },
+    {
+        "question": "What is the FIFO (First In, First Out) page replacement algorithm?",
+        "options": [
+            "A. The most recently used page is replaced",
+            "B. The page that has been in memory the longest is replaced",
+            "C. The page with the least access time is replaced",
+            "D. The page with the smallest size is replaced"
+        ],
+        "answer": "B. The page that has been in memory the longest is replaced"
+    },
+    {
+        "question": "What does the Least Recently Used (LRU) page replacement algorithm do?",
+        "options": [
+            "A. Replaces the page that has not been used for the longest period",
+            "B. Replaces the page with the largest size",
+            "C. Replaces the page that is not required by the process",
+            "D. Replaces the page that has the least number of accesses"
+        ],
+        "answer": "A. Replaces the page that has not been used for the longest period"
+    },
+    {
+        "question": "What is the Optimal page replacement algorithm?",
+        "options": [
+            "A. Replaces the page that is used the least",
+            "B. Replaces the page that will not be used for the longest period",
+            "C. Replaces the page with the smallest memory size",
+            "D. Replaces the page that is accessed the most"
+        ],
+        "answer": "B. Replaces the page that will not be used for the longest period"
+    },
+    {
+        "question": "Which page replacement algorithm is considered optimal?",
+        "options": [
+            "A. FIFO",
+            "B. LRU",
+            "C. Optimal",
+            "D. None of the above"
+        ],
+        "answer": "C. Optimal"
+    },
+    {
+        "question": "What is the main benefit of paging in memory management?",
+        "options": [
+            "A. Allows processes to use more memory than physically available",
+            "B. Reduces the size of memory",
+            "C. Allocates memory continuously",
+            "D. Allows faster process execution"
+        ],
+        "answer": "A. Allows processes to use more memory than physically available"
+    },
+    {
+        "question": "What is one major disadvantage of segmentation?",
+        "options": [
+            "A. It leads to external fragmentation",
+            "B. It increases memory usage",
+            "C. It requires more CPU time",
+            "D. It requires a more complex memory management system"
+        ],
+        "answer": "A. It leads to external fragmentation"
+    },
+    {
+        "question": "What is the main advantage of non-contiguous memory allocation?",
+        "options": [
+            "A. It allows for more flexible memory usage",
+            "B. It increases CPU scheduling efficiency",
+            "C. It reduces the need for swapping",
+            "D. It avoids page faults"
+        ],
+        "answer": "A. It allows for more flexible memory usage"
+    }
+]

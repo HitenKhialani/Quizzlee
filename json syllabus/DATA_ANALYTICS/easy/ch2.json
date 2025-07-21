@@ -1,0 +1,202 @@
+[
+    {
+        "question": "What does a box plot show in data analysis?",
+        "options": [
+            "A. Data distribution and outliers",
+            "B. Only the mean of data",
+            "C. Correlation between variables",
+            "D. Regression line"
+        ],
+        "answer": "A. Data distribution and outliers"
+    },
+    {
+        "question": "What is skewness used to measure?",
+        "options": [
+            "A. Data spread",
+            "B. Symmetry of data distribution",
+            "C. Average value",
+            "D. Data correlation"
+        ],
+        "answer": "B. Symmetry of data distribution"
+    },
+    {
+        "question": "Which statistical method measures the strength of the relationship between two variables?",
+        "options": [
+            "A. Regression",
+            "B. Correlation",
+            "C. ANOVA",
+            "D. Hypothesis testing"
+        ],
+        "answer": "B. Correlation"
+    },
+    {
+        "question": "What is the main purpose of data cleaning?",
+        "options": [
+            "A. To make data smaller",
+            "B. To remove errors and inconsistencies",
+            "C. To increase data",
+            "D. To create graphs"
+        ],
+        "answer": "B. To remove errors and inconsistencies"
+    },
+    {
+        "question": "What are imputation techniques used for?",
+        "options": [
+            "A. Filling missing data",
+            "B. Removing outliers",
+            "C. Creating charts",
+            "D. Sorting data"
+        ],
+        "answer": "A. Filling missing data"
+    },
+    {
+        "question": "ANOVA is used to compare means of how many groups?",
+        "options": [
+            "A. Two",
+            "B. More than two",
+            "C. One",
+            "D. None"
+        ],
+        "answer": "B. More than two"
+    },
+    {
+        "question": "Chi-Square test is used to test the relationship between which type of variables?",
+        "options": [
+            "A. Continuous variables",
+            "B. Categorical variables",
+            "C. Numerical variables",
+            "D. Dependent variables"
+        ],
+        "answer": "B. Categorical variables"
+    },
+    {
+        "question": "What does a scatter diagram display?",
+        "options": [
+            "A. Frequency of data points",
+            "B. Relationship between two variables",
+            "C. Mean of data",
+            "D. Median values"
+        ],
+        "answer": "B. Relationship between two variables"
+    },
+    {
+        "question": "What is hypothesis testing used for?",
+        "options": [
+            "A. To test an assumption about data",
+            "B. To clean data",
+            "C. To plot graphs",
+            "D. To collect data"
+        ],
+        "answer": "A. To test an assumption about data"
+    },
+    {
+        "question": "What is a sampling distribution?",
+        "options": [
+            "A. Distribution of data in a sample",
+            "B. Distribution of a statistic over many samples",
+            "C. Distribution of population data",
+            "D. None of these"
+        ],
+        "answer": "B. Distribution of a statistic over many samples"
+    },
+    {
+        "question": "In probability, what is an 'event'?",
+        "options": [
+            "A. An outcome or set of outcomes",
+            "B. A data point",
+            "C. A population",
+            "D. A sample"
+        ],
+        "answer": "A. An outcome or set of outcomes"
+    },
+    {
+        "question": "What does a probability distribution describe?",
+        "options": [
+            "A. How probabilities are assigned to different outcomes",
+            "B. The mean of data",
+            "C. Data variance",
+            "D. Sample size"
+        ],
+        "answer": "A. How probabilities are assigned to different outcomes"
+    },
+    {
+        "question": "What is the purpose of regression analysis?",
+        "options": [
+            "A. To predict the value of one variable based on another",
+            "B. To display data",
+            "C. To find mean",
+            "D. To calculate variance"
+        ],
+        "answer": "A. To predict the value of one variable based on another"
+    },
+    {
+        "question": "Which graphical technique helps identify outliers and quartiles in data?",
+        "options": [
+            "A. Histogram",
+            "B. Box plot",
+            "C. Pie chart",
+            "D. Line graph"
+        ],
+        "answer": "B. Box plot"
+    },
+    {
+        "question": "Which measure describes the 'tailedness' of a data distribution?",
+        "options": [
+            "A. Skewness",
+            "B. Kurtosis",
+            "C. Mean",
+            "D. Variance"
+        ],
+        "answer": "B. Kurtosis"
+    },
+    {
+        "question": "What does 'counting' refer to in statistics?",
+        "options": [
+            "A. Calculating probabilities",
+            "B. Enumerating possible outcomes",
+            "C. Cleaning data",
+            "D. Data visualization"
+        ],
+        "answer": "B. Enumerating possible outcomes"
+    },
+    {
+        "question": "Which test would you use to compare observed data with expected data?",
+        "options": [
+            "A. T-test",
+            "B. Chi-square test",
+            "C. ANOVA",
+            "D. Regression"
+        ],
+        "answer": "B. Chi-square test"
+    },
+    {
+        "question": "Which of these is NOT a part of descriptive statistics?",
+        "options": [
+            "A. Mean",
+            "B. Median",
+            "C. Regression",
+            "D. Mode"
+        ],
+        "answer": "C. Regression"
+    },
+    {
+        "question": "What type of plot would best show the relationship between two continuous variables?",
+        "options": [
+            "A. Scatter plot",
+            "B. Bar chart",
+            "C. Pie chart",
+            "D. Histogram"
+        ],
+        "answer": "A. Scatter plot"
+    },
+    {
+        "question": "What is the first step in data cleaning?",
+        "options": [
+            "A. Data collection",
+            "B. Identifying missing or incorrect data",
+            "C. Data analysis",
+            "D. Data visualization"
+        ],
+        "answer": "B. Identifying missing or incorrect data"
+    }
+]

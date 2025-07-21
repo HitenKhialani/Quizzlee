@@ -1,0 +1,202 @@
+[
+    {
+        "question": "What is the purpose of data modelling in software design?",
+        "options": [
+            "A. To write code",
+            "B. To represent data structure and relationships",
+            "C. To test software",
+            "D. To deploy software"
+        ],
+        "answer": "B. To represent data structure and relationships"
+    },
+    {
+        "question": "Which model is created by translating requirements into design?",
+        "options": [
+            "A. Testing model",
+            "B. Design model",
+            "C. Deployment model",
+            "D. Coding model"
+        ],
+        "answer": "B. Design model"
+    },
+    {
+        "question": "Which of the following is NOT an element of analysis modelling?",
+        "options": [
+            "A. Entities",
+            "B. Relationships",
+            "C. Class Diagrams",
+            "D. Use-cases"
+        ],
+        "answer": "C. Class Diagrams"
+    },
+    {
+        "question": "Which design concept means hiding internal details?",
+        "options": [
+            "A. Abstraction",
+            "B. Information hiding",
+            "C. Modularity",
+            "D. Concurrency"
+        ],
+        "answer": "B. Information hiding"
+    },
+    {
+        "question": "What does modularity in design help with?",
+        "options": [
+            "A. Combining all code into one block",
+            "B. Breaking system into manageable parts",
+            "C. Testing software only",
+            "D. Ignoring errors"
+        ],
+        "answer": "B. Breaking system into manageable parts"
+    },
+    {
+        "question": "Which design concept involves multiple processes running at the same time?",
+        "options": [
+            "A. Abstraction",
+            "B. Concurrency",
+            "C. Verification",
+            "D. Aesthetics"
+        ],
+        "answer": "B. Concurrency"
+    },
+    {
+        "question": "Which tool is used to show flow of data in a system?",
+        "options": [
+            "A. Class Diagram",
+            "B. Data Flow Diagram (DFD)",
+            "C. Sequence Diagram",
+            "D. Decision Table"
+        ],
+        "answer": "B. Data Flow Diagram (DFD)"
+    },
+    {
+        "question": "Structured flowcharts are used to:",
+        "options": [
+            "A. Show program flow",
+            "B. Show organizational chart",
+            "C. Represent class relationships",
+            "D. Test software"
+        ],
+        "answer": "A. Show program flow"
+    },
+    {
+        "question": "What is the purpose of a decision table?",
+        "options": [
+            "A. To organize decisions and their actions",
+            "B. To show system deployment",
+            "C. To code software",
+            "D. To describe use cases"
+        ],
+        "answer": "A. To organize decisions and their actions"
+    },
+    {
+        "question": "Which UML diagram shows interactions between objects over time?",
+        "options": [
+            "A. Class Diagram",
+            "B. Sequence Diagram",
+            "C. Use-Case Diagram",
+            "D. DFD"
+        ],
+        "answer": "B. Sequence Diagram"
+    },
+    {
+        "question": "Use-case diagrams in UML are used to:",
+        "options": [
+            "A. Show system functionality from user perspective",
+            "B. Represent data flow",
+            "C. Show code structure",
+            "D. Model testing process"
+        ],
+        "answer": "A. Show system functionality from user perspective"
+    },
+    {
+        "question": "Which UML diagram shows classes and their relationships?",
+        "options": [
+            "A. Use-case Diagram",
+            "B. Sequence Diagram",
+            "C. Class Diagram",
+            "D. Decision Table"
+        ],
+        "answer": "C. Class Diagram"
+    },
+    {
+        "question": "What is the main goal of software testing?",
+        "options": [
+            "A. Write code faster",
+            "B. Find and fix errors",
+            "C. Design models",
+            "D. Deploy software"
+        ],
+        "answer": "B. Find and fix errors"
+    },
+    {
+        "question": "Black-box testing focuses on:",
+        "options": [
+            "A. Internal program logic",
+            "B. Code structure",
+            "C. Testing without knowledge of internal code",
+            "D. Debugging"
+        ],
+        "answer": "C. Testing without knowledge of internal code"
+    },
+    {
+        "question": "White-box testing involves:",
+        "options": [
+            "A. Testing internal program logic",
+            "B. Testing user interface",
+            "C. Ignoring code",
+            "D. User acceptance"
+        ],
+        "answer": "A. Testing internal program logic"
+    },
+    {
+        "question": "Static testing means:",
+        "options": [
+            "A. Running the program to find errors",
+            "B. Reviewing code without execution",
+            "C. Testing performance",
+            "D. Testing user interface"
+        ],
+        "answer": "B. Reviewing code without execution"
+    },
+    {
+        "question": "Dynamic testing means:",
+        "options": [
+            "A. Running the program and checking outputs",
+            "B. Code inspection",
+            "C. Writing documentation",
+            "D. Modelling software"
+        ],
+        "answer": "A. Running the program and checking outputs"
+    },
+    {
+        "question": "Which level of testing verifies individual units or components?",
+        "options": [
+            "A. System testing",
+            "B. Unit testing",
+            "C. Integration testing",
+            "D. Acceptance testing"
+        ],
+        "answer": "B. Unit testing"
+    },
+    {
+        "question": "The V-model relates testing to which other phase?",
+        "options": [
+            "A. Deployment",
+            "B. Coding",
+            "C. Requirement and design phases",
+            "D. Maintenance"
+        ],
+        "answer": "C. Requirement and design phases"
+    },
+    {
+        "question": "Which is NOT a fundamental design concept?",
+        "options": [
+            "A. Abstraction",
+            "B. Modularity",
+            "C. Debugging",
+            "D. Information hiding"
+        ],
+        "answer": "C. Debugging"
+    }
+]

@@ -1,0 +1,152 @@
+[
+    {
+        "question": "Which of the following best describes the CPU and I/O burst cycle in the context of CPU scheduling?",
+        "options": [
+            "A. CPU bursts refer to periods when the CPU is idle, and I/O bursts occur when the CPU is executing instructions.",
+            "B. CPU bursts refer to periods when the process is actively executing, and I/O bursts refer to periods when the process is waiting for I/O.",
+            "C. I/O bursts are periods when the CPU is executing instructions, while CPU bursts occur during disk I/O operations.",
+            "D. CPU bursts and I/O bursts are the same, as both occur during process execution."
+        ],
+        "answer": "B. CPU bursts refer to periods when the process is actively executing, and I/O bursts refer to periods when the process is waiting for I/O."
+    },
+    {
+        "question": "Which of the following is a major advantage of preemptive scheduling over non-preemptive scheduling?",
+        "options": [
+            "A. Preemptive scheduling eliminates the need for process prioritization.",
+            "B. Preemptive scheduling is more efficient in systems with frequent I/O-bound processes.",
+            "C. Preemptive scheduling guarantees that long processes will always finish before shorter processes.",
+            "D. Preemptive scheduling is less complex and reduces the need for frequent context switches."
+        ],
+        "answer": "B. Preemptive scheduling is more efficient in systems with frequent I/O-bound processes."
+    },
+    {
+        "question": "Which of the following best describes the key difference between preemptive and non-preemptive scheduling?",
+        "options": [
+            "A. In non-preemptive scheduling, the operating system can interrupt a running process to switch to a higher-priority process.",
+            "B. Preemptive scheduling allows a process to voluntarily yield control of the CPU, whereas non-preemptive scheduling forces processes to relinquish the CPU when needed.",
+            "C. Non-preemptive scheduling allows a process to execute until completion, whereas preemptive scheduling can forcibly interrupt a process based on scheduling criteria.",
+            "D. Preemptive scheduling is typically used in batch systems, while non-preemptive scheduling is used in interactive systems."
+        ],
+        "answer": "C. Non-preemptive scheduling allows a process to execute until completion, whereas preemptive scheduling can forcibly interrupt a process based on scheduling criteria."
+    },
+    {
+        "question": "Which of the following scheduling algorithms is most appropriate for a system with minimal context switching and equal process durations?",
+        "options": [
+            "A. First Come First Serve (FCFS)",
+            "B. Shortest Job First (SJF)",
+            "C. Round Robin (RR)",
+            "D. Multilevel Queue Scheduling"
+        ],
+        "answer": "A. First Come First Serve (FCFS)"
+    },
+    {
+        "question": "What is a significant drawback of using the First Come First Serve (FCFS) scheduling algorithm?",
+        "options": [
+            "A. FCFS can result in poor performance for I/O-bound processes.",
+            "B. FCFS is difficult to implement in systems with high processor utilization.",
+            "C. FCFS may lead to the **convoy effect**, where longer processes delay shorter ones.",
+            "D. FCFS always guarantees minimal waiting time for processes."
+        ],
+        "answer": "C. FCFS may lead to the **convoy effect**, where longer processes delay shorter ones."
+    },
+    {
+        "question": "Which of the following statements accurately describes the Shortest Job First (SJF) scheduling algorithm?",
+        "options": [
+            "A. SJF gives priority to processes that arrive first in the ready queue.",
+            "B. SJF minimizes the total waiting time of all processes but may lead to starvation of longer processes.",
+            "C. SJF executes processes in a round-robin fashion based on their burst times.",
+            "D. SJF ensures that each process gets an equal amount of CPU time in a round-robin manner."
+        ],
+        "answer": "B. SJF minimizes the total waiting time of all processes but may lead to starvation of longer processes."
+    },
+    {
+        "question": "How does the Shortest Remaining Time Next (SRTN) algorithm differ from the Shortest Job First (SJF) algorithm?",
+        "options": [
+            "A. SRTN schedules processes based on their arrival times, while SJF schedules based on burst lengths.",
+            "B. SRTN is preemptive, meaning it can interrupt a process to schedule a new one, while SJF is non-preemptive.",
+            "C. SRTN schedules processes based on the priority of their I/O-bound tasks, while SJF schedules based on CPU-bound tasks.",
+            "D. SRTN works well in systems with only one process, while SJF is suited for multi-process systems."
+        ],
+        "answer": "B. SRTN is preemptive, meaning it can interrupt a process to schedule a new one, while SJF is non-preemptive."
+    },
+    {
+        "question": "What is the primary purpose of the Round Robin (RR) scheduling algorithm?",
+        "options": [
+            "A. To minimize the waiting time for CPU-bound processes.",
+            "B. To give each process a fixed time slice (quantum) and allow processes to run in a circular manner.",
+            "C. To execute processes in the order in which they arrive at the ready queue.",
+            "D. To prioritize processes with the shortest burst time first."
+        ],
+        "answer": "B. To give each process a fixed time slice (quantum) and allow processes to run in a circular manner."
+    },
+    {
+        "question": "Which scheduling algorithm is most suitable for a real-time operating system where strict deadlines must be met?",
+        "options": [
+            "A. First Come First Serve (FCFS)",
+            "B. Shortest Job First (SJF)",
+            "C. Priority Scheduling",
+            "D. Round Robin (RR)"
+        ],
+        "answer": "C. Priority Scheduling"
+    },
+    {
+        "question": "In the context of multilevel queue scheduling, what is the main purpose of dividing the ready queue into several subqueues?",
+        "options": [
+            "A. To prevent processes from being preempted.",
+            "B. To separate processes based on their priority or characteristics, and apply different scheduling algorithms to each queue.",
+            "C. To ensure that all processes are treated equally in terms of CPU time allocation.",
+            "D. To avoid starvation of processes by enforcing a fixed time slice for each subqueue."
+        ],
+        "answer": "B. To separate processes based on their priority or characteristics, and apply different scheduling algorithms to each queue."
+    },
+    {
+        "question": "Which of the following is the primary goal of deadlock prevention in operating systems?",
+        "options": [
+            "A. To eliminate the possibility of circular waiting by eliminating one of the necessary conditions for deadlock.",
+            "B. To allow processes to wait indefinitely for resources, but avoid resource starvation.",
+            "C. To prevent processes from acquiring any resources during execution.",
+            "D. To ensure that processes can never request resources in an unpredicted order."
+        ],
+        "answer": "A. To eliminate the possibility of circular waiting by eliminating one of the necessary conditions for deadlock."
+    },
+    {
+        "question": "What is the Banker’s Algorithm used for in operating systems?",
+        "options": [
+            "A. To manage memory allocation across multiple processors.",
+            "B. To prevent deadlock by simulating the allocation of resources and ensuring a safe state.",
+            "C. To determine the optimal CPU scheduling algorithm based on system performance.",
+            "D. To allocate resources based on process priorities and avoid starvation."
+        ],
+        "answer": "B. To prevent deadlock by simulating the allocation of resources and ensuring a safe state."
+    },
+    {
+        "question": "In the context of deadlock, which of the following is a necessary condition for deadlock to occur?",
+        "options": [
+            "A. Processes must be able to request resources in any arbitrary order.",
+            "B. Processes must hold one resource while waiting for additional resources.",
+            "C. Processes must be able to run indefinitely without releasing resources.",
+            "D. Processes must request all their resources at once."
+        ],
+        "answer": "B. Processes must hold one resource while waiting for additional resources."
+    },
+    {
+        "question": "Which of the following best describes the term ‘starvation’ in CPU scheduling?",
+        "options": [
+            "A. Starvation occurs when a process is repeatedly scheduled, causing other processes to be indefinitely postponed.",
+            "B. Starvation occurs when a process cannot execute due to lack of CPU availability.",
+            "C. Starvation refers to the condition where a process has a lower priority and never gets executed.",
+            "D. Starvation refers to the process of terminating lower-priority processes to ensure higher-priority processes are executed."
+        ],
+        "answer": "C. Starvation refers to the condition where a process has a lower priority and never gets executed."
+    },
+    {
+        "question": "Which of the following statements about the First Come First Serve (FCFS) scheduling algorithm is true?",
+        "options": [
+            "A. FCFS guarantees the shortest waiting time for all processes.",
+            "B. FCFS is fair and does not lead to starvation of any process.",
+            "C. FCFS can suffer from the convoy effect, where long processes delay the execution of shorter ones.",
+            "D. FCFS is preemptive and can interrupt running processes based on their arrival times."
+        ],
+        "answer": "C. FCFS can suffer from the convoy effect, where long processes delay the execution of shorter ones."
+    }
+]

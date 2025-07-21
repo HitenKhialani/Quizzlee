@@ -1,0 +1,202 @@
+[
+    {
+        "question": "What does Software Quality Assurance (SQA) focus on?",
+        "options": [
+            "A. Ensuring software meets quality standards",
+            "B. Writing software code",
+            "C. Designing user interfaces",
+            "D. Marketing the software"
+        ],
+        "answer": "A. Ensuring software meets quality standards"
+    },
+    {
+        "question": "Software Quality Management includes:",
+        "options": [
+            "A. Planning and controlling quality",
+            "B. Coding the software",
+            "C. Testing user interfaces",
+            "D. Managing sales"
+        ],
+        "answer": "A. Planning and controlling quality"
+    },
+    {
+        "question": "Which phase of Software Quality Assurance involves setting quality goals?",
+        "options": [
+            "A. Planning",
+            "B. Coding",
+            "C. Marketing",
+            "D. Deployment"
+        ],
+        "answer": "A. Planning"
+    },
+    {
+        "question": "Audits in Software Quality Assurance are performed to:",
+        "options": [
+            "A. Check compliance with standards",
+            "B. Write software code",
+            "C. Develop user manuals",
+            "D. Conduct market research"
+        ],
+        "answer": "A. Check compliance with standards"
+    },
+    {
+        "question": "Reviews in SQA are primarily to:",
+        "options": [
+            "A. Identify defects early",
+            "B. Write marketing content",
+            "C. Design the database",
+            "D. Deploy software"
+        ],
+        "answer": "A. Identify defects early"
+    },
+    {
+        "question": "Six Sigma is a method to improve:",
+        "options": [
+            "A. Quality by reducing defects",
+            "B. Software performance",
+            "C. User interface design",
+            "D. Coding speed"
+        ],
+        "answer": "A. Quality by reducing defects"
+    },
+    {
+        "question": "What does CMMI stand for?",
+        "options": [
+            "A. Capability Maturity Model Integration",
+            "B. Computer Managed Model Interface",
+            "C. Code Management Model Initiative",
+            "D. Continuous Model Maintenance Integration"
+        ],
+        "answer": "A. Capability Maturity Model Integration"
+    },
+    {
+        "question": "CMMI helps organizations to:",
+        "options": [
+            "A. Improve processes and quality",
+            "B. Write software code faster",
+            "C. Design software architecture",
+            "D. Create marketing strategies"
+        ],
+        "answer": "A. Improve processes and quality"
+    },
+    {
+        "question": "How many maturity levels are there in CMMI?",
+        "options": [
+            "A. 5",
+            "B. 3",
+            "C. 4",
+            "D. 6"
+        ],
+        "answer": "A. 5"
+    },
+    {
+        "question": "The first level of CMMI maturity is called:",
+        "options": [
+            "A. Initial",
+            "B. Managed",
+            "C. Defined",
+            "D. Optimizing"
+        ],
+        "answer": "A. Initial"
+    },
+    {
+        "question": "Software Quality Assurance planning includes:",
+        "options": [
+            "A. Defining quality policies and procedures",
+            "B. Writing code",
+            "C. Designing software UI",
+            "D. Preparing sales documents"
+        ],
+        "answer": "A. Defining quality policies and procedures"
+    },
+    {
+        "question": "Which activity is NOT part of Software Quality Assurance?",
+        "options": [
+            "A. Testing the software",
+            "B. Coding features",
+            "C. Auditing processes",
+            "D. Conducting reviews"
+        ],
+        "answer": "B. Coding features"
+    },
+    {
+        "question": "Quality audits in SQA help to:",
+        "options": [
+            "A. Ensure standards and procedures are followed",
+            "B. Create software designs",
+            "C. Develop new features",
+            "D. Train users"
+        ],
+        "answer": "A. Ensure standards and procedures are followed"
+    },
+    {
+        "question": "Which of these is a key concept in Six Sigma?",
+        "options": [
+            "A. Defect reduction",
+            "B. Code reuse",
+            "C. User satisfaction",
+            "D. Software deployment"
+        ],
+        "answer": "A. Defect reduction"
+    },
+    {
+        "question": "In SQA, reviews are done to:",
+        "options": [
+            "A. Find defects before testing",
+            "B. Increase sales",
+            "C. Write code",
+            "D. Prepare budgets"
+        ],
+        "answer": "A. Find defects before testing"
+    },
+    {
+        "question": "Which SQA phase involves ongoing checking during development?",
+        "options": [
+            "A. Activities",
+            "B. Planning",
+            "C. Deployment",
+            "D. Marketing"
+        ],
+        "answer": "A. Activities"
+    },
+    {
+        "question": "CMMI process areas include:",
+        "options": [
+            "A. Project management and process management",
+            "B. Software coding",
+            "C. User interface design",
+            "D. Marketing strategies"
+        ],
+        "answer": "A. Project management and process management"
+    },
+    {
+        "question": "Software Quality Management focuses on:",
+        "options": [
+            "A. Overall quality goals and policies",
+            "B. Writing code",
+            "C. Testing software only",
+            "D. Sales and marketing"
+        ],
+        "answer": "A. Overall quality goals and policies"
+    },
+    {
+        "question": "Which is NOT a characteristic of effective SQA?",
+        "options": [
+            "A. Proactive defect prevention",
+            "B. Random coding without review",
+            "C. Regular audits and reviews",
+            "D. Clear quality standards"
+        ],
+        "answer": "B. Random coding without review"
+    },
+    {
+        "question": "The main goal of Software Quality Assurance is to:",
+        "options": [
+            "A. Ensure software meets customer expectations",
+            "B. Write more code",
+            "C. Deploy software quickly",
+            "D. Increase marketing efforts"
+        ],
+        "answer": "A. Ensure software meets customer expectations"
+    }
+]

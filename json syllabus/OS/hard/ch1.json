@@ -1,0 +1,214 @@
+[
+    {
+        "question": "Which of the following accurately describes the main role of an Operating System?",
+        "options": [
+            "A. To handle user interactions with hardware only",
+            "B. To act as an intermediary between hardware and applications",
+            "C. To manage user data on the disk",
+            "D. To execute user programs directly on hardware"
+        ],
+        "answer": "B. To act as an intermediary between hardware and applications"
+    },
+    {
+        "question": "How does the concept of virtualization relate to an operating system's functionality?",
+        "options": [
+            "A. Virtualization allows the OS to run multiple OS instances on a single physical machine.",
+            "B. Virtualization replaces hardware resources with software resources to run the OS.",
+            "C. Virtualization is an OS feature that eliminates the need for user-space applications.",
+            "D. Virtualization refers to an OS's ability to allocate more CPU cycles to background tasks."
+        ],
+        "answer": "A. Virtualization allows the OS to run multiple OS instances on a single physical machine."
+    },
+    {
+        "question": "Which of the following best explains the differences between a batch operating system and a multiprogramming operating system?",
+        "options": [
+            "A. A batch OS processes jobs sequentially, whereas a multiprogramming OS executes multiple jobs simultaneously.",
+            "B. A batch OS executes jobs from a queue, whereas a multiprogramming OS allows interactive user input.",
+            "C. A batch OS handles only I/O-bound tasks, whereas a multiprogramming OS handles CPU-bound tasks.",
+            "D. A batch OS operates in real-time, whereas a multiprogramming OS is used for non-interactive jobs."
+        ],
+        "answer": "A. A batch OS processes jobs sequentially, whereas a multiprogramming OS executes multiple jobs simultaneously."
+    },
+    {
+        "question": "What are the primary differences between Time-Sharing Operating Systems and Real-Time Operating Systems?",
+        "options": [
+            "A. Time-sharing systems prioritize fairness among processes, while real-time systems prioritize meeting deadlines.",
+            "B. Time-sharing systems handle system resources equally, while real-time systems allocate resources based on priority.",
+            "C. Time-sharing systems do not handle interrupts, whereas real-time systems do.",
+            "D. Time-sharing systems operate on single processors, whereas real-time systems require multiprocessor systems."
+        ],
+        "answer": "A. Time-sharing systems prioritize fairness among processes, while real-time systems prioritize meeting deadlines."
+    },
+    {
+        "question": "In a distributed system, how is the operating system’s role different from a traditional single-machine OS?",
+        "options": [
+            "A. The OS in a distributed system only manages one machine, and it does not need to coordinate with other systems.",
+            "B. The OS in a distributed system must manage resources across multiple machines and ensure synchronization between them.",
+            "C. The OS in a distributed system only handles network communications, not resource management.",
+            "D. The OS in a distributed system does not provide virtual memory management."
+        ],
+        "answer": "B. The OS in a distributed system must manage resources across multiple machines and ensure synchronization between them."
+    },
+    {
+        "question": "What is a key difference between mobile OS like Android and traditional desktop operating systems like Windows?",
+        "options": [
+            "A. Mobile OS focuses on providing multitasking capabilities, while desktop OS focuses on user interface design.",
+            "B. Mobile OS is more power-efficient and designed for limited resources, whereas desktop OS is designed for more powerful hardware.",
+            "C. Mobile OS requires more system calls than desktop OS.",
+            "D. Mobile OS uses multiple command-line interfaces, while desktop OS uses GUI interfaces exclusively."
+        ],
+        "answer": "B. Mobile OS is more power-efficient and designed for limited resources, whereas desktop OS is designed for more powerful hardware."
+    },
+    {
+        "question": "What is the main function of system calls in an operating system?",
+        "options": [
+            "A. To facilitate communication between applications and hardware devices",
+            "B. To enable applications to communicate with each other",
+            "C. To allow user programs to request services from the OS kernel",
+            "D. To interact directly with external storage systems"
+        ],
+        "answer": "C. To allow user programs to request services from the OS kernel"
+    },
+    {
+        "question": "Which of the following best explains the difference between a system call and a library function in an operating system?",
+        "options": [
+            "A. A system call interacts directly with hardware, while a library function interacts with user-level programs.",
+            "B. A system call is executed in user-space, while a library function is executed in kernel-space.",
+            "C. A system call allows user programs to interact with the kernel, whereas a library function is a user-level function.",
+            "D. A system call and a library function are the same and can be used interchangeably."
+        ],
+        "answer": "C. A system call allows user programs to interact with the kernel, whereas a library function is a user-level function."
+    },
+    {
+        "question": "In a real-time system, what is the impact of a missed deadline on system behavior?",
+        "options": [
+            "A. The system will attempt to make up for the missed deadline by allocating additional resources.",
+            "B. The system will continue processing without any impact on performance.",
+            "C. A missed deadline may cause the system to fail, leading to potential catastrophic results.",
+            "D. The system will stop execution until the deadline is met."
+        ],
+        "answer": "C. A missed deadline may cause the system to fail, leading to potential catastrophic results."
+    },
+    {
+        "question": "Which of the following is a feature of a 'Time-Sharing OS'?",
+        "options": [
+            "A. Only one user can interact with the system at a time",
+            "B. It allocates CPU time to multiple users",
+            "C. It runs real-time applications",
+            "D. It is designed for mobile devices"
+        ],
+        "answer": "B. It allocates CPU time to multiple users"
+    },
+    {
+        "question": "Which of the following is an example of a mobile operating system?",
+        "options": [
+            "A. Android",
+            "B. Windows",
+            "C. macOS",
+            "D. UNIX"
+        ],
+        "answer": "A. Android"
+    },
+    {
+        "question": "What does the 'I/O Management' component of an OS do?",
+        "options": [
+            "A. Manage files",
+            "B. Manage input and output devices",
+            "C. Manage running programs",
+            "D. Manage memory"
+        ],
+        "answer": "B. Manage input and output devices"
+    },
+    {
+        "question": "Which Operating System was first developed by Microsoft for personal computers?",
+        "options": [
+            "A. Windows",
+            "B. macOS",
+            "C. Android",
+            "D. Linux"
+        ],
+        "answer": "A. Windows"
+    },
+    {
+        "question": "Which of these is an example of a Multi-User Operating System?",
+        "options": [
+            "A. Windows",
+            "B. UNIX",
+            "C. Android",
+            "D. iOS"
+        ],
+        "answer": "B. UNIX"
+    },
+
+    {
+            "question": "Which of the following is the primary function of an operating system?",
+            "options": [
+                "A. Run applications",
+                "B. Manage system resources",
+                "C. Provide internet access",
+                "D. Browse the web"
+            ],
+            "answer": "B. Manage system resources"
+        },
+        {
+            "question": "Which of the following is an example of a mobile operating system?",
+            "options": [
+                "A. Windows",
+                "B. macOS",
+                "C. Android",
+                "D. Linux"
+            ],
+            "answer": "C. Android"
+        },
+        {
+            "question": "What is the main role of the 'Kernel' in an operating system?",
+            "options": [
+                "A. Manage user input",
+                "B. Manage hardware resources",
+                "C. Provide graphical user interface",
+                "D. Manage network connections"
+            ],
+            "answer": "B. Manage hardware resources"
+        },
+        {
+            "question": "Which component of the OS is responsible for managing memory?",
+            "options": [
+                "A. Process Manager",
+                "B. Memory Manager",
+                "C. File Manager",
+                "D. I/O Manager"
+            ],
+            "answer": "B. Memory Manager"
+        },
+        {
+            "question": "Which of these Operating Systems uses a graphical user interface?",
+            "options": [
+                "A. DOS",
+                "B. Linux",
+                "C. Windows",
+                "D. UNIX"
+            ],
+            "answer": "C. Windows"
+        },
+        {
+            "question": "Which of these is an example of a time-sharing Operating System?",
+            "options": [
+                "A. Windows",
+                "B. macOS",
+                "C. UNIX",
+                "D. Android"
+            ],
+            "answer": "C. UNIX"
+        },
+        {
+            "question": "Which Operating System is developed by Apple for its computers?",
+            "options": [
+                "A. Windows",
+                "B. macOS",
+                "C. Android",
+                "D. Linux"
+            ],
+            "answer": "B. macOS"
+        }
+    
+    ]

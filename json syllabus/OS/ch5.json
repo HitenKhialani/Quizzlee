@@ -1,0 +1,252 @@
+[
+    {
+        "question": "What is a file in an operating system?",
+        "options": [
+            "A. A sequence of data stored in memory",
+            "B. A sequence of data stored in secondary storage",
+            "C. A program that runs on the system",
+            "D. A system resource"
+        ],
+        "answer": "B. A sequence of data stored in secondary storage"
+    },
+    {
+        "question": "Which of the following is NOT an attribute of a file?",
+        "options": [
+            "A. Name",
+            "B. Size",
+            "C. Type",
+            "D. Memory address"
+        ],
+        "answer": "D. Memory address"
+    },
+    {
+        "question": "Which of the following is a common file operation?",
+        "options": [
+            "A. Opening a file",
+            "B. Reading from a file",
+            "C. Writing to a file",
+            "D. All of the above"
+        ],
+        "answer": "D. All of the above"
+    },
+    {
+        "question": "Which of the following is a type of file?",
+        "options": [
+            "A. Text file",
+            "B. Binary file",
+            "C. Executable file",
+            "D. All of the above"
+        ],
+        "answer": "D. All of the above"
+    },
+    {
+        "question": "Which of the following is the primary function of a file system?",
+        "options": [
+            "A. To manage the execution of processes",
+            "B. To manage the storage and retrieval of files",
+            "C. To allocate CPU time to processes",
+            "D. To handle input/output operations"
+        ],
+        "answer": "B. To manage the storage and retrieval of files"
+    },
+    {
+        "question": "What does the file type specify?",
+        "options": [
+            "A. The name of the file",
+            "B. The format of the file (e.g., text, image, video)",
+            "C. The location of the file in memory",
+            "D. The size of the file"
+        ],
+        "answer": "B. The format of the file (e.g., text, image, video)"
+    },
+    {
+        "question": "What is sequential access in file systems?",
+        "options": [
+            "A. Accessing data in a specific order, one after another",
+            "B. Accessing data randomly from any part of the file",
+            "C. Accessing files by their type",
+            "D. Accessing files using file names"
+        ],
+        "answer": "A. Accessing data in a specific order, one after another"
+    },
+    {
+        "question": "What is direct access in file systems?",
+        "options": [
+            "A. Accessing data in a specific order, one after another",
+            "B. Accessing any part of the file without the need to read the entire file",
+            "C. Accessing files based on file type",
+            "D. Accessing files by their creation date"
+        ],
+        "answer": "B. Accessing any part of the file without the need to read the entire file"
+    },
+    {
+        "question": "Which of the following is a file allocation method?",
+        "options": [
+            "A. Contiguous allocation",
+            "B. Linked allocation",
+            "C. Indexed allocation",
+            "D. All of the above"
+        ],
+        "answer": "D. All of the above"
+    },
+    {
+        "question": "What is contiguous allocation of files?",
+        "options": [
+            "A. Storing files in adjacent blocks of memory",
+            "B. Storing files in scattered blocks across memory",
+            "C. Storing files in a linked list structure",
+            "D. Storing files using indexed pointers"
+        ],
+        "answer": "A. Storing files in adjacent blocks of memory"
+    },
+    {
+        "question": "What is linked allocation in file systems?",
+        "options": [
+            "A. Storing files in contiguous blocks of memory",
+            "B. Storing files in scattered blocks with pointers linking them",
+            "C. Storing files with indexed pointers",
+            "D. None of the above"
+        ],
+        "answer": "B. Storing files in scattered blocks with pointers linking them"
+    },
+    {
+        "question": "What is indexed allocation in file systems?",
+        "options": [
+            "A. Using a fixed-size table to store file blocks",
+            "B. Storing files in contiguous blocks",
+            "C. Storing files with linked pointers",
+            "D. Using a hierarchical structure for file blocks"
+        ],
+        "answer": "A. Using a fixed-size table to store file blocks"
+    },
+    {
+        "question": "Which of the following file allocation methods can lead to fragmentation?",
+        "options": [
+            "A. Contiguous allocation",
+            "B. Linked allocation",
+            "C. Indexed allocation",
+            "D. None of the above"
+        ],
+        "answer": "A. Contiguous allocation"
+    },
+    {
+        "question": "What is the advantage of linked allocation?",
+        "options": [
+            "A. No external fragmentation",
+            "B. Fast access times",
+            "C. Easy to implement",
+            "D. Requires less disk space"
+        ],
+        "answer": "A. No external fragmentation"
+    },
+    {
+        "question": "Which of the following file allocation methods is used by most modern file systems?",
+        "options": [
+            "A. Contiguous allocation",
+            "B. Linked allocation",
+            "C. Indexed allocation",
+            "D. Sequential allocation"
+        ],
+        "answer": "C. Indexed allocation"
+    },
+    {
+        "question": "What is a directory in a file system?",
+        "options": [
+            "A. A special file",
+            "B. A collection of files",
+            "C. A list of file names",
+            "D. A physical storage device"
+        ],
+        "answer": "B. A collection of files"
+    },
+    {
+        "question": "What is a single-level directory structure?",
+        "options": [
+            "A. A structure with all files in one single directory",
+            "B. A hierarchical structure with multiple subdirectories",
+            "C. A structure with only two levels: root and files",
+            "D. A structure where files are categorized by their type"
+        ],
+        "answer": "A. A structure with all files in one single directory"
+    },
+    {
+        "question": "What is a two-level directory structure?",
+        "options": [
+            "A. A directory structure with two levels: one for files and one for subdirectories",
+            "B. A directory structure with only one level",
+            "C. A hierarchical structure with multiple levels",
+            "D. A structure with one directory per user"
+        ],
+        "answer": "A. A directory structure with two levels: one for files and one for subdirectories"
+    },
+    {
+        "question": "What is a tree-structured directory?",
+        "options": [
+            "A. A directory structure with files arranged in a hierarchical tree-like format",
+            "B. A structure with all files in one directory",
+            "C. A structure where files are sorted alphabetically",
+            "D. A flat directory with no subdirectories"
+        ],
+        "answer": "A. A directory structure with files arranged in a hierarchical tree-like format"
+    },
+    {
+        "question": "Which of the following directory structures is most flexible?",
+        "options": [
+            "A. Single-level directory",
+            "B. Two-level directory",
+            "C. Tree-structured directory",
+            "D. None of the above"
+        ],
+        "answer": "C. Tree-structured directory"
+    },
+    {
+        "question": "What is the advantage of a tree-structured directory?",
+        "options": [
+            "A. It allows efficient organization and retrieval of files",
+            "B. It reduces the size of files",
+            "C. It is easier to manage with a flat directory",
+            "D. It uses less disk space"
+        ],
+        "answer": "A. It allows efficient organization and retrieval of files"
+    },
+    {
+        "question": "Which file allocation method minimizes fragmentation?",
+        "options": [
+            "A. Contiguous allocation",
+            "B. Linked allocation",
+            "C. Indexed allocation",
+            "D. All of the above"
+        ],
+        "answer": "B. Linked allocation"
+    },
+    {
+        "question": "What is the main disadvantage of contiguous allocation?",
+        "options": [
+            "A. It requires large contiguous blocks of memory",
+            "B. It leads to linked list overhead",
+            "C. It increases the risk of fragmentation",
+            "D. It uses too much disk space"
+        ],
+        "answer": "A. It requires large contiguous blocks of memory"
+    },
+    {
+        "question": "Which of the following is true about linked allocation?",
+        "options": [
+            "A. It does not suffer from external fragmentation",
+            "B. It stores files in contiguous blocks",
+            "C. It is slower than indexed allocation",
+            "D. It requires additional pointers for each block"
+        ],
+        "answer": "A. It does not suffer from external fragmentation"
+    },
+    {
+        "question": "Which directory structure allows multiple subdirectories under a single directory?",
+        "options": [
+            "A. Single-level directory",
+            "B. Two-level directory",
+            "C. Tree-structured directory",
+            "D. Flat directory"
+        ],
+        "answer": "C. Tree-structured directory"
+    }
+]
