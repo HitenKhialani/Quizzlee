@@ -57,6 +57,7 @@ The app includes a health check endpoint at `/api/health` for Render's monitorin
 3. **Database errors**: SQLite file may not persist between deployments
 4. **Node.js version**: Using Node.js 20 (LTS) to avoid end-of-life warnings
 5. **Package manager conflict**: Ensure only `package-lock.json` exists (not `bun.lockb`)
+6. **API connection errors**: Frontend configured to use relative URLs in production
 
 ### Logs
 Check Render logs in the dashboard for any errors during build or runtime.

@@ -1,4 +1,7 @@
-const API_BASE_URL = 'http://localhost:3001/api';
+// Use the same origin in production, localhost in development
+const API_BASE_URL = process.env.NODE_ENV === 'production' 
+  ? '/api' 
+  : 'http://localhost:3001/api';
 
 class ApiClient {
   private sessionId: string | null = null;
