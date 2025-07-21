@@ -6,10 +6,19 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // Create database file in the server directory
-const db = new Database(path.join(__dirname, 'quizzle.db'));
-
-// Enable foreign keys
-db.pragma('foreign_keys = ON');
+let db;
+try {
+  const dbPath = path.join(__dirname, 'quizzle.db');
+  console.log(`📊 Initializing database at: ${dbPath}`);
+  db = new Database(dbPath);
+  
+  // Enable foreign keys
+  db.pragma('foreign_keys = ON');
+  console.log('✅ Database initialized successfully');
+} catch (error) {
+  console.error('❌ Database initialization failed:', error);
+  throw error;
+}
 
 // Create Users table
 const createUsersTable = db.prepare(`
@@ -44,8 +53,14 @@ const createQuizResultsTable = db.prepare(`
 `);
 
 // Initialize tables
-createUsersTable.run();
-createQuizResultsTable.run();
+try {
+  createUsersTable.run();
+  createQuizResultsTable.run();
+  console.log('✅ Database tables created successfully');
+} catch (error) {
+  console.error('❌ Database table creation failed:', error);
+  throw error;
+}
 
 // Prepared statements for users
 const insertUser = db.prepare(`

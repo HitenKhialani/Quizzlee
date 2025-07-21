@@ -198,7 +198,18 @@ app.get('/api/admin/user/:email', (req, res) => {
 
 // Health check
 app.get('/api/health', (req, res) => {
-  res.json({ status: 'OK', timestamp: new Date().toISOString() });
+  res.json({ 
+    status: 'OK', 
+    timestamp: new Date().toISOString(),
+    environment: process.env.NODE_ENV || 'development',
+    port: PORT,
+    database: 'SQLite'
+  });
+});
+
+// Simple test endpoint
+app.get('/api/test', (req, res) => {
+  res.json({ message: 'Server is running!' });
 });
 
 // Serve JSON syllabus files
@@ -233,6 +244,8 @@ app.listen(PORT, () => {
   console.log(`🚀 Server running on port ${PORT}`);
   console.log(`📊 Database initialized with SQLite`);
   console.log(`🌐 API available at http://localhost:${PORT}/api`);
+  console.log(`🔧 Environment: ${process.env.NODE_ENV || 'development'}`);
+  console.log(`📁 Working directory: ${process.cwd()}`);
 });
 
 export default app; 
