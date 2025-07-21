@@ -229,19 +229,25 @@ app.get('/api/test-syllabus', (req, res) => {
 });
 
 // Serve JSON syllabus files (must come before catch-all)
-app.get('/json syllabus/*', (req, res) => {
-  console.log(`📁 Request for syllabus file: ${req.path}`);
-  console.log(`📁 Request URL: ${req.url}`);
-  console.log(`📁 Request original URL: ${req.originalUrl}`);
+app.get('/json syllabus/:subject/:difficulty/:chapter.json', (req, res) => {
+  const { subject, difficulty, chapter } = req.params;
+  console.log(`📁 Request for syllabus file: subject=${subject}, difficulty=${difficulty}, chapter=${chapter}`);
   
-  const filePath = path.join(__dirname, '..', req.path);
-  console.log(`📁 Full file path: ${filePath}`);
+  // Try with difficulty folder first (for DATA_ANALYTICS, ENTREPRENEURSHIP)
+  let filePath = path.join(__dirname, '..', 'json syllabus', subject, difficulty, `${chapter}.json`);
+  console.log(`📁 Trying file path: ${filePath}`);
   
   // Check if file exists
   import('fs').then(fs => {
     if (!fs.existsSync(filePath)) {
-      console.error(`❌ File not found: ${filePath}`);
-      return res.status(404).json({ error: 'Syllabus file not found', path: filePath });
+      // Try without difficulty folder (for OS)
+      filePath = path.join(__dirname, '..', 'json syllabus', subject, `${chapter}.json`);
+      console.log(`📁 File not found, trying: ${filePath}`);
+      
+      if (!fs.existsSync(filePath)) {
+        console.error(`❌ File not found in both locations: ${filePath}`);
+        return res.status(404).json({ error: 'Syllabus file not found', path: filePath });
+      }
     }
     
     res.sendFile(filePath, (err) => {
@@ -252,6 +258,22 @@ app.get('/json syllabus/*', (req, res) => {
         console.log(`✅ Successfully served: ${req.path}`);
       }
     });
+  });
+});
+
+// Fallback route for any other syllabus file requests
+app.get('/json syllabus/*', (req, res) => {
+  console.log(`📁 Fallback request for syllabus file: ${req.path}`);
+  const filePath = path.join(__dirname, '..', req.path);
+  console.log(`📁 Full file path: ${filePath}`);
+  
+  res.sendFile(filePath, (err) => {
+    if (err) {
+      console.error('Error serving syllabus file:', err);
+      res.status(404).json({ error: 'Syllabus file not found' });
+    } else {
+      console.log(`✅ Successfully served: ${req.path}`);
+    }
   });
 });
 
