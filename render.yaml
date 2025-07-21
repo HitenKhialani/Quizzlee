@@ -2,15 +2,7 @@ services:
   - type: web
     name: quizzlee-app
     env: node
-    buildCommand: |
-      echo "Forcing npm usage..."
-      which npm
-      npm --version
-      echo "Installing dependencies..."
-      npm install --legacy-peer-deps
-      echo "Building application..."
-      npm run build
-      echo "Build completed!"
+    buildCommand: npm install && npm run build
     startCommand: npm run server
     healthCheckPath: /api/health
     envVars:
