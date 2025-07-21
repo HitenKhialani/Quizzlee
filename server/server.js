@@ -226,9 +226,17 @@ app.get('/json syllabus/*', (req, res) => {
 // Serve static files in production
 if (process.env.NODE_ENV === 'production') {
   app.use(express.static(path.join(__dirname, '../dist')));
-  
-  // Handle all other routes by serving the React app
+}
+
+// Serve React app for all non-API routes in production
+if (process.env.NODE_ENV === 'production') {
   app.get('*', (req, res) => {
+    // Skip API routes - let them be handled by their specific routes
+    if (req.path.startsWith('/api/')) {
+      return res.status(404).json({ error: 'API endpoint not found' });
+    }
+    
+    // Serve React app for all other routes
     res.sendFile(path.join(__dirname, '../dist/index.html'));
   });
 }
