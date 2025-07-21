@@ -52,9 +52,11 @@ The app includes a health check endpoint at `/api/health` for Render's monitorin
 1. **Build fails**: 
    - Check that all dependencies are in `package.json`
    - Ensure build tools (vite, typescript, etc.) are in `dependencies`, not `devDependencies`
+   - Remove `bun.lockb` if present (conflicts with npm)
 2. **Start command fails**: Ensure `npm run server` works locally
 3. **Database errors**: SQLite file may not persist between deployments
 4. **Node.js version**: Using Node.js 20 (LTS) to avoid end-of-life warnings
+5. **Package manager conflict**: Ensure only `package-lock.json` exists (not `bun.lockb`)
 
 ### Logs
 Check Render logs in the dashboard for any errors during build or runtime.
