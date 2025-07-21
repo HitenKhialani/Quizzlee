@@ -201,6 +201,17 @@ app.get('/api/health', (req, res) => {
   res.json({ status: 'OK', timestamp: new Date().toISOString() });
 });
 
+// Serve JSON syllabus files
+app.get('/json syllabus/*', (req, res) => {
+  const filePath = path.join(__dirname, '..', req.path);
+  res.sendFile(filePath, (err) => {
+    if (err) {
+      console.error('Error serving syllabus file:', err);
+      res.status(404).json({ error: 'Syllabus file not found' });
+    }
+  });
+});
+
 // Serve static files in production
 if (process.env.NODE_ENV === 'production') {
   app.use(express.static(path.join(__dirname, '../dist')));
