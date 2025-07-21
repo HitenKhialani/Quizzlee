@@ -228,31 +228,64 @@ app.get('/api/test-syllabus', (req, res) => {
   });
 });
 
-// Serve JSON syllabus files (must come before catch-all)
-app.get('/json syllabus/:subject/:difficulty/:chapter.json', (req, res) => {
-  const { subject, difficulty, chapter } = req.params;
-  console.log(`📁 Request for syllabus file: subject=${subject}, difficulty=${difficulty}, chapter=${chapter}`);
-  
-  // All subjects now use difficulty folders (OS, DATA_ANALYTICS, ENTREPRENEURSHIP, software en)
-  const filePath = path.join(__dirname, '..', 'json syllabus', subject, difficulty, `${chapter}.json`);
-  console.log(`📁 File path: ${filePath}`);
-  
-  // Check if file exists
-  import('fs').then(fs => {
-    if (!fs.existsSync(filePath)) {
-      console.error(`❌ File not found: ${filePath}`);
-      return res.status(404).json({ error: 'Syllabus file not found', path: filePath });
-    }
-    
-    res.sendFile(filePath, (err) => {
-      if (err) {
-        console.error('Error serving syllabus file:', err);
-        res.status(404).json({ error: 'Syllabus file not found' });
-      } else {
-        console.log(`✅ Successfully served: ${req.path}`);
-      }
-    });
+// Test route to simulate syllabus file response
+app.get('/api/test-json-response', (req, res) => {
+  console.log('🧪 Testing JSON response');
+  res.json({ 
+    message: 'JSON response test',
+    timestamp: new Date().toISOString(),
+    test: true
   });
+});
+
+// Debug route to catch all syllabus requests
+app.get('/json syllabus/*', (req, res) => {
+  console.log(`🔍 DEBUG: Syllabus request received`);
+  console.log(`🔍 Path: ${req.path}`);
+  console.log(`🔍 URL: ${req.url}`);
+  console.log(`🔍 Original URL: ${req.originalUrl}`);
+  console.log(`🔍 Method: ${req.method}`);
+  console.log(`🔍 Headers:`, req.headers);
+  
+  // Parse the path to extract subject, difficulty, chapter
+  const pathParts = req.path.split('/').filter(part => part.length > 0);
+  console.log(`🔍 Path parts:`, pathParts);
+  
+  if (pathParts.length >= 4) {
+    const [, , subject, difficulty, chapterFile] = pathParts;
+    const chapter = chapterFile?.replace('.json', '');
+    
+    console.log(`🔍 Parsed: subject=${subject}, difficulty=${difficulty}, chapter=${chapter}`);
+    
+    if (subject && difficulty && chapter) {
+      const filePath = path.join(__dirname, '..', 'json syllabus', subject, difficulty, `${chapter}.json`);
+      console.log(`🔍 Full file path: ${filePath}`);
+      
+      // Check if file exists
+      import('fs').then(fs => {
+        if (!fs.existsSync(filePath)) {
+          console.error(`❌ File not found: ${filePath}`);
+          return res.status(404).json({ error: 'Syllabus file not found', path: filePath });
+        }
+        
+        console.log(`✅ File exists, serving: ${filePath}`);
+        res.sendFile(filePath, (err) => {
+          if (err) {
+            console.error('Error serving syllabus file:', err);
+            res.status(404).json({ error: 'Syllabus file not found' });
+          } else {
+            console.log(`✅ Successfully served: ${req.path}`);
+          }
+        });
+      });
+    } else {
+      console.error(`❌ Invalid path structure: ${req.path}`);
+      res.status(404).json({ error: 'Invalid syllabus file path' });
+    }
+  } else {
+    console.error(`❌ Path too short: ${req.path}`);
+    res.status(404).json({ error: 'Invalid syllabus file path' });
+  }
 });
 
 // Fallback route for any other syllabus file requests
@@ -281,9 +314,11 @@ if (process.env.NODE_ENV === 'production') {
   app.get('*', (req, res) => {
     // Skip API routes and syllabus files
     if (req.path.startsWith('/api/') || req.path.startsWith('/json syllabus/')) {
+      console.log(`🚫 Blocked request to: ${req.path}`);
       return res.status(404).json({ error: 'Endpoint not found' });
     }
     
+    console.log(`📄 Serving React app for: ${req.path}`);
     // Serve React app for all other routes
     res.sendFile(path.join(__dirname, '../dist/index.html'));
   });
