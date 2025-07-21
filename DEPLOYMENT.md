@@ -59,6 +59,7 @@ The app includes a health check endpoint at `/api/health` for Render's monitorin
 5. **Package manager conflict**: Ensure only `package-lock.json` exists (not `bun.lockb`)
 6. **API connection errors**: Frontend configured to use relative URLs in production
 7. **Quiz data loading**: JSON syllabus files served via Express route
+8. **File structure**: All subjects use consistent `/subject/difficulty/chapter.json` structure
 
 ### Logs
 Check Render logs in the dashboard for any errors during build or runtime.

@@ -214,7 +214,7 @@ app.get('/api/test', (req, res) => {
 
 // Test syllabus file access
 app.get('/api/test-syllabus', (req, res) => {
-  const testPath = path.join(__dirname, '../json syllabus/OS/ch1.json');
+  const testPath = path.join(__dirname, '../json syllabus/OS/hard/ch1.json');
   console.log(`🧪 Testing syllabus file access: ${testPath}`);
   
   res.sendFile(testPath, (err) => {
@@ -233,21 +233,15 @@ app.get('/json syllabus/:subject/:difficulty/:chapter.json', (req, res) => {
   const { subject, difficulty, chapter } = req.params;
   console.log(`📁 Request for syllabus file: subject=${subject}, difficulty=${difficulty}, chapter=${chapter}`);
   
-  // Try with difficulty folder first (for DATA_ANALYTICS, ENTREPRENEURSHIP)
-  let filePath = path.join(__dirname, '..', 'json syllabus', subject, difficulty, `${chapter}.json`);
-  console.log(`📁 Trying file path: ${filePath}`);
+  // All subjects now use difficulty folders (OS, DATA_ANALYTICS, ENTREPRENEURSHIP, software en)
+  const filePath = path.join(__dirname, '..', 'json syllabus', subject, difficulty, `${chapter}.json`);
+  console.log(`📁 File path: ${filePath}`);
   
   // Check if file exists
   import('fs').then(fs => {
     if (!fs.existsSync(filePath)) {
-      // Try without difficulty folder (for OS)
-      filePath = path.join(__dirname, '..', 'json syllabus', subject, `${chapter}.json`);
-      console.log(`📁 File not found, trying: ${filePath}`);
-      
-      if (!fs.existsSync(filePath)) {
-        console.error(`❌ File not found in both locations: ${filePath}`);
-        return res.status(404).json({ error: 'Syllabus file not found', path: filePath });
-      }
+      console.error(`❌ File not found: ${filePath}`);
+      return res.status(404).json({ error: 'Syllabus file not found', path: filePath });
     }
     
     res.sendFile(filePath, (err) => {
