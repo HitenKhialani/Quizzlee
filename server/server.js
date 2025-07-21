@@ -212,14 +212,46 @@ app.get('/api/test', (req, res) => {
   res.json({ message: 'Server is running!' });
 });
 
-// Serve JSON syllabus files
-app.get('/json syllabus/*', (req, res) => {
-  const filePath = path.join(__dirname, '..', req.path);
-  res.sendFile(filePath, (err) => {
+// Test syllabus file access
+app.get('/api/test-syllabus', (req, res) => {
+  const testPath = path.join(__dirname, '../json syllabus/OS/ch1.json');
+  console.log(`🧪 Testing syllabus file access: ${testPath}`);
+  
+  res.sendFile(testPath, (err) => {
     if (err) {
-      console.error('Error serving syllabus file:', err);
-      res.status(404).json({ error: 'Syllabus file not found' });
+      console.error('❌ Syllabus test failed:', err);
+      res.status(500).json({ error: 'Syllabus file not accessible', details: err.message });
+    } else {
+      console.log('✅ Syllabus test successful');
+      res.json({ message: 'Syllabus files are accessible' });
     }
+  });
+});
+
+// Serve JSON syllabus files (must come before catch-all)
+app.get('/json syllabus/*', (req, res) => {
+  console.log(`📁 Request for syllabus file: ${req.path}`);
+  console.log(`📁 Request URL: ${req.url}`);
+  console.log(`📁 Request original URL: ${req.originalUrl}`);
+  
+  const filePath = path.join(__dirname, '..', req.path);
+  console.log(`📁 Full file path: ${filePath}`);
+  
+  // Check if file exists
+  import('fs').then(fs => {
+    if (!fs.existsSync(filePath)) {
+      console.error(`❌ File not found: ${filePath}`);
+      return res.status(404).json({ error: 'Syllabus file not found', path: filePath });
+    }
+    
+    res.sendFile(filePath, (err) => {
+      if (err) {
+        console.error('Error serving syllabus file:', err);
+        res.status(404).json({ error: 'Syllabus file not found' });
+      } else {
+        console.log(`✅ Successfully served: ${req.path}`);
+      }
+    });
   });
 });
 
@@ -228,12 +260,12 @@ if (process.env.NODE_ENV === 'production') {
   app.use(express.static(path.join(__dirname, '../dist')));
 }
 
-// Serve React app for all non-API routes in production
+// Serve React app for all non-API routes in production (must be last)
 if (process.env.NODE_ENV === 'production') {
   app.get('*', (req, res) => {
-    // Skip API routes - let them be handled by their specific routes
-    if (req.path.startsWith('/api/')) {
-      return res.status(404).json({ error: 'API endpoint not found' });
+    // Skip API routes and syllabus files
+    if (req.path.startsWith('/api/') || req.path.startsWith('/json syllabus/')) {
+      return res.status(404).json({ error: 'Endpoint not found' });
     }
     
     // Serve React app for all other routes
